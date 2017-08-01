@@ -1,0 +1,51 @@
+<nav>
+  <div class="brand">
+    <a href="/">2016: The Year of JS</a>
+  </div>
+  <ul class="menu primary">
+    <li>
+      <a href="/status">Project Status</a>
+    </li>
+  </ul>
+  <ul class="menu">
+    <% modules.forEach(function (module) { %>
+      <% if (module.current) { %>
+        <li class="active">
+      <% } else { %>
+        <li class="closed">
+      <% }%>
+        <div class="menu-heading">
+          <%= module.name %>
+        </div>
+        <ul>
+          <% module.articles.forEach(function (article) { %>
+            <% if (article.current) { %>
+              <li class="active">
+            <% } else { %>
+              <li>
+            <% } %>
+            <a href="<%= article.url %>" class="<%= article.category.toLowerCase() %>"><%= article.title %></a>
+            </li>
+          <% }); %>
+        </ul>
+      </li>
+    <% }); %>
+  </ul>
+</nav>
+<script>
+(function() {
+  var headings = Array.from(document.querySelectorAll('nav .menu .menu-heading'))
+
+  headings.forEach(function(heading) {
+    heading.addEventListener('click', function () {
+      headings.forEach(function(heading) {
+        heading.parentElement.classList.add('closed');
+      });
+      heading.parentElement.classList.toggle('closed');
+      heading.scrollIntoView();
+    });
+  });
+
+  document.querySelector('nav .menu li.active').scrollIntoView();
+})();
+</script>

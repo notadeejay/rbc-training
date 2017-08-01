@@ -1,0 +1,40 @@
+<style>
+.interview .question {
+  margin-bottom: 5em;
+}
+.interview .question .q {
+  font-weight: bold;
+}
+.interview .question .n {
+  font-style: italic;
+  font-size: 0.8em;
+}
+.interview .question .a {
+  background: #eee;
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+.language-javascript {
+  font-size: 0.9em;
+
+}
+</style>
+
+<% interview = currentArticle.data %>
+<div class="interview">
+  <h2><%= interview.name %></h2>
+  <div class="questions">
+    <% interview.questions.forEach(function(question) { %>
+      <div class="question">
+         <% if(question.question) { %>
+           <div class="q"><%- marked(question.question) %></div>
+         <% } %>
+         <% if(question.notes) { %>
+           <div class="n"><%- marked(question.notes) %></div>
+         <% } %>
+         <% if(question.answer) { %>
+           <div class="a"><%- marked(question.answer) %></div>
+         <% } %>
+      </div>
+    <% }) %>
+  </div>

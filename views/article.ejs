@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title><%= currentArticle.title %></title>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/article.css" />
+  <link rel="stylesheet" href="/prism/themes/prism-okaidia.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+</head>
+<body>
+
+<main>
+  <article>
+    <% if (currentArticle.category || currentArticle.module) { %>
+      <div class="article-meta group">
+        <% if (currentArticle.category) { %>
+          <div class="article-meta-primary">
+            Activity type: <b><%= currentArticle.category %></b>
+          </div>
+        <% } %>
+        <% if (currentArticle.module) { %>
+          <div class="article-meta-secondary">
+            Section: <b><%= currentArticle.module.name %></b>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+
+    <%- include('_frontmatter') %>
+    <% if(currentArticle.data && currentArticle.data.week) { %>
+      <%- include('_interview') %>
+    <% } else if(currentArticle.data && currentArticle.data.questions) { %>
+      <%- include('_quiz') %>
+    <% } else { %>
+      <h1><%- currentArticle.title %></h1>
+      <%- currentArticle.content %>
+    <% } %>
+
+    <% if(currentArticle.data && currentArticle.data.evaluates_code) { %>
+      <%- include('_code') %>
+    <% } %>
+
+  </article>
+
+  <% if (nextArticle) { %>
+    <div class="call-to-action">
+      Next activity: <a href="<%= nextArticle.url %>"><%= nextArticle.title %></a>
+    </div>
+  <% } %>
+</main>
+
+<%- include('_nav') %>
+
+<footer>
+  <p>Copyright Lighthouse Labs. All rights reserved.</p>
+</footer>
+
+<script src="/prism/prism.js"></script>
+<script src="/application.js"></script>
+
+</body>
+</html>

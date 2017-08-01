@@ -1,0 +1,114 @@
+@import url("common.css");
+
+blockquote { border-left: .3em solid #ddd; font-size: 1.1em; margin: 1em 0; padding: .3em .3em .3em 1.5em; }
+
+h1 { font-size: 3em; line-height: 1.1; margin: 1.5em 0 3em; }
+h2 { font-size: 2em; line-height: 1.1; margin: 2em 0 1em; }
+h3 { font-size: 1.3em; line-height: 1.1; margin: 2em 0 1em; }
+h4 { font-size: 1em; line-height: 1.1; margin: 2em 0 1em; }
+
+kbd { border: 1px solid black; border-radius: .25em; padding: .125em .25em; }
+
+li > code,
+p > code { background: #eee; border: 1px solid #ddd; padding: .125em .25em; }
+
+article { border-bottom: 1px solid #ccc; margin: 1em 0 6em; max-width: 40em; padding: 0 0 6em; }
+article img { max-width: 100%; }
+
+aside { background: #eee; font-size: .85em; margin: 2em 0; padding: .5em 1.5em; }
+aside > h3:first-child { margin-top: 1em; }
+
+code.lang-terminal:before,
+code.language-terminal:before { content: '$ '; }
+
+footer { background: #222728; padding: 1em 3em; text-align: center; }
+footer p { font-size: .8em; }
+footer,
+footer a { color: rgba(255,255,255,.5); }
+
+main { overflow: hidden; padding: 0 3em 12em; }
+
+nav { background: #222728; font-size: .8em; overflow: auto; overflow: -moz-scrollbars-none; padding-bottom: 6em; }
+nav::-webkit-scrollbar { display: none; }
+nav,
+nav a { color: #fff; display: block; }
+nav ul,
+nav li { list-style: none; margin: 0; padding: 0; }
+nav .brand a { background: #0077aa; color: #fff; font-size: 2em; padding: .3em .75em; }
+nav .menu { padding: .5em 0; }
+nav .menu a { color: rgba(255,255,255,.5); line-height: 1.25; padding: .6em 1.5em; }
+nav .menu a:hover { color: rgba(255,255,255,.75); }
+nav .menu ul { background: rgba(0,0,0,.15); padding: .75em 0; }
+nav .menu ul a { padding-left: 3.25em; }
+nav .menu .active > a { color: #66d9ef; }
+nav .menu .active > .menu-heading,
+nav .menu .active.closed > .menu-heading { color: #fff; }
+nav .menu .closed ul { display: none; }
+nav .menu .closed .menu-heading { background: transparent; color: rgba(255,255,255,.5); }
+nav .menu .closed .menu-heading:after { transform: rotate(90deg); }
+nav .menu .menu-heading,
+nav .menu .menu-heading:hover { background: rgba(255,255,255,.05); color: #fff; }
+nav .menu .menu-heading { cursor: pointer; padding: .3333em 1.5em; }
+nav .menu .menu-heading:after { content: '\25BE'; float: right; }
+nav .menu.primary { background: #0077aa; }
+nav .menu.primary,
+nav .menu.primary a { color: #fff; }
+
+nav .menu a:before {
+  font-family: "FontAwesome";
+  margin-right: 0.5em;
+  -webkit-font-smoothing: antialiased;
+}
+nav .menu a.quiz:before       { content: "\f046"; }
+nav .menu a.stretch:before    { content: "\f055"; }
+nav .menu a.task:before       { content: "\f013"; }
+nav .menu a.practice:before   { content: "\f013"; }
+nav .menu a.problem:before    { content: "\f121"; }
+nav .menu a.exercise:before   { content: "\f121"; }
+nav .menu a.reading:before    { content: "\f02d"; }
+nav .menu a.outline:before    { content: "\f133"; }
+nav .menu a.assignment:before { content: "\f1b2"; }
+nav .menu a.lecture:before    { content: "\f0c0"; }
+nav .menu a.breakout:before   { content: "\f0c0"; }
+nav .menu a.interview:before  { content: "\f007"; }
+nav .menu a.project:before    { content: "\f12e"; }
+
+table { border-collapse: collapse; }
+table td,
+table th { border: 1px solid #ddd; padding: .25em .5em; text-align: left; vertical-align: top; }
+table tr:nth-child(even) td { background: #eee; }
+
+.article-meta { padding: 1em 0; }
+.article-meta a { font-weight: bold; }
+
+.call-to-action a { display: block; font-size: 2em; font-weight: bold; line-height: 1.1; }
+
+.clickable { cursor: pointer; }
+.clickable:hover { color: #0077aa; }
+
+.group:after { content: ''; display: table; clear: both; }
+
+.paragraph-label { display: inline-block; font-weight: bold; width: 2em; }
+
+.todo { background: #fff973; box-shadow: 4px 4px 10px rgba(0,0,0,.15); font-family: 'Comic Sans MS', cursive; padding: 1em; width: 75%; }
+
+@media (min-width: 46em) {
+  aside { float: right; margin: 0 0 1em 2em; width: 20em; }
+  .article-meta-primary { float: left; }
+  .article-meta-secondary { float: right; }
+}
+
+@media (min-width: 64em) {
+  article { padding-top: 4em; }
+  footer { text-align: left; }
+  footer,
+  main { margin: 0 0 0 20em; padding-left: 5em; padding-right: 5em; }
+  nav { bottom: 0; left: 0; overflow: auto; position: fixed; top: 0; width: 25em; z-index: 1; }
+  .article-meta { background: #fff; left: 20em; padding: 1em 5em; position: fixed; top: 0; right: 0; }
+  .scrolled .article-meta { box-shadow: 0 0 5px rgba(0,0,0,.25); }
+}
+
+@media (min-width: 88em) {
+  aside { margin-right: -12em; }
+}
+

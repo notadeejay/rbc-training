@@ -1,0 +1,18 @@
+@import url("common.css");
+
+h1 { float: left; font-size: 2em; line-height: 1; margin: 0; padding: .5em; }
+
+table { border-collapse: collapse; clear: both; font-weight: normal; line-height: 1.4; }
+table caption,
+table td,
+table th { padding: .75em 1.25em; text-align: left; vertical-align: top; }
+thead th { background: #ddd; text-transform: uppercase; white-space: nowrap; }
+table tr:nth-child(even) td,
+table tr:nth-child(even) th { background: #eee; }
+
+.assignment { font-weight: bold; }
+.assignment i { color: #aaa; font-weight: normal; }
+
+.brand { font-size: .8em; }
+.brand a { background: #0077aa; color: #fff; float: left; font-size: 2em; padding: .3em .75em; }
+

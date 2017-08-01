@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Status</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/status.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+</head>
+<body>
+  <div class="brand">
+    <a href="/">2016: The Year of JS</a>
+  </div>
+  <h1>Project Status</h1>
+  <table>
+    <caption>This project's remaining to-dos and the people assigned to each.</caption>
+    <thead>
+      <tr>
+        <th>Section</th>
+        <th>Article</th>
+        <th>Assigned to</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% todos.forEach(function (todo) { %>
+        <tr>
+          <td class="module"><%= todo.module.replace(/(\w)\S*(\s|$)/g, '$1') %></td>
+          <td class="title"><a href="<%= todo.url %>"><%= todo.articleTitle %></a></td>
+          <td class="assignment"><% if (todo.assignment) { %><%= todo.assignment %><% } else { %><i>Not assigned</i><% } %></td>
+          <td class="description"><%= todo.description %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</body>
+</html>

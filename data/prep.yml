@@ -1,0 +1,6 @@
+sections:
+  -
+    uuid: 1f61ebfa-76cf-11e7-b5a5-be2e44b06b34
+    name: 'Module 1: Welcome'
+    slug: 'prep-mod-1-welcome'
+    order: 10

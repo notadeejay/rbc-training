@@ -1,0 +1,16 @@
+body { font-family: Helvetica, sans-serif; font-size: 90%; font-weight: lighter; line-height: 1.8; margin: 0; overflow-y: scroll; }
+
+a { color: #0077aa; text-decoration: none; }
+
+@media (min-width: 46em) {
+  body { font-size: 100%; }
+}
+
+@media (min-width: 64em) {
+  body { font-size: 110%; }
+}
+
+@media (min-width: 88em) {
+  body { font-size: 115%; }
+}
+

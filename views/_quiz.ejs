@@ -1,0 +1,66 @@
+<style>
+
+.question {
+  margin: 3em 0;
+}
+.question .q {
+  font-weight: bold;
+}
+.question .q pre {
+  font-weight: normal;
+}
+.question .option {
+  cursor: pointer;
+  margin: 1em 0;
+}
+
+.question .option .explanation {
+  display: none;
+}
+
+.question .option.active .explanation {
+  display: block;
+  font-style: italic;
+}
+
+.question .option.correct.active {
+  color: green;
+}
+
+.question .option.incorrect.active {
+  color: red;
+}
+
+</style>
+
+<% quiz = currentArticle.data %>
+<div class="quiz">
+  <h2><%= quiz.name %></h2>
+  <div class="questions">
+    <% quiz.questions.forEach(function(question) { %>
+      <div class="question">
+         <div class="q"><%- marked(question.question) %></div>
+         <ul class="options">
+           <% question.options_attributes.forEach(function(option) { %>
+             <li class="option <%= option.correct ? "correct" : "incorrect" %>">
+               <div class="answer"><%- marked(option.answer) %></div>
+               <div class="explanation">
+                 <% if(option.explanation) { %>
+                   <%- marked(option.explanation) %>
+                 <% } %>
+               </div>
+             </li>
+           <% }); %>
+         </ul>
+      </div>
+    <% }) %>
+  </div>
+</div>
+
+<script>
+Array.from(document.querySelectorAll('.option')).forEach(function(option) {
+  option.addEventListener('click', function () {
+    option.classList.add('active');
+  });
+});
+</script>

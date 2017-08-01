@@ -1,0 +1,24 @@
+<%
+  var skip = function(k) {
+    return ["__content"].indexOf(k) != -1
+  }
+%>
+
+<table id="frontmatter">
+<% if (currentArticle.data) { %>
+  <% for (var k in currentArticle.data) { %>
+    <% if (!skip(k)) { %>
+      <tr>
+        <td><%= k %></td>
+        <td>
+          <% if(typeof currentArticle.data[k] == 'object') { %>
+            ...
+          <% } else { %>
+            <%= currentArticle.data[k] %>
+          <% } %>
+        </td>
+      </tr>
+    <% } %>
+  <% } %>
+<% } %>
+</table>

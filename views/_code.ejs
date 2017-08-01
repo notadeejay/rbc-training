@@ -1,0 +1,16 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.4.1/mocha.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.4.1/mocha.css" />
+
+<div id="mocha"></div>
+
+<script>
+  <%- currentArticle.data.solution_code %>
+
+  mocha.setup('bdd')
+  var expect = chai.expect;
+
+  <%- currentArticle.data.test_code %>
+
+  mocha.run();
+</script>
