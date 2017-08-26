@@ -23,3 +23,22 @@ it on the internet.
 - [ ] Create file in your folder called `index.html`
 
 <!-- TODO: Add instructional video / gif -->
+
+
+### Add HTML skeleton code
+
+We learned in today's lecture that every HTML document needs a few tags to get started.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+    </body>
+</html>
+```
+
+Add this code to your `index.html` file.
+
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/3V18270y4312243S2h3z/Image%202017-08-26%20at%201.04.43%20PM.png?X-CloudApp-Visitor-Id=2818368&v=39584e4d)
