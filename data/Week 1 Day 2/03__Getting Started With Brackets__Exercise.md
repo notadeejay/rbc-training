@@ -34,4 +34,4 @@ As you can see in the above video, the brackets preview shows you which part of 
 
 - [ ] Read through the welcome text, and familiarize yourself with Brackets
 - [ ] Edit the text in the `index.html` so it includes your name and a quirky fact
-- [ ] Take a screen shot of your edits and share them in your class's slack group 
+- [ ] Take a screen shot of your edits and share them in your class's slack group

@@ -1,4 +1,9 @@
-# Lighthouse Labs Curriculum Repo
-README placeholder
+# Lighthouse Labs Part Time Curriculum Repo
 
-add name to package.json, bower.json
+
+
+#### To get started
+
+`npm install`
+
+`npm start`
