@@ -32,6 +32,7 @@ When you’re done - you’ve probably got a list that looks something like this
 * location
 * pick up / print tickets
 * date
+
 All of the information we input into our apps and programs needs to be represented in our code. To make this process easier, all coding languages have data types. Just like we have numbers and words, code does to.
 
 ## Integers
@@ -39,7 +40,7 @@ Integers are simply whole numbers. Just like you know how to add, subtract, mult
 
 Note: When we write console.log(“something”) whatever is in between the brackets will be outputted to our console.
 
-```js
+```javascript
 console.log(1 + 2)
 // would output 3
 
@@ -58,24 +59,24 @@ Tasks:
 [ ] Use console.log to print an integer to the screen
 [ ] Add two numbers together and log the output
 
-Strings
+### Strings
 
 Strings are any collection of characters wrapped in quotes. They can be one word
 
-```js
+```javascript
 'Hello'
 ```
 
 or a whole sentence
 
-```js
+```javascript
 "Welcome to Lighthouse Labs"
 ```
 and be written with single quotes, or double quotes.
 
 Like integers, we can manipulate strings using code. For example, we can add two strings together:
 
-```js
+```javascript
 "Good " + "morning, " + "Maggie"
 // outputs "Good morning, Maggie"
 ```
@@ -84,7 +85,7 @@ If you look carefully, next to the comma in this example is a space. This is an 
 
 One thing to note, is that this:
 
-```js
+```javascript
 '3'
 ```
 is a string. Not an integer.
@@ -96,18 +97,17 @@ is a string. Not an integer.
 [ ] What happens when you add a string and an integer together?
 
 
-Booleans
+### Booleans
 
 Booleans are either true or false.
-```js
+```javascript
 true
-
 
 false
 ```
 Again, note that this is a string:
 
-```js
+```javascript
 'true'
 ```
 and not a boolean.
@@ -115,13 +115,13 @@ and not a boolean.
 Now that we’ve reviewed some basic data types:
 [ ]  go back and assign a data type to all of the items in your concert ticket list
 
-Variables
+### Variables
 
 A well kept secret of programmers is that we’re incredibly lazy. I mean, really, really, really lazy. We don’t like to write more code that we have to. Variables are one way that you can save a value and use it over and over again in your code. You can think of it like a bookmark. Imagine you were filling out a form that made you fill in your first name over, and over and over again. Wouldn’t it be great if you could write it once, and have(fix this analogy)
 
 To declare a variable in our code, we first need to use the keyword var. Then we give our variable a name, and then we assign it a value.
 
-```js
+```javascript
 var firstName = "Maggie"
 ```
 In this example, we are assigning the variable firstName to the string “Maggie”.
@@ -133,23 +133,24 @@ Follow these steps when you want to declare a variable
 4. Give it a value
 Then, we can use variables like this:
 
-```js
+```javascript
 var message = "I’m learning JavaScript!"
 console.log(message)
 // would output “I’m learning JavaScript"
 ```
-Comparators
+
+### Comparators
 
 When we’re writing code, we often want to know the answers to simple yes or no questions.
 
 If we were writing an app that sells beer, we’d need to check that all our users are over nineteen:
-```js
+```javascript
 var age = 12
 console.log(age > 19)
 // would output false
 ```
 
-```js
+```javascript
 var age = 21
 console.log(age > 19)
 // would output true
@@ -157,7 +158,7 @@ console.log(age > 19)
 
 We can also check if two values are the same, to do this we use two equals signs. If the two values are the same, they will return true if not, false.
 
-```js
+```javascript
 var weather = ‘raining’
 
 console.log(weather == ‘raining’)
@@ -167,17 +168,17 @@ console.log(weather == ‘sunny’)
 // would output false
 ```
 
-Tasks
+#### Tasks
 [ ] Write some code to see if your name is longer than 8 letters
 
-If statements
+### If statements
 If statements rely on a condition. A condition is something that can evaluate to true or to false. They work hand in hand with our boolean data type.
 
 If statements in JavaScript follow a pattern.
 
 The condition can be a variable that is set to either true or false like so:
 
-```js
+```javascript
 var raining = true
 
 if (raining) {
@@ -187,7 +188,7 @@ if (raining) {
 
 Or a comparator
 
-```js
+```javascript
 weather = “raining”
 
 if (weather == “raining”) {
@@ -197,7 +198,7 @@ if (weather == “raining”) {
 
 Tip: If you’re struggling to understand a some code, go through it slowly and read it out loud. When you were first learning to read, you probably had to sound out some words, letter by letter. This technique works for code too!
 
-Functions
+## Functions
 
 Sometimes we have a piece of logic or code that we find ourselves using over and over again. To prevent having to rewrite this code in several different places, we can use a function.
 
@@ -205,7 +206,7 @@ Sometimes we have a piece of logic or code that we find ourselves using over and
 Functions can also take parameters too. That is, when we call a function we give it a little piece of information:
 
 
-Tasks:
+### Tasks:
 [ ] Write a function that outputs “Good morning” when you call it
 [ ] Write a function that takes one parameter and says good morning followed by a firstName passed to the function
 [ ] Write a function that recommends you take an umbrella, if the parameter passed is the string ‘raining’.
