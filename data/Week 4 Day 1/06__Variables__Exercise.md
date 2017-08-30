@@ -13,6 +13,8 @@ var firstName = "Maggie"
 ```
 In this example, we are assigning the variable firstName to the string “Maggie”.
 
+![variabel example](https://d3vv6lp55qjaqc.cloudfront.net/items/3D2e1C1O3H3k3y1d3H1v/Image%202017-08-29%20at%208.12.55%20PM.png?X-CloudApp-Visitor-Id=2818368&v=dad8eb43)
+
 Follow these steps when you want to declare a variable
 1. Start with the var keyword
 2. Give it a name (try to be descriptive!)

@@ -40,6 +40,8 @@ If statements rely on a condition. A condition is something that can evaluate to
 
 If statements in JavaScript follow a pattern.
 
+![if statement example](https://d3vv6lp55qjaqc.cloudfront.net/items/3B313R1J3B3B192P1J2h/Image%202017-08-29%20at%208.14.23%20PM.png?X-CloudApp-Visitor-Id=2818368&v=16b4a668)
+
 The condition can be a variable that is set to either true or false like so:
 
 ```javascript
