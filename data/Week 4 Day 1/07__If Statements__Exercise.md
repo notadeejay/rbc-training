@@ -7,20 +7,21 @@ uuid: 338a2781-24c9-4277-865f-78d77ede6cec
 
 When we’re writing code, we often want to know the answers to simple yes or no questions.
 
-If we were writing an app that sells beer, we’d need to check that all our users are over nineteen:
+If we were writing an app that sells beer, we’d need to check that all our users are 19 or older:
+
 ```javascript
 var age = 12
-console.log(age > 19)
+console.log(age > 18)
 // would output false
 ```
 
 ```javascript
 var age = 21
-console.log(age > 19)
+console.log(age > 18)
 // would output true
 ```
 
-We can also check if two values are the same, to do this we use two equals signs. If the two values are the same, they will return true if not, false.
+We can also check if two values are the same, to do this we use **two** equals signs. If the two values are the same, it will return **true** if they don't match, it will return **false**.
 
 ```javascript
 var weather = ‘raining’
@@ -33,10 +34,11 @@ console.log(weather == ‘sunny’)
 ```
 
 #### Tasks
-[ ] Write some code to see if your name is longer than 8 letters
+[ ] Declare a variable called `name` that contains your first name
+[ ] Write some code to check if your name is longer than 8 letters
 
-### If statements
-If statements rely on a condition. A condition is something that can evaluate to true or to false. They work hand in hand with our boolean data type.
+## If statements
+If statements rely on a **condition**. A condition is something that can evaluate to true or to false. They work hand in hand with our boolean data type.
 
 If statements in JavaScript follow a pattern.
 
@@ -62,4 +64,7 @@ if (weather == “raining”) {
 }
 ```
 
-Tip: If you’re struggling to understand a some code, go through it slowly and read it out loud. When you were first learning to read, you probably had to sound out some words, letter by letter. This technique works for code too!
+In these cases, the code wrapped inside the curly brackets of an if statement, will only
+be run **if** the condition evaluates to true.
+
+**Tip:** If you’re struggling to understand a some code, go through it slowly and read it out loud. When you were first learning to read, you probably had to sound out some words, letter by letter. This technique works for code too!
