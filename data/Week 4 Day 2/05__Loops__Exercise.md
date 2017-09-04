@@ -38,3 +38,11 @@ the program crashed.
     console.log(counter);
   }
 ```
+
+
+### Tasks
+
+- [ ] Create an array of your favourite movies
+- [ ] Loop over each movie and print the title to your console
+- [ ] Add some code to your loop that will print the movie title in all caps (tip: `toUpperCase`)
+- [ ] Write a loop that will count down from 20 to 1
