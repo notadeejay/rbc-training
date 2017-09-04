@@ -30,4 +30,7 @@ The string `Lighthouse` would output `5444846873`
 
 Use the same strategies you did for FizzBuzz, write a solution for this problem. Keep
 in mind that there are several ways to solve this problem, so if a classmate takes a different
-approach as you, that is okay.
+approach as you, that's okay.
+
+If you feel really stuck, grab a class mate and work through the project together. This is known
+as pair programming and is quite common to find two developers working on one tricky problem. 
