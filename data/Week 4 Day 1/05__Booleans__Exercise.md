@@ -16,5 +16,7 @@ Again, note that this is a string:
 ```
 and not a boolean.
 
+
+### Tasks
 Now that we’ve reviewed some basic data types:
 - [ ]  go back and assign a data type to all of the items in your concert ticket list

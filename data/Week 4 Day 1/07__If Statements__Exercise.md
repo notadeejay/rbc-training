@@ -21,7 +21,7 @@ console.log(age > 18)
 // would output true
 ```
 
-We can also check if two values are the same, to do this we use **two** equals signs. If the two values are the same, it will return **true** if they don't match, it will return **false**.
+We can also check if two values are the same, to do this we use **two** equals signs. If the two values are the same, it will return **true**. If they don't match, it will return **false**.
 
 ```javascript
 var weather = ‘raining’
@@ -32,10 +32,6 @@ console.log(weather == ‘raining’)
 console.log(weather == ‘sunny’)
 // would output false
 ```
-
-#### Tasks
-[ ] Declare a variable called `name` that contains your first name
-[ ] Write some code to check if your name is longer than 8 letters
 
 ## If statements
 If statements rely on a **condition**. A condition is something that can evaluate to true or to false. They work hand in hand with our boolean data type.
@@ -68,3 +64,8 @@ In these cases, the code wrapped inside the curly brackets of an if statement, w
 be run **if** the condition evaluates to true.
 
 **Tip:** If you’re struggling to understand a some code, go through it slowly and read it out loud. When you were first learning to read, you probably had to sound out some words, letter by letter. This technique works for code too!
+
+#### Tasks
+- [ ] Declare a variable called `age` and assign it to an integer
+- [ ] Write some code to check if the integer `age` is greater than 21
+- [ ] Add an `if statement` that will output `Over 21!` if age is greater than 21, and `Under 21` if the it's under 21.
