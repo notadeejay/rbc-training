@@ -13,7 +13,7 @@ design for you, but don't be afaid to customize it using your favourite colors a
 [View project mockup](https://cl.ly/2u3D2E2f1m08)
 
 Over the next couple of weeks we will be slowly building this project, before deploying
-it on the internet.
+it.
 
 
 ## Create your project folder, and open it in brackets
@@ -29,16 +29,18 @@ it on the internet.
 
 We learned in today's lecture that every HTML document needs a few tags to get started.
 
-```
-<!DOCTYPE html>
-<html>
-    <head>
-    </head>
-    <body>
-    </body>
-</html>
-```
+
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/3V18270y4312243S2h3z/Image%202017-08-26%20at%201.04.43%20PM.png?X-CloudApp-Visitor-Id=2818368&v=39584e4d)
+
 
 Add this code to your `index.html` file.
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/3V18270y4312243S2h3z/Image%202017-08-26%20at%201.04.43%20PM.png?X-CloudApp-Visitor-Id=2818368&v=39584e4d)
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+```

@@ -43,6 +43,6 @@ you have correctly linked your HTML to your CSS file.
 
 Once you have done this, your page should look something like:
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/1w3z0d08083h1V0I240u/Image%202017-08-26%20at%203.50.46%20PM.png?X-CloudApp-Visitor-Id=1f0d25e79b93637c7b90672f309b2acf&v=302231ce)
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/1w3z0d08083h1V0I240u/Image%202017-08-26%20at%203.50.46%20PM.png)
 
 Beautiful, right?
