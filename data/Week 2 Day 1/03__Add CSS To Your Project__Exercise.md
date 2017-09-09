@@ -9,7 +9,7 @@ then click **create new file**. Then, name your new file `style.css`.
 
 - [ ] Create a new CSS file in your project
 
-![create css file gif](https://d3vv6lp55qjaqc.cloudfront.net/items/0x1C1Q300m2v2T2d3k3s/Screen%20Recording%202017-08-26%20at%2003.34%20PM.gif?X-CloudApp-Visitor-Id=2818368&v=c45297f3)
+![create css file gif](https://d3vv6lp55qjaqc.cloudfront.net/items/0x1C1Q300m2v2T2d3k3s/Screen%20Recording%202017-08-26%20at%2003.34%20PM.gif)
 
 
 Next, you need to **link your HTML and CSS together**.

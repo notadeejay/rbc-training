@@ -5,7 +5,7 @@ uuid: 3bc4f8f8-f609-4f66-9ea7-06a4c08c0b45
 
 ## Intro to Jquery
 
-Outcomes: 
+Outcomes:
 [ ] What is a library?
 [ ] Why Jquery?
 [ ] How do I read the Jquery Docs
@@ -27,6 +27,7 @@ To use JQuery in your project, you need to follow a few steps.
 2. Add a JavaScript file to your project
 3. Require your new JavaScript files in your HTML
 4. Start writing JQuery!
+
 Add notes or a diagram about how JQuery needs to be loaded before your custom JS file
 
 Once you’ve added jQuery to your project.
