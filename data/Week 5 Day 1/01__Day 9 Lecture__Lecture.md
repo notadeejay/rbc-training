@@ -17,7 +17,7 @@ What is JQuery?
 
 When developers are building a web app or  a website, it’s common that they run into the same problems with each project. In order to solve this, and continue their lazy streak, they’ve developed something called libraries. Usually a few developers will come up with a solution and share it with everyone else, for free!
 
-Libraries are simply code that someone else has written that you can use. Often they make these common problems easier to handle. Query is one of these libraries. It’s a collection of JavaScript functions written to make common tasks a lot easier.
+Libraries are simply code that someone else has written that you can use. Often they make these common problems easier to handle. JQuery is one of these libraries. It’s a collection of JavaScript functions written to make common tasks a lot easier.
 
 So, how does it work?
 

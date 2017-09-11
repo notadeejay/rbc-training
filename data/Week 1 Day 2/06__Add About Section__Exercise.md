@@ -31,6 +31,8 @@ Next, let's break down our **About** section.
 When we look at the elements we have, it looks like we'll need one to contain the entire section. We'll also
 need an element for the title 'About', an element for the subtitle, and some elements for the paragraphs.
 
+![](https://d3vv6lp55qjaqc.cloudfront.net/items/47403Q02210k1W443q2M/%5Be66343a781e080fd6a79181f2a3a3018%5D_Image%25202017-09-11%2520at%25206.28.18%2520PM.png)
+
 To your `index.html`, **below your closing `header` tag**, add a `<section>` tag
 
 Inside of your new section tag add:

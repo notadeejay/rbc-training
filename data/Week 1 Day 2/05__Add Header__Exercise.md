@@ -3,20 +3,14 @@ uuid: 825b44c6-aa66-41b8-8b17-1209c442da45
 ---
 
 <!-- Too much going on in this file - break it out into different pieces -->
-### Wireframes
+### Starting with Code
 
-To start any web development project, the first step is to break it down into small,
-manageable chunks. Today, we're going to build the basic outline of our HTML
+Starting any project can seem overwhelming. The trick is to break it down into small, manageable chunks.
+Today, we're going to build the basic outline of our HTML
 page, it might not look beautiful at the end of today's class, but that's okay.
 
-Most developers and designers start a project with a wire frame. It's a simple version
-of the final project, and lets you show others your ideas before finalizing details
-like fonts and colors.
-
-To get started, we're going to focus on the `<header>` of our mockup.
-
-You can think of an HTML element like a rectangle. Let's take a look at our mockup
-and outline the elements we'll need to create in our header.
+We're going to start by planning out how we're going to build the `<header>` of our profile page. Let's take a look at our mockup
+and outline the elements we'll need to add.
 
 
 ![Marked up mock up](https://d3vv6lp55qjaqc.cloudfront.net/items/0X201f1m0L1i0W152s0Y/%5B9f987905b86fad5992688d87a7f55df4%5D_Image+2017-08-26+at+1.23.31+PM.png)
@@ -27,6 +21,8 @@ If we break down the header section of our mockup, we see this `<header>` contai
 - A nav bar
 - A section for your name, and occupation
 - A photo
+
+![more marked up header](https://d3vv6lp55qjaqc.cloudfront.net/items/001N0E2V0g0g3a1l3k2V/%5Bf526d6a819e04699c7797248ece8f0ad%5D_Image%25202017-09-11%2520at%25206.17.28%2520PM.png)
 
 <!-- Add explanation for an image / self closing tag -->
 
