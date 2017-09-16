@@ -8,14 +8,16 @@ Today we're going to set up your project that you will be working on for the nex
 
 
 Your first project will be building a website all about YOU. We've come up with a great
-design for you, but don't be afaid to customize it using your favourite colors and fonts.
+design for you, but don't be afraid to customize it using your favourite colours and fonts.
 
 [Check out the design here](https://cl.ly/2u3D2E2f1m08)
 
-Over the next few classes, we'll be learning how to build a great looking website, before deploying it.
+Over the next few classes, we'll slowly add to your project, before we deploy it in Week 3!
 
 
-## Create your project folder, and open it in brackets
+
+### Exercises
+###### Create your project folder, and open it in brackets
 
 - [ ] Create an empty **folder** on your computer, and give it a name like `personal_site_project`
 - [ ] Open your empty folder in Brackets

@@ -2,10 +2,9 @@
 uuid: 825b44c6-aa66-41b8-8b17-1209c442da45
 ---
 
-<!-- Too much going on in this file - break it out into different pieces -->
 ### Starting with Code
 
-Starting any project can seem overwhelming. The trick is to break it down into small, manageable chunks.
+The best way to approach building a website, or any project, is to break it down into small, manageable chunks.
 Today, we're going to build the basic outline of our HTML
 page, it might not look beautiful at the end of today's class, but that's okay.
 

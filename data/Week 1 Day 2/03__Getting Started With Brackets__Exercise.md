@@ -4,10 +4,12 @@ allow_submissions: true
 duration: 90
 ---
 
-## Goal
+## Where do I write code?
 
-The first step to writing code is, well, to find a place to write it. During this course
-we are going to be using a **code editor** called [brackets](http://brackets.io/)
+During this course we'll be using a **code editor** called [brackets](http://brackets.io/).
+
+Just like Microsoft Word or Google Docs will underline words that you've misspelled, a code editor
+will highlight errors in your code.
 
 ## Exercises
 
@@ -17,9 +19,9 @@ If you haven't already, your first step is to download [brackets](http://bracket
 to install brackets on your computer.
 
 - [ ] **Download Brackets**
+- [ ] Open Brackets
 
 Once you've downloaded the app, and opened it up, you should see something like this:
-
 
 ![brackets example](https://d3vv6lp55qjaqc.cloudfront.net/items/0W1l111j1o3N1d451R2z/Image%202017-08-26%20at%2011.35.43%20AM.png?X-CloudApp-Visitor-Id=2818368&v=ffc75500)
 
@@ -27,6 +29,7 @@ Brackets lets you write code and then immediately preview it in your browser. To
 of what this getting started HTML page looks like in the browser, click the lightning bolt shaped
 icon in the top right corner.
 
+<!-- Replace this with a Gif -->
 <iframe src="https://player.vimeo.com/video/231201198" width="640" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/231201198">How to Preview with Brackets</a> from <a href="https://vimeo.com/user40168740">Maggie Moss</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
