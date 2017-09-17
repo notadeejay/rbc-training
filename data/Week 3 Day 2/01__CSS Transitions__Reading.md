@@ -109,6 +109,3 @@ h1 {
   transition: color, 3s,
 }
 ```
-
-
-### CSS Animations
