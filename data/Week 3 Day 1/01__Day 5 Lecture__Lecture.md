@@ -1,10 +1,9 @@
 ---
-uuid: ec36e42e-7fad-42a2-9350-a7cb611c373c
+uuid: 32fd27e5-9b8b-4459-aa3d-55f0001bdea6
 ---
 
 
-## Advanced CSS
-
+### Topics
 - Advanced Selectors
 - Pseudo Selectors / Pseudo Elements
 - CSS Shapes

@@ -1,6 +1,8 @@
 ---
 uuid: 8a4f881e-c4cf-4c1c-83a8-2f764aecf73b
 ---
+
+
 As we style our page today, keep in mind that next class we are going to focus on the layout.
 Today, we're going to alter the fonts and colors to get them as close to our mockup as we can.
 
@@ -120,26 +122,5 @@ This code would give our div with the id 'alert' a red border.
 | text-transform | Changes text to upper or lowercase |
 | letter-spacing | Sets the space between letters. Can be set to negative numbers |
 
-
-## Box Model
-
-| Property | Explanation | Example |
-| -------- | ------------| ------- |
-| border | Adds a border to the selected HTML element | border: 1px solid black; |
-| margin | adds space between elements | margin: 10px; |
-| padding | Adds space between the content of the element, and the border | padding: 30px; |
-| height | The height of an element | height: 20px; |  
-| width | The width of an element | width: 100px; |
-
-Note: All of these properties can be set to only apply to the top, bottom, right or left of our
-element.
-
-For example, we could add padding to just the **top** like so:
-
-```css
-  section .important {
-    padding-top: 10px;
-  }
-```
 
 ## Colors
