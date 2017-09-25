@@ -43,7 +43,9 @@ Some CSS:
 ### Keyframes
 - controls the intermediate steps in a CSS animation sequence by defining styles for keyframes (or waypoints)
 along the animation sequence.
-
+- To use Keyframes, create an `@keyframes` rule with a name that is then used by the `animation-name` property
+to match an animation to its key frame declaration.
+- If a keyframe rule doesn't specify the start or end states of the animation (that is, 0%/from and 100%/to, browsers will use the element's existing styles for the start/end states. This can be used to animate an element from its initial state and back.
 
 Examples
 
