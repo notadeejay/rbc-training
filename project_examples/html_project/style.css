@@ -61,7 +61,7 @@ footer a {
 /* Styling Progress Bar */
 
 progress[value] {
+    appearance: none;
     width: 250px;
-    height: 20px;
     height: 20px;
 }

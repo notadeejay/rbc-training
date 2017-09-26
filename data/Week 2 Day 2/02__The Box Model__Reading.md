@@ -2,37 +2,61 @@
 uuid: 5e7ad983-e07d-4741-a4bd-794f7d4d6487
 ---
 
-Every HTML element on your page is a rectangle.
+You can imagine every HTML element on your page as a rectangle.
 
 Every element has four properties that define it:
 
-- margin: space between the border and the other elements
-- padding: space between the content and the border
-- border: Marks the outer edge of the visible box
-- content: the content of the element
+- **margin**: space between the border and the other elements
+- **padding**: space between the content and the border
+- **border**: Marks the outer edge of the visible box
+- **content**: the content of the element
 
 
 <!-- Add Diagram -->
-
+![](https://s3.amazonaws.com/thinkific/file_uploads/34662/images/cb9/428/134/box-model-diagram.png)
 
 We can alter all of these properties with CSS.
 
 
-Standard Box Model:
+#### Standard Box Model:
 
- The size you specify in your CSS for an element is the size of the content box.
- Then the padding, border and margin are added onto that width. This can often be confusing.
+The size you specify in your CSS for an element is the size of the content box.
+Then the padding, border and margin are added onto that width. This is the default for HTML elements.
 
- <!-- Add examples -->
+For example, if you add this CSS to a div on your page:
 
+```css
+  div {
+    width: 40px;
+    margin: 20px;
+    border: 5px;
+  }
+```
 
-Alternate Box Model:
+The element will take up **more** than 40px. You have to remember to add the margin and border into your calculations.
+This can become confusing quite quickly.
+
+#### Alternate Box Model:
 
 ```css
 .example {
   box-sizing: border-box;
 }
 ```
+
+If we take our example from before, and add `border-box`:
+
+```css
+  div {
+    width: 40px;
+    margin: 20px;
+    border: 5px;
+    box-sizing: border-box;
+  }
+```
+
+The width of the element will be 40px.
+
 
 ### Margin
 

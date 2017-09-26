@@ -19,14 +19,14 @@ We can change the `display` property of HTML elements using CSS
 ### display: inline-block;
 
 Inline-block elements are like inline elements, but you can set a width and height on them.
-This means, they can sit next to each other nicely.
+This means, you can control how they appear on the page, but they will still sit next to each other quite easily.
 
 ### display: flex;
 
 To code the layout for our profile pages, we're going to be using **flexbox**. Since layouts are a common
 problem in CSS, flexbox aims to fix some of the common issues developers encounter when building web pages.
 
-Remember that when we nest HTML elements we refer to the outer element as the **parent** and the inner elements
+**Tip**: Remember that when we nest HTML elements we refer to the outer element as the **parent** and the inner elements
 as the **children**.
 
 If you have some HTML set up like so:
@@ -49,7 +49,7 @@ To start using flex box, we add the `display: flex` property to the **parent** e
   }
 ```
 
-Then, there are several properties we can apply to the parent, or flex box container.
+Then, there are several properties we can apply to the parent, which can also be referred to as the **flex box container**.
 
 - Flex Direction
 - Flex Wrap
@@ -58,3 +58,6 @@ Then, there are several properties we can apply to the parent, or flex box conta
 - Align Content
 
 Play around with these flexbox properties [here](http://learn-flexbox.surge.sh/), and see code snippets at the bottom of the page.
+
+
+<!-- Add notes for the values we can apply to CHILDREN in flex box -->
