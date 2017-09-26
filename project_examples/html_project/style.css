@@ -20,3 +20,48 @@ a {
 ul {
     list-style-type: none;
 }
+
+h1, h2 {
+    font-size: 37px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+p {
+p {
+    font-size: 16px;
+}
+
+.date {
+    color: #228bdc;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.job-title {
+    font-size: 16px;
+}
+
+.company-name {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #323232;
+    color: white;
+}
+
+footer a {
+    font-size: 12px;
+}
+
+/* Styling Progress Bar */
+
+progress[value] {
+    width: 250px;
+    height: 20px;
+    height: 20px;
+}
