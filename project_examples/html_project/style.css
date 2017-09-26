@@ -1,3 +1,22 @@
 /* These styles, or something like them should be added during W2D1
   blue: #228bdc;
 */
+
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.emphasized-section {
+    background-color:  #228bdc;
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
