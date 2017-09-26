@@ -41,6 +41,5 @@ Inside of your new section tag add:
 - [ ] Two `<p>` tags with some awesome information about **you**
 
 If you've suddenly found yourself with a serious case of writers block, and are unsure of what to write about yourself,
-a common technique is to use *Lorem Ipsum* text.
-
-[Meet the Ipsums](http://meettheipsums.com/) is a great site to find filler text for your project.
+a common technique is to use *Lorem Ipsum* text. It offers filler text that you can use as your building out your webpage.
+[Meet the Ipsums](http://meettheipsums.com/) is a great place to find some themed filler text.

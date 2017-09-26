@@ -17,9 +17,41 @@ Anchor tags rely on the `href` attribute to work.
 <a href="https://www.lighthouselabs.ca/">Go to Lighthouse</a>
 ```
 
+Anchor tags can be linked to other websites, email addresses and even phone numbers. In addition to an `href` attribute
+they also take a **target** attribute.
+
+If you would like an anchor tag to open in a different window:
+
+```html
+  <a href="https://www.lighthouselabs.ca/" target="_blank">Go to Lighthouse</a>
+```
+
+To have a link open an email client, you can add **mailto** to the `href`
+
+```html
+  <a href="mailto: info@lighthouselabs.ca">Email me!</a>
+```
+
+To have a phone number be dialed when you click a link, add **tel:** to the href:
+
+```html
+  <a href="tel:1231231234">Call me! </a>
+```
+
 ### Tasks
 
-- [ ] Add a `<footer>` tag to your HTML page
-- [ ] Inside your `<footer>` tag add two `<div>` tags
-- [ ] In the **first** div tag, add an `<h2>` that contains your name, and a `<p>` that contains your job title
-- [ ] In the **second** div tag, use `<p>` and `<a>` to list your contact information
+- [ ] Add a `<footer>` tag to your HTML page inside add:
+  - [ ] A `div` tag that contains:
+    - [ ] An `h2` element that contains your name
+    - [ ] A `p` tag that contains your occupation
+  - [ ] Add a `ul`
+    - Add a `li`, with an anchor tag linked to your:
+      - email
+      - telephone
+      - twitter
+      - linkedin
+      - instagram
+
+When you have added this content to your webpage, your footer should look something like:
+
+![](https://cl.ly/2n072t0s3X0N/Image%202017-09-25%20at%208.34.05%20PM.png)

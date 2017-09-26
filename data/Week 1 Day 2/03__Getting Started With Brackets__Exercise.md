@@ -1,14 +1,12 @@
 ---
 uuid: 28ac69ff-55ca-4cca-b086-bb74ae7761de
-allow_submissions: true
-duration: 90
 ---
 
 ## Where do I write code?
 
 During this course we'll be using a **code editor** called [brackets](http://brackets.io/).
 
-Just like Microsoft Word or Google Docs will underline words that you've misspelled, a code editor
+Just like Microsoft Word or Google Docs will underline grammatical errors, a code editor
 will highlight errors in your code.
 
 ## Exercises

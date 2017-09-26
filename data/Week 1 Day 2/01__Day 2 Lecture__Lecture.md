@@ -20,7 +20,9 @@ Don't forget to demonstrate that when the dot is in the corner of the file inste
 
 #### Live coding:
 
-> Write a simple HTML page that uses several basic HTML tags. Use an `img` to demonstrate self closing tags
+- Write a simple HTML page that uses several basic HTML tags. Use an `img` to demonstrate self closing tags
+- Use semantic tags, and demonstrate why they're preferable over `div`s (div soup, etc.)
+
 
 #### Approach:
 

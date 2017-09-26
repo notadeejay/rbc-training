@@ -60,19 +60,19 @@ The progress element takes two **attributes**
 1. **max**: the maximum amount for this progress bar
 2. **value**: the value to be displayed
 
-For example, if you wanted 60% of the bar to be filled - you would set **max** to be `10` and the **value** to be `6`.
+For example, if you wanted 60% of the bar to be filled - you would set **max** to `10` and the **value** to `6`.
 
 
 ### Tasks
 Add a new `<section>` tag for your skills section, then:
 - [ ] Add an `<h2>` element with the text **Skills**
-- [ ] Add an `<ul>` tag, and list some of your skills in list item (`<li>`) tags
-- [ ] For each `<li>` element
-  - [ ] Add an `<h5>` with the name of your skill
-  - [ ] Add a `<progress>` bar
-  - [ ] Add a `<span>` with a percentage
+- [ ] Add an `<ul>` tag, inside add:
+  - [ ] An `<li>` element for each skill you'd like to list
+    - [ ] Add an `<h5>` with the name of your skill
+    - [ ] Add a `<progress>` bar (set the **max**, and **value** attributes to reflect your skillset)
+    - [ ] Add a `<span>` with a percentage
 
 
-Once you have completed that, the preview of your skills section should look something like:
+Once you have added your `li` elements, the preview of your skills section should look something like:
 
 ![skills preview](https://d3vv6lp55qjaqc.cloudfront.net/items/1f1D440W3n1R0u1J1B1C/Image%202017-09-09%20at%2011.24.57%20AM.png)
