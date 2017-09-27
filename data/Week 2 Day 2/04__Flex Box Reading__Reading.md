@@ -61,3 +61,9 @@ Play around with these flexbox properties [here](http://learn-flexbox.surge.sh/)
 
 
 <!-- Add notes for the values we can apply to CHILDREN in flex box -->
+
+```css
+  .child-element {
+    flex: 0.5
+  }
+```

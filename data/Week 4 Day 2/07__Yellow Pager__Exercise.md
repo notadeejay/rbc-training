@@ -33,4 +33,4 @@ in mind that there are several ways to solve this problem, so if a classmate tak
 approach as you, that's okay.
 
 If you feel really stuck, grab a class mate and work through the project together. This is known
-as pair programming and is quite common to find two developers working on one tricky problem. 
+as pair programming and is quite common to find two developers working on one tricky problem.
