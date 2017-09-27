@@ -106,6 +106,14 @@ nav ul li {
 }
 
 
+.date-and-job, .company-details {
+  display: flex;
+}
+
+.company-name, .date {
+  flex-basis: auto;
+}
+
 /* Styling Progress Bar */
 
 progress[value] {
