@@ -3,11 +3,13 @@
 */
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
 }
 
+
+/* Fonts and Colors */
 .emphasized-section {
   background-color:  #228bdc;
   color: white;
@@ -39,15 +41,21 @@ p {
   color: #228bdc;
   font-size: 21px;
   font-weight: 400;
+  margin: 0;
+  flex: 1;
 }
 
 .job-title {
   font-size: 16px;
+  margin:0;
+  flex: 2;
 }
 
 .company-name {
   font-size: 28px;
   font-weight: 400;
+  margin: 0;
+  flex: 1;
 }
 
 footer {
@@ -66,7 +74,7 @@ header, footer, section {
   margin: 0;
 }
 
-/* Layout Code */
+/* Layout & Flexbox */
 nav, nav ul {
   display: flex;
   justify-content: space-between;
@@ -75,9 +83,9 @@ nav, nav ul {
 nav ul li {
   margin-left: 10px;
 }
-    
+
 .name-container {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -86,10 +94,9 @@ nav ul li {
   padding-bottom: 5px;
   margin:0;
 }
-    
+
 .name-container h4 {
   font-weight: 200;
-  
 }
 
 #skills ul li {
@@ -105,21 +112,29 @@ nav ul li {
   margin-left: 10px;
 }
 
-
 .date-and-job, .company-details {
   display: flex;
+  align-items: baseline;
 }
 
-.company-name, .date {
-  flex-basis: auto;
+.date, .company-name {
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 10px;
 }
 
-/* Styling Progress Bar */
+.experience-entry {
+  margin-bottom: 30px;
+}
+
+.experience-entry p {
+  flex: 2;
+}
+
+/* Pseudocode */
 
 progress[value] {
   appearance: none;
   width: 250px;
   height: 20px;
 }
-    
-    
