@@ -4,8 +4,6 @@ uuid: dd33a658-effc-43d4-8e13-836575898bd2
 <!--
 Resources:
 - https://css-tricks.com/examples/ShapesOfCSS/
-
-
  -->
 
 As you've seen so far, combining CSS and HTML is pretty powerful. What we've done so far has only

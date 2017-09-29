@@ -96,6 +96,7 @@ With steps, we can specify how many "steps" the transition will take:
 We can also add transitions in a single line of CSS.
 
 Shorthand for the one transition value:
+
 ```css
 div {
   transition: <property> <duration> <timing-function> <delay>;
