@@ -147,7 +147,22 @@ footer {
 footer ul {
   text-align: right;
 }
-/* Pseudocode */
+
+/* Transitions */
+
+nav li a {
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+}
+
+/* Pseudo Selectors */
+
+nav li a:hover {
+  color: pink;
+}
+
 
 progress[value] {
   appearance: none;
