@@ -22,6 +22,54 @@ After adding those CSS styles, your **Experience** section should look something
 
 It looks, well, a littlebitsquished.
 
+So far, we've mostly talked about properties we apply to the **parent** element when we're using flex box.
+There are also several that we can apply to the **children**.
+
+Let's start by focusing on the **flex-grow** property.
+
+## flex-grow
+
+Flex grow is used to define how much space inside a flex container (or parent) and element should take up.
+
+If we have this HTML:
+
+```html
+<div class="container">
+  <h1 class="one"></h1>
+  <h1 class="two"></h1>
+</div>
+```
+
+And this CSS
+
+```css
+  .container {
+    display: flex;
+  }
+
+  .one {
+    flex-grow: 3;
+    background-color: #B6D6CC;
+  }
+
+  .two {
+    flex-grow: 1;
+    background-color: #FF3A20;
+  }
+```
+
+The `.one` element will take up **threee** times as much space as the `.two` element.
+
+Our two `h1` elements would end up looking something like this:
+
+![](https://cl.ly/2v3k3U2s0B3O/Image%202017-09-28%20at%207.35.39%20PM.png)
+
+
 What CSS styles can we add to fix that?
 
-- [ ] Fix the squished layout
+- [ ] Use flex-grow, margin, and padding to adjust the layout of your experience section
+
+
+Once you have finished adding these styles your **Experience** Section should look something like this:
+
+![](https://cl.ly/0a3q2C42041y/Image%202017-09-28%20at%207.19.28%20PM.png)

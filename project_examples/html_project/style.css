@@ -1,11 +1,16 @@
 /* These styles, or something like them should be added during W2D1
   blue: #228bdc;
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
+  margin: 0 auto;
+  max-width: 940px;
 }
 
 
@@ -31,7 +36,6 @@ h1, h2 {
 h4 {
   font-size: 21px;
 }
-
 
 p {
   font-size: 16px;
@@ -78,6 +82,7 @@ header, footer, section {
 nav, nav ul {
   display: flex;
   justify-content: space-between;
+  text-transform: uppercase;
 }
 
 nav ul li {
@@ -90,7 +95,10 @@ nav ul li {
   align-items: center;
 }
 
-.name-container h1, .name-container h4 {
+.name-container h1, 
+.name-container h4, 
+footer h2, 
+footer h4 {
   padding-bottom: 5px;
   margin:0;
 }
@@ -131,6 +139,14 @@ nav ul li {
   flex: 2;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  text-align: right;
+}
 /* Pseudocode */
 
 progress[value] {

@@ -31,4 +31,4 @@ can also **return** a value. We do this by using the `return` keyword in our cod
 ### Built In Functions
 
 In addition to letting you write your own functions, JavaScript comes with some functions ready to use, right out of the box.
-Each datatype has its own set of built in functions
+Each datatype has its own set of built in functions.
