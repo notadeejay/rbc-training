@@ -161,6 +161,18 @@ footer ul {
 
 /* Pseudo Selectors */
 
+p::selection {
+  background-color: yellow;
+}
+
+p::first-letter {
+  font-weight: bold;
+}
+
+nav a:visited {
+  color: grey;
+}
+
 nav li a:hover {
   text-decoration: underline;
   font-weight: bold;
