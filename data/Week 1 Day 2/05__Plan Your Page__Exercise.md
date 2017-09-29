@@ -19,7 +19,7 @@ In order to build your personal site, we're going to break it down into three ma
 Throughout the course, there might be days where your webpage doesn't look pixel perfect at the end.
 Keep in mind that is perfectly fine.
 
-If we take a step back and look at our HTML page design, we can break it down into five major components.
+If we take a step back and look at our HTML page design, we can break it down into five major components:
 
 - Header
 - About Section
