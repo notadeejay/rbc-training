@@ -11,7 +11,7 @@ uuid: a28d802c-0ebb-4066-87a7-74caf2da399b
 
 Before we jump into our HTML project, let's do a quick re-cap of what we've learned today.
 
-HTML gives your webpage structure. If we use the analogy of building a house, HTML is the basic frame. It gives you a structure to work from. Every HTMl tag has a default style.
+HTML gives your webpage structure. If we use the analogy of building a house, HTML is the basic frame. It gives you a structure to work from. Every HTML tag has a default style.
 
 
 HTML elements are composed of three main components:
@@ -24,7 +24,7 @@ HTML elements are composed of three main components:
 
 #### Structural Tags
 
-These tags are great for providing structure to your webpage
+These tags are great for providing structure to your webpage:
 - `div`
 - `nav`
 - `header`
@@ -36,13 +36,13 @@ These tags are great for providing structure to your webpage
 
 #### Tags for Text
 
-We can also use HTML to add **context** to our content. Our web browsers (chrome, safari, etc.) will give default styles to our HTML elements. If we want to add a title to our page, we could use an `h1` tag.
+We can also use HTML to add **context** to our content. Our web browsers (Chrome, Safari, Firefox, etc.) will give default styles to our HTML elements. If we want to add a title to our page, we could use an `h1` tag.
 
 ```html
   <h1>I'm an h1</h1>
 ```
 
-When this tag is rendered in the browser, it's content would appear as large and bold text.
+When this tag is rendered in the browser, its content would appear as large and bold text.
 
 ```html
   <h1>I'm an h1</h1>
@@ -93,17 +93,17 @@ We can also use the `<strong>` to make text bold, and the `<em>` to make text it
 
 #### Attributes
 
-In some cases, we need to give our HTML tags a little bit more information. We can do this using **attributes**. Attributes are always added to the opening HTML tag. On most tags, attributes are optional, but there are a few that need attributes to work properly, like anchor tags and image tags.
+In some cases, we need to give our HTML tags a little bit more information. We can do this using **attributes**. Attributes are always added to the opening HTML tag. On most tags, attributes are optional, but there are a few that need attributes to work properly, like anchor and image tags.
 
 One type of attribute is a CSS class. It's often used for styling elements on your webpage.
 
-Say we wanted this paragraph tag to have the class highlight:
+Say we wanted this paragraph tag to have the class highlights:
 
 ![attribute example](https://d3vv6lp55qjaqc.cloudfront.net/items/2u1K232V3C1T1N300n2y/Image%202017-08-27%20at%202.36.57%20PM.png?X-CloudApp-Visitor-Id=2818368&v=47387a39)
 
 ### Nesting Elements
 
-We can also nest HTML elements together. This allows us to build more complicated web pages. When we nest elements together, we refer to the outer elements as **parents**, and the inner element as **children**. It is important to close child elements, *before* you close the parent element.
+We can also nest HTML elements together. This allows us to build more complicated web pages. When we nest elements together, we refer to the outer elements as **parents**, and the inner element as **children**. It is important to close child elements *before* you close their respective parent elements.
 
 When we nest elements, **indentation** becomes very important. Here you can see that the child element is tabbed in a few spaces. This lets us easily see that the paragraph tag is a child of the div tag. Properly indenting your code will help you build web pages faster, and make it easier to spot errors.
 
