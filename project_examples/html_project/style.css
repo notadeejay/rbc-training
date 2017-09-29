@@ -113,8 +113,17 @@ footer h4 {
 }
 
 #skills ul li h5 {
- flex: 0.5;
+  flex-grow: 0.5;
 }
+
+#skills ul li span {
+  flex-grow: 0.5;
+}
+
+progress {
+  flex-grow: 2;
+}
+
 
 #skills ul li * {
   margin-left: 10px;
@@ -163,9 +172,14 @@ nav li a:hover {
   color: pink;
 }
 
-
-progress[value] {
-  appearance: none;
-  width: 250px;
-  height: 20px;
+progress::[value] {
+  background-color:white;
 }
+
+progress::-webkit-progress-bar {
+  background-color: white;
+}
+progress::-webkit-progress-value {
+  background-color: #228bdc;
+}
+
