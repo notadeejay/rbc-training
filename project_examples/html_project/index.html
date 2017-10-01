@@ -1,39 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="./style.css">
+         <link rel="stylesheet" href="./style.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     </head>
-    <body>    
+    <body>
         <header class="emphasized-section">
             <nav>
                 <p>Gage Malone</p>
-                <ul>
-                    
-                    <li>
-                        <a href="#about">about</a>
-                    </li>
-                    <li>
-                        <a href="#skills">skills</a>
-                    </li>
-                    <li>
-                        <a href="#experience">experience</a>
-                    </li>
-                    <li>
-                        <a href="#contact">contact</a>
-                    </li>
-                </ul>
+                <div>
+                  <a href="#about">about</a>
+                  <a href="#skills">skills</a>
+                  <a href="#experience">experience</a>
+                  <a href="#contact">contact</a>
+                </div>
             </nav>
             <div class="name-container">
                 <div>
                     <h1>Gage Malone</h1>
                     <h4>Designer &amp; Developer</h4>
                 </div>
-                <div class="image-container">
-                  <img src="https://www.fillmurray.com/140/100">
-                  <img src="http://www.fillmurray.com/g/200/300">
-                  <img src="https://www.fillmurray.com/g/140/100" class="align-top">
-                </div>
+                <img src="http://www.fillmurray.com/g/200/300">
             </div>
         </header>
         <section id="about">
@@ -44,28 +31,26 @@
             </p>
 
             <p>
-              Quisque pellentesque arcu varius lacus tempor, eget semper turpis eleifend. Vivamus nisl ante, ultricies et maximus at, aliquet sit amet ante. 
+              Quisque pellentesque arcu varius lacus tempor, eget semper turpis eleifend. Vivamus nisl ante, ultricies et maximus at, aliquet sit amet ante.
             </p>
         </section>
         <section id="skills" class="emphasized-section">
             <h2>Skills</h2>
-            <ul>
-                <li>
-                    <h5>Google Analytics</h5>
-                    <progress max=10 value=6></progress>
-                    <span>60%</span>
-                </li>
-                <li>
-                    <h5>Illustrator</h5>
-                    <progress max=10 value=9></progress>
-                    <span>90%</span>
-                </li>
-                <li>
-                    <h5>Content Writing</h5>
-                    <progress max=10 value=8></progress>
-                    <span>80%</span>
-                </li>
-            </ul>
+            <div>
+                <h5>Google Analytics</h5>
+                <meter max=10 value=6></meter>
+                <span>60%</span>
+            </div>
+            <div>
+                <h5>Illustrator</h5>
+                <meter max=10 value=9></meter>
+                <span>90%</span>
+            </div>
+            <div>
+                <h5>Content Writing</h5>
+                <meter low="0" high="1" max="10" value="8"></meter>
+                <span>80%</span>
+            </div>
         </section>
         <section id="experience">
             <h2>Experience</h2>

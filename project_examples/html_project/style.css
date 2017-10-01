@@ -10,6 +10,7 @@ body {
   padding: 0;
   margin: 0;
   margin: 0 auto;
+  max-width: 940px;
 }
 
 
@@ -70,6 +71,16 @@ footer a {
   font-size: 12px;
 }
 
+#skills div {
+  display: flex;
+  align-items: baseline;
+}
+
+#skills div meter {
+  flex-grow: 2;
+  margin: 0px 10px;
+}
+
 /* Margin / Padding */
 
 header, footer, section {
@@ -78,14 +89,14 @@ header, footer, section {
 }
 
 /* Layout & Flexbox */
-nav, nav ul {
+nav, nav div {
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  font-size: 12px;
+  align-items: baseline;
 }
 
-nav ul li {
+nav div a {
   margin-left: 10px;
 }
 
@@ -95,9 +106,9 @@ nav ul li {
   align-items: center;
 }
 
-.name-container h1, 
-.name-container h4, 
-footer h2, 
+.name-container h1,
+.name-container h4,
+footer h2,
 footer h4 {
   padding-bottom: 5px;
   margin:0;
@@ -107,29 +118,6 @@ footer h4 {
   font-weight: 200;
 }
 
-#skills ul li {
-  display: flex;
-  align-items: center;
-}
-
-#skills ul li h5 {
-  width: 150px;
-  font-weight: normal;
-  font-size: 16px;
-}
-
-#skills ul li span {
-  flex-grow: 0.5;
-}
-
-progress {
-  flex-grow: 2;
-}
-
-
-#skills ul li * {
-  margin-left: 10px;
-}
 
 .date-and-job, .company-details {
   display: flex;
@@ -150,6 +138,7 @@ progress {
   flex: 2;
 }
 
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -157,37 +146,6 @@ footer {
 
 footer ul {
   text-align: right;
-}
-
-/* Pseudo Selectors */
-
-p::selection {
-  background-color: yellow;
-}
-
-p::first-letter {
-  font-weight: bold;
-}
-
-nav a:visited {
-  color: grey;
-}
-
-nav li a:hover {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-progress {
-  -webkit-appearance: none;
-}
-
-progress::-webkit-progress-bar {
-  background-color: #228bdc;
-}
-
-progress::-webkit-progress-value {
-  background-color: white;
 }
 
 
@@ -200,20 +158,20 @@ nav li a {
   transition-delay: 0.5s;
 }
 
-/* Stretch Goals */
+/* Pseudo Selectors */
 
-/* Flexbox Layout Stretch (W3D1) */
-
-.image-container {
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: -100px;
+nav li a:hover {
+  color: pink;
 }
 
-.align-top {
-  align-self: flex-start;
+meter {
+/*  width: 100%;*/
 }
 
-/* Media Queries */
+meter::-webkit-meter-bar {
+  background: #228bdc;
+}
 
-
+meter::-webkit-meter-optimum-value {
+  background: white;
+}
