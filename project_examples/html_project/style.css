@@ -172,7 +172,19 @@ meter::-webkit-meter-optimum-value {
   background: white;
 }
 
+/* Media Queries */
 
+@media (max-width: 600px) {
+  header .name-container {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  } 
+  .name-container div {
+    text-align: center;
+    padding: 10px;
+  }
+}
 
 /* Animate download button */
 

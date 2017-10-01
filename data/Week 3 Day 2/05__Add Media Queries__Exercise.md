@@ -9,7 +9,22 @@ uuid: c227e89a-8a15-4704-93d4-42b4bb24b1d2
 
 - [ ] Add a media query and styles to when you view your resume page on a smaller screen, all of the link tags in your nav bar are still visible
 - [ ] Add styles so on a smaller screen size your picture sits below your name and occupation
-- [ ]
+- [ ] Add styles to make sure the content in your **Experience** section is not squished on smaller screen sizes
+- [ ] Add styles to make sure the content in your **Skills** section looks great on smaller screen sizes
 
 
-<!-- Go section by section, if need be -->
+### Tips and Tricks
+
+To fix these resposive issues, you might find these properties helpful
+
+### order
+Property applied to flex items
+
+### @media
+  Allows specific styles to only be applied on specific screen types, and screen widths.
+
+```css
+  @media (min-width: 600px) {
+    /* Add styles here */
+  }
+```
