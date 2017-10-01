@@ -2,10 +2,46 @@
 uuid: e05bb162-e79e-425b-b4fa-5874d4be235f
 ---
 
-You can use CSS to add some simple animations to your site.
+Not only can CSS change the colors, fonts and layouts of your page,
+but we can even get our elements moving around our webpages, just using CSS.
+
+There are two main ways to do this, with CSS **transitions** and CSS **animations**.
+We'll start by looking at CSS Transitions.
+
+
+### Animatable Properties
+- font-size
+- background-color
+- width
+- left
+
+###### Performant Properties
+- position
+- scale
+- rotation
+- opacity
+
+Cannot animate:
+- display
+- position
+- font-family
 
 
 
+
+### Introduce Transform Property
+```css
+  .box {
+    transform: translate(), rotate()
+  }
+```
+<!-- Note look up pointer evets -->
+
+### How do you Trigger a Transformation?
+- hover
+- class changes
+
+<!-- http://oli.jp/2010/css-animatable-properties/ -->
 ### CSS Transitions
 
 CSS Transitions give you more control over how styles change on your webpage. For example,

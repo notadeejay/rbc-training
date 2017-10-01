@@ -9,10 +9,12 @@ Let's move on to adding styles to the **footer** of our web page.
 ### Tasks
 
 - [ ] Add CSS to style the footer and change the color of the background
-- [ ] Add Styles to make sure the text is still legible
-- [ ] Style the anchor tags in the footer to have a font size of `12px`
+- [ ] Add CSS styles to change the font color, if needed
+- [ ] Change the font in the footer to be an appropriate size
 
 **Tip:** Remember you can use more than one tag or selector.
+
+### Tips and Tricks
 
 For example, if you *only* wanted the `p` tags in a `section`, you could style them like so:
 
