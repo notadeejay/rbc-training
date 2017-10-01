@@ -11,7 +11,7 @@ uuid: c227e89a-8a15-4704-93d4-42b4bb24b1d2
 - [ ] Add styles so on a smaller screen size your picture sits below your name and occupation
 - [ ] Add styles to make sure the content in your **Experience** section is not squished on smaller screen sizes
 - [ ] Add styles to make sure the content in your **Skills** section looks great on smaller screen sizes
-
+- [ ] Add styles to make sure the content in your **Footer** section looks great on smaller screen sizes
 
 ### Tips and Tricks
 

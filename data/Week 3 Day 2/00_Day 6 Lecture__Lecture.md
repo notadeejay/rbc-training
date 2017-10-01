@@ -6,7 +6,7 @@ Concepts:
 - QA
 - Media Queries
 - Animations
-- Demonstrate deployment 
+- Demonstrate Deployment 
 
 
 ### Before this lecture

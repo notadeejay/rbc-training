@@ -3,10 +3,9 @@ uuid: b5e880a8-848d-4465-85ea-5073f1869f91
 ---
 
 
-Animations and key frames work together. They are kind of like batman and robin,
-<insert other famous pairs>.
+Animations and key frames work together. They work in tandem to add some interactivity and some movement to the elements on your page.
 
-The keyframe will tell us WHAT is happening, and the animation will declare HOW it's happening.
+The **keyframe** will tell us WHAT is happening, and the **animation** will define HOW it's happening.
 
 ### Keyframes
 
