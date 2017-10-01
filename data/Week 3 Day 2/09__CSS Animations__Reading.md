@@ -102,9 +102,10 @@ How many times the animation will repeat before stoppping. It can be set to a nu
 ##### direction
 
 How the animation will occur. You can set it to:
-- `reverse`
-- `forward`
-- `alternate`
+- normal
+- reverse
+- alternate
+- alternate-reverse
 
 ```css
   .example {
@@ -146,4 +147,37 @@ We can also define all of these values on one line:
 
 Phew. That's a LOT of values. You do not need to set ALL of these values for your animation to work.
 
-### Examples
+### Example
+
+```html
+  <div></div>
+```
+
+```css
+div {
+  height: 100px;
+  width: 200px;
+  background-color: green;
+  animation-name: growtaller;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-play-state: play;
+}
+
+@keyframes growtaller {
+  from {
+    height: 100px;
+  }
+  to {
+    height: 500px;
+  }
+}
+```
+
+Result:
+
+![](https://cl.ly/3B1O200B2628/Screen%20Recording%202017-10-01%20at%2004.56%20PM.gif)
