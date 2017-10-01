@@ -2,63 +2,148 @@
 uuid: b5e880a8-848d-4465-85ea-5073f1869f91
 ---
 
-<!-- This is mainly just rough notes, need to rewrite to have more have a gentle learning curve  -->
 
-CSS Animations allow you to add a little bit more interactivity to your pages.
+Animations and key frames work together. They are kind of like batman and robin,
+<insert other famous pairs>.
 
-
-Let's start with a page with three circles on it:
-
-
-```
-<div class="circle small"></div>
-<div class="circle medium"></div>
-<div class="circle large"></div>
-```
-
-Some CSS:
-
-```css
-  .circle {
-    border-radius: 50%;
-    background-color: green;
-  }
-
-  .small {
-    height: 50px;
-    width: 50px;
-  }
-
-  .medium {
-    height: 100px;
-    width: 100px;
-  }
-
-  .large {
-    height: 150px;
-    width: 150px;
-  }  
-```
+The keyframe will tell us WHAT is happening, and the animation will declare HOW it's happening.
 
 ### Keyframes
-- controls the intermediate steps in a CSS animation sequence by defining styles for keyframes (or waypoints)
-along the animation sequence.
-- To use Keyframes, create an `@keyframes` rule with a name that is then used by the `animation-name` property
-to match an animation to its key frame declaration.
-- If a keyframe rule doesn't specify the start or end states of the animation (that is, 0%/from and 100%/to, browsers will use the element's existing styles for the start/end states. This can be used to animate an element from its initial state and back.
 
-Examples
+These keyframes are not involved with a selector, they just sit in your CSS file.
 
 ```css
-@keyframes slidein {
+
+@keyframes [name] {
   from {
-    margin-left: 100%;
-    width: 300%;
+    [styles];
   }
 
   to {
-    margin-left: 0%;
-    width: 100%;
+    [styles];
   }
 }
 ```
+
+We start with the keyword `@keyframes` followed by a name. You can name a keyframe
+whatever you would like.
+
+
+```css
+  @keyframes grow-taller {
+    from {
+      height: 100px;
+    }
+
+    to {
+      height: 300px;
+    }
+  }
+```
+
+### Animation Property
+
+We place our animation property *inside* of our selector. We can customize our animation
+with several properties. Some of them you may recognize from the transition property we learned about last week.
+
+##### name
+
+The name of your animation should match **exactly** the name of your keyframe.
+It's what links your keyframe and your animation together.
+
+```css
+  .example {
+    animation-name: grow-taller;    
+  }
+```
+
+##### duration
+How long it will take for the animation to complete.
+
+```css
+  .example {
+    animation-name: grow-taller;
+    duration: 3s;
+  }
+```
+
+##### timing-function
+<!-- Add definition -->
+
+```css
+  .example {
+    animation-name: grow-taller;
+    animation-timing-function: ease-in-out;
+  }
+```
+
+##### delay
+
+How long the animation will wait after being triggered before it starts.
+
+```css
+  .example {
+    animation-name: grow-taller;
+    animation-delay: 3s;
+  }
+```
+
+##### iteration-count
+
+How many times the animation will repeat before stoppping. It can be set to a number, or `infinite`.
+
+```css
+  .example {
+    animation-name: grow-taller;
+    animation-iteration-count: 2;
+  }
+```
+
+##### direction
+
+How the animation will occur. You can set it to:
+- `reverse`
+- `forward`
+- `alternate`
+
+```css
+  .example {
+    animation-name: grow-taller;
+    animation-direction: reverse;
+  }
+```
+
+##### fill-mode
+
+Controls how the element will look once the transition has completed. If we set it to forwards, when the animation ends, the styles in the `to` block of the keyframe will still be applied.
+
+```css
+  .example {
+    animation-name: grow-taller;
+    animation-fill-mode: forward;
+  }
+```
+
+##### play-state
+
+Can be set to either `running` or `paused`.
+
+```css
+  .example {
+    animation-name: grow-taller;
+    animation-play-state: paused;
+  }
+```
+
+##### Shorthand
+We can also define all of these values on one line:
+
+```css
+  .example {
+    animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]
+  }
+```
+
+Phew. That's a LOT of values. You do not need to set ALL of these values for your animation to work.
+
+### Examples
