@@ -2,17 +2,14 @@
 uuid: 647a2942-78cf-4dd2-b7c5-d3c1571d0099
 ---
 
-Pseudo Classes let us style elements that are in a certain state. Like, we can style an element
-so when a user hovers over it with their mouse, the styles change.
+Pseudo Classes let us style elements only when they are in a specific state. For example, we can apply specific styles
+to an element only when it's being hovered over.
 
 ```css
 selector:pseudo-class {
   property: value;
 }
 ```
-
-
-<!-- Add generic diagram for pseudo classes -->
 
 ### Hover
 
@@ -110,6 +107,49 @@ of that type:
   }
 ```
 
-In addition to these psuedo classes, there are several more you can use. 
+In addition to these psuedo classes, there are several more you can use.
 [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) is the official
 documentation on what each psuedo class does.
+
+
+<!--  
+  Add a challenge to make a tool tip of of HTMl + CSS
+  https://codepen.io/MaggieMoss/pen/RLZZRR
+-->
+
+
+## Pseudo Elements
+
+You can also do some fun things with **pseudo elements**. While pseudo classes style elements when they are in a specific **state**, pseudo elements style specific parts of an element.
+
+```css
+selector::pseudo-element {
+    property:value;
+}
+```
+
+
+#### ::selection
+
+This allows you to customize how your page appears when someone highlights text from it.
+
+```css
+  p::selection {
+    color: yellow;
+  }
+```
+
+![](https://cl.ly/0q0u1l133l1L/Screen%20Recording%202017-10-01%20at%2002.58%20PM.gif)
+
+#### ::first-letter
+
+Will style the first letter contained in the element
+
+```css
+  p::first-letter {
+    font-size: 30px;
+    color: red;
+  }
+```
+
+![](https://cl.ly/1N2K2w1J1z2q/Image%202017-10-01%20at%202.59.19%20PM.png)

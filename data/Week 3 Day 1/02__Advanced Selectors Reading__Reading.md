@@ -8,7 +8,31 @@ So far, we've been styling elements by their:
 2. Classes
 3. Ids
 
-CSS has a bunch of built in selectors that we can use to get even more specific about the elements we are styling.
+CSS has a bunch of advanced selectors that we can use to get even more specific about the elements we are styling.
+
+
+#### Stacking Selectors
+
+We can apply the **same** styles to more than one selector. To this, we separate our selectors with a comma.
+
+```css
+  p, a {
+    color: blue;
+  }
+```
+
+This CSS block would make ALL of the paragraph tags, and anchor tags on our page have a blue font.
+It is the exact same as writing this:
+
+```css
+p {
+  color: blue;
+}
+
+a {
+  color: blue;
+}
+```
 
 #### Adjacent Sibling Selector
 
@@ -52,13 +76,13 @@ if we had this HTML:
 And we want to select all the paragraph tags that comes *after* the `blockquote` tag, we could use:
 
 ```css
-  strong ~ p {
+  blockquote ~ p {
     font-size: 20px;
   }
 ```
 
 
-#### Child Selector
+#### Direct Descendant Selector
 
 The child selector allows you to style all direct descendants.
 
@@ -75,15 +99,15 @@ The child selector allows you to style all direct descendants.
 We can use the child selector like so:
 
 ```css
-  div > h4 {
+  main > h4 {
     color: purple;
   }
 ```
 
-This would style only the first h4.
+This would style only the first h4, since the second is not a **direct**
+descendant of the `main` tag.
 
-
-#### Universal Selector
+#### All Selector
 
 Using `*` as a selector will match all elements.
 
@@ -92,3 +116,6 @@ Using `*` as a selector will match all elements.
     color: green;
   }
 ```
+
+This might seem like a funny selector to use. After all, it's rare that you would want
+to apply a style to **every** element on your page.

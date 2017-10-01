@@ -23,10 +23,22 @@ For example, this would change the font-style for our `p` element to italic when
 
 - [ ] Add CSS so when you hover over the links in your nav bar, they change color.
 - [ ] Play around with changing the font-size, font weight or even font-family when you hover over your links.
+- [ ] Add CSS so the first letter of each paragraph in the **About** section is bold
+- [ ] Add CSS so when someone highlights text on your resume page, it highlights it in your favourite color.
+
+### Tips and Tricks
+
+#### hover
+Will apply styles to an element when it is in a hover state.
+
+```css
+  p:hover {
+    font-size: green;
+  }
+```
 
 
-### Visited
-
+#### visited
 Will style all visited links.
 
 ```css
@@ -35,24 +47,23 @@ Will style all visited links.
   }
 ```
 
-## Pseudo Elements
 
-## ::selection
+#### ::first-letter
 
-This allows you to customize how your page appears when someone highlights text from it.
+Will style the first letter of the content
 
 ```css
-  p::selection {
-    color: yellow;
-  }
+div::first-letter {
+  text-decoration: underline;
+}
 ```
 
-## ::first-letter
+#### ::selection
 
-Will style the first letter contained in the element
+Will add styles to text when it is highlighted
 
-```css
-  p::first-letter {
-    color: orange;
-  }
+```
+div::selection {
+  color: orange;
+}
 ```
