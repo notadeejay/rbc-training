@@ -4,11 +4,10 @@ uuid: 7dd57358-a644-4281-b726-45afc1a9260e
 
 
 As more people access the internet from mobile devices, making sure your site
-looks great on all platforms is becoming more and more important. CSS gives us
-media queries, so we can apply different styles at different screen widths and devices.
+looks great on all platforms becomes more and more important. CSS gives us
+**media queries**, so we can apply different styles at different screen widths and devices.
 
-Often media queries are used to adjust the layout of your HTML page when the screen is resized,
-or when a user loads your site on a mobile device. For example, this is a common layout for web pages:
+Media Queries are a great way to adjust the layout of your page so it looks great on any device.
 
 
 ![common layout](https://cl.ly/3Y451J0N0h1G/Image%202017-09-21%20at%205.50.56%20PM.png)
@@ -28,17 +27,20 @@ Much better!
 Basics of Media Queries:
 
 ```css
-  @media () {
+  @media [media-type] and (expression) {
     /* Styles to be applied on screen type */
   }
 ```
 
 We start with the `@media` keyword, then we say what **screen sizes** and what **screen types** we would like these styles to be applied to.
 
-For example, we could apply different styles to a **print** screen.
 
 ```css
-  @media (print) {
-    /* Add styles here */
+  @media screen (max-width: 800px) {
+    div {
+      background-color: green;
+    }
   }
 ```
+
+This example would apply a `background-color` of green to a screen that has a **maximum** width of `800px`. In other words, screens that are less that 800px.
