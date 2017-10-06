@@ -14,6 +14,8 @@ The `<meter>` elements in your **Skills** section.
 
 ### Meter Bar
 
+This is the container that holds the meter gauge. If our meter was a thermometer, it would be
+the glass surrounding it.
 ```css
   meter::-webkit-meter-bar {
     /* Add properties here */
@@ -21,6 +23,8 @@ The `<meter>` elements in your **Skills** section.
 ```
 
 ### Meter Optimum Value
+
+This is the current value of the meter element. By default, it's green.
 
 ```css
   meter::-webkit-meter-optimum-value {

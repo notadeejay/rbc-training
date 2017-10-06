@@ -180,3 +180,8 @@ div {
 Result:
 
 ![](https://cl.ly/3B1O200B2628/Screen%20Recording%202017-10-01%20at%2004.56%20PM.gif)
+
+
+Examples:
+
+https://codepen.io/MaggieMoss/pen/vepbdX?editors=1100
