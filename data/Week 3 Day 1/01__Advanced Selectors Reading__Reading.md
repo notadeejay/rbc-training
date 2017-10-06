@@ -8,12 +8,12 @@ So far, we've been styling elements by their:
 2. Classes
 3. Ids
 
-CSS has a bunch of advanced selectors that we can use to get even more specific about the elements we are styling.
+CSS also has advanced selectors that we can use to get even more specific about the elements we are styling.
 
 
 #### Stacking Selectors
 
-We can apply the **same** styles to more than one selector. To this, we separate our selectors with a comma.
+We can apply the **same** styles to more than one selector. To do this, we separate our selectors with a comma.
 
 ```css
   p, a {
@@ -36,26 +36,29 @@ a {
 
 #### Adjacent Sibling Selector
 
-Remember that when we **nest** elements, like the `h1` and `p` tags in this `div`:
+Remember that when we **nest** elements, like the `<h1>` and `<p>` tags in this `<div>`:
 
 ```html
 <div>
   <h1>Hello World</h1>
   <p>I'm a paragraph tag</p>
+  <p>Another paragraph tag</p>
 </div>
 ```
 
-We refer to the `div` as the **parent** and the nested elements as **children**. This means
-that we can also refer to the `h1` and `p` tags as **siblings**.
+We refer to the `<div>` as the **parent** and the nested elements as **children**. This means
+that we can also refer to the `<h1>` and `<p>` tags as **siblings**.
 
-If we only want to style paragraph tags that come immediately after an `h1` element, we can use
+If we only want to style paragraph tags that come immediately after an `<h1>` element, we can use
 the adjacent sibling selector.
 
 ```css
   h1 + p {
-    color: blue;
+    color: green;
   }
 ```
+
+![](https://cl.ly/0U251Y0c0Y0R/Image%202017-10-05%20at%207.54.18%20PM.png)
 
 
 #### General Sibling Selector
@@ -73,7 +76,7 @@ if we had this HTML:
 </article>
 ```
 
-And we want to select all the paragraph tags that comes *after* the `blockquote` tag, we could use:
+And we want to select all the paragraph tags that comes *after* the `<blockquote>` tag, we could use:
 
 ```css
   blockquote ~ p {
@@ -81,16 +84,18 @@ And we want to select all the paragraph tags that comes *after* the `blockquote`
   }
 ```
 
+![](https://cl.ly/383H1E1V0a12/Image%202017-10-05%20at%207.55.19%20PM.png)
+
 
 #### Direct Descendant Selector
 
 The child selector allows you to style all direct descendants.
 
-```
+```html
 <main>
-  <h4>My Awesome Website</h4>
+  <h2>My Awesome Website</h2>
   <div>
-    <h4>About Me</h4>
+    <h2>About Me</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
 </main>
@@ -99,13 +104,15 @@ The child selector allows you to style all direct descendants.
 We can use the child selector like so:
 
 ```css
-  main > h4 {
+  main > h2 {
     color: purple;
   }
 ```
 
-This would style only the first h4, since the second is not a **direct**
-descendant of the `main` tag.
+This would style only the first `<h4>`, since the second is not a **direct**
+descendant of the `<main>` tag.
+
+![](https://cl.ly/3R0t3D2n1i2R/Image%202017-10-05%20at%207.56.29%20PM.png)
 
 #### All Selector
 
@@ -116,6 +123,3 @@ Using `*` as a selector will match all elements.
     color: green;
   }
 ```
-
-This might seem like a funny selector to use. After all, it's rare that you would want
-to apply a style to **every** element on your page.

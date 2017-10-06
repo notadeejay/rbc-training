@@ -6,14 +6,12 @@ We saw with the CSS **hover** property, using just CSS we can start to make our
 web page interactive. When a use takes an action (like hovering over an element),
 we can add CSS code to respond to that.
 
-You might have noticed when you change styles using the `hover` pseudo selector that
-the effect can be a bit jarring. With CSS **transitions** we can control how those properties move from one value to another.
+CSS **transitions** allow us to fully customize the look of elements as their styles change.
 
 Transitions have four values that we need to set:
 
 ### property
-<!-- This sentence is awkward, but I can't think of another one right now. -->
-The `transition-property` is the property that is going to be transitioned on.
+The `transition-property` is which property we are going animate during our transition.
 
 ```css
   div {
@@ -22,14 +20,12 @@ The `transition-property` is the property that is going to be transitioned on.
 ```
 
 ### delay
-Once a transition is triggered, how long before the transition starts. Can be set to seconds (s) or milliseconds (ms).
+Once a transition is triggered, the delay is how long it will wait before the transition starts. Can be set to seconds (s) or milliseconds (ms).
 
 ```css
-
 div {
   transition-delay: 1s;
 }
-
 ```
 
 ### duration

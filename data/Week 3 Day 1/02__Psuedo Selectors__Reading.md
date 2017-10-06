@@ -2,8 +2,10 @@
 uuid: 647a2942-78cf-4dd2-b7c5-d3c1571d0099
 ---
 
-Pseudo Classes let us style elements only when they are in a specific state. For example, we can apply specific styles
+Pseudo Classes let us style elements when they are in a specific state. For example, we can apply specific styles
 to an element only when it's being hovered over.
+
+This is the general syntax that we follow when we're using pseudo selectors. We add our selector, followed by a semi-colon and the name of the pseudo selector we'd like to use.
 
 ```css
 selector:pseudo-class {
@@ -16,13 +18,13 @@ selector:pseudo-class {
 Will style the specified element when the element is hovered over.
 
 ```css
-  p:hover {
+  .box:hover {
     color: green;
   }
 ```
 
 Example:
-![hover example](https://d3vv6lp55qjaqc.cloudfront.net/items/1v3i1G083w0G1T2b2H1y/Screen%20Recording%202017-09-17%20at%2001.59%20PM.gif)
+![hover example](https://cl.ly/3W1C0L3K0N22/Screen%20Recording%202017-10-05%20at%2008.03%20PM.gif)
 
 
 ### First Of Type
@@ -79,8 +81,7 @@ We can also use even as an argument
 
 ![](https://cl.ly/0d2Q1q0P1V2Y/Image%202017-09-17%20at%202.30.16%20PM.png)
 
-We can also use an number as an argument, here we're only selecting the second element
-of that type:
+We can also use a number, and say exactly which element we want to select.
 
 ```css
   .planet-list li:nth-of-type(2) {
@@ -94,22 +95,24 @@ of that type:
 ### First Child
 
 ```css
-  .planet-list:first-child {
-
+  .planet-list li:first-child {
+    color: green;
   }
 ```
+![](https://cl.ly/3n1H0H2i1R2h/Image%202017-10-05%20at%208.05.58%20PM.png)
 
 ### Last Child
 
 ```css
-  .planet-list:last-child {
-
+  .planet-list li:last-child {
+    color: green;
   }
 ```
+![](https://cl.ly/2s3b0K0i1l0F/Image%202017-10-05%20at%208.06.22%20PM.png)
 
 In addition to these psuedo classes, there are several more you can use.
 [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) is the official
-documentation on what each psuedo class does.
+documentation.
 
 
 <!--  
@@ -121,6 +124,8 @@ documentation on what each psuedo class does.
 ## Pseudo Elements
 
 You can also do some fun things with **pseudo elements**. While pseudo classes style elements when they are in a specific **state**, pseudo elements style specific parts of an element.
+
+In general, when we use pseudo elements, we use a selector, two semi colons, and the name of the psuedo element.
 
 ```css
 selector::pseudo-element {
