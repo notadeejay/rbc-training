@@ -21,10 +21,10 @@ For example, this would change the font-style for our `p` element to italic when
 
 ### Tasks
 
-- [ ] Add CSS so when you hover over the links in your nav bar, they change color.
+- [ ] Add CSS so when you hover over the links in your nav bar, they change colour.
 - [ ] Play around with changing the font-size, font weight or even font-family when you hover over your links.
 - [ ] Add CSS so the first letter of each paragraph in the **About** section is bold
-- [ ] Add CSS so when someone highlights text on your resume page, it highlights it in your favourite color.
+- [ ] Add CSS so when someone highlights text on your resume page, it highlights it in your favourite colour.
 
 ### Tips and Tricks
 

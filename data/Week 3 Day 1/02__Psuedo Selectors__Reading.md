@@ -2,10 +2,9 @@
 uuid: 647a2942-78cf-4dd2-b7c5-d3c1571d0099
 ---
 
-Pseudo Classes let us style elements when they are in a specific state. For example, we can apply specific styles
-to an element only when it's being hovered over.
+Pseudo Classes let us style elements when they are in a specific state. For example, we can apply specific styles to an element only when it's being hovered over.
 
-This is the general syntax that we follow when we're using pseudo selectors. We add our selector, followed by a semi-colon and the name of the pseudo selector we'd like to use.
+This is the general syntax that we follow when we're using pseudo classes. We add our selector, followed by a semi-colon and the name of the pseudo selector we'd like to use.
 
 ```css
 selector:pseudo-class {
@@ -81,7 +80,8 @@ We can also use even as an argument
 
 ![](https://cl.ly/0d2Q1q0P1V2Y/Image%202017-09-17%20at%202.30.16%20PM.png)
 
-We can also use a number, and say exactly which element we want to select.
+We can also use a number, and say exactly which element we want to select. For example,
+this will select the second `<li>` in our `.planet-list`.
 
 ```css
   .planet-list li:nth-of-type(2) {
@@ -93,6 +93,7 @@ We can also use a number, and say exactly which element we want to select.
 
 
 ### First Child
+Will style the element only if it is the first child of its parent.
 
 ```css
   .planet-list li:first-child {
@@ -102,6 +103,7 @@ We can also use a number, and say exactly which element we want to select.
 ![](https://cl.ly/3n1H0H2i1R2h/Image%202017-10-05%20at%208.05.58%20PM.png)
 
 ### Last Child
+Will style the element only if it is the last child of its parent.
 
 ```css
   .planet-list li:last-child {
@@ -136,7 +138,7 @@ selector::pseudo-element {
 
 #### ::selection
 
-This allows you to customize how your page appears when someone highlights text from it.
+This allows you to customize how your page appears when someone highlights text on it.
 
 ```css
   p::selection {
@@ -148,7 +150,7 @@ This allows you to customize how your page appears when someone highlights text 
 
 #### ::first-letter
 
-Will style the first letter contained in the element
+Will style the first letter contained in the element.
 
 ```css
   p::first-letter {

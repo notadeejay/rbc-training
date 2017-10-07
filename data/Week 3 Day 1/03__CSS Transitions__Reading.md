@@ -2,13 +2,9 @@
 uuid: e05bb162-e79e-425b-b4fa-5874d4be235f
 ---
 
-We saw with the CSS **hover** property, using just CSS we can start to make our
-web page interactive. When a use takes an action (like hovering over an element),
-we can add CSS code to respond to that.
+As we saw with **hover**, we can use CSS to add some movement to our webpage.
 
-CSS **transitions** allow us to fully customize the look of elements as their styles change.
-
-Transitions have four values that we need to set:
+We've seen the example of a CSS element changing color when it's hovered over. We can control how that color change takes place, using a CSS **transition**. We can do this by setting four different properties for a transition.
 
 ### property
 The `transition-property` is which property we are going animate during our transition.
@@ -38,17 +34,20 @@ div {
 ```
 
 ### timing function
+The timing function dictates the speed of the transition over time. Should it start out really slow and then speed up, or evenly change throughout the duration? We can specify this with a `transition-timing-function`
+
 How the transition is distributed across time.
 Can be set to:
-<!-- Add quick explanation for each one -->
-- ease
+- ease-in
+  - This is the default, it will start out slow before picking up speed near the end of the duration
 - linear
-- step-end
-- step-start
+  - The speed of this transition will be the same throughout the duration
+- ease-in-out
+  - The transition will be slow at the start and at the end.
 
 ```css
   div {
-    transition-timing-function: ease;
+    transition-timing-function: ease-in-out;
   }
 ```
 
