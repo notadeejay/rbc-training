@@ -8,8 +8,7 @@ So far, we've been styling elements by their:
 2. Classes
 3. Ids
 
-CSS also has advanced selectors that we can use to get even more specific about the elements we are styling.
-
+CSS also has some neat selectors that allow you to select elements on your page based on their relationship to each other.
 
 #### Stacking Selectors
 
@@ -109,7 +108,7 @@ We can use the child selector like so:
   }
 ```
 
-This would style only the first `<h4>`, since the second is not a **direct**
+This would style only the first `<h2>`, since the second is not a **direct**
 descendant of the `<main>` tag.
 
 ![](https://cl.ly/3R0t3D2n1i2R/Image%202017-10-05%20at%207.56.29%20PM.png)
