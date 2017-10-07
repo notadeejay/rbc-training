@@ -34,7 +34,7 @@ This is the current value of the meter element. By default, it's green.
 
 ### background-color
 Changes the background color of an HTML element. Can be set to a built in CSS color,
-or a hexidecimal value.
+or a hexadecimal value.
 
 ```css
   article {
@@ -43,10 +43,10 @@ or a hexidecimal value.
 ```
 
 ### What is Webkit?
-We've said before that the browser adds default styles to our HTML. What those default styles look like sometimes depends on the browser that is used. For example, certain elements might look different in firefox than they do in chrome.
+We've said before that the browser adds default styles to our HTML. What those default styles look like depends on the browser that is used. For example, certain elements might look different in Firefox than they do in Chrome.
 
 At the same time, just like human languages evolve over time, so do coding languages, like HTML and CSS. When new tags and properties are added to HTML and CSS, not all browsers implement them the exact same way, or at the same time.
 
-Safari and Chrome use `-webkit` so, when we add that keyword, it's instructions specific to that browser.
+Safari and Chrome use `-webkit` so, when we add that keyword, it's instructions specific to those browsers.
 
 <!-- I can't figure out how to word this simply. Will come back and edit before thursday -->

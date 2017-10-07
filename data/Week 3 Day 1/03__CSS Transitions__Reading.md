@@ -2,9 +2,9 @@
 uuid: e05bb162-e79e-425b-b4fa-5874d4be235f
 ---
 
-As we saw with **hover**, we can use CSS to add some movement to our webpage.
+As we saw with **hover**, we can use CSS to add some movement to our webpage. We can use CSS **transitions** to control how a property should transiton when it's value is changed.
 
-We've seen the example of a CSS element changing color when it's hovered over. We can control how that color change takes place, using a CSS **transition**. We can do this by setting four different properties for a transition.
+We've seen the example of a CSS element changing color when it's hovered over. We can control how that color change takes place, using a CSS **transition**. We customize CSS transitions will four different properties.
 
 ### property
 The `transition-property` is which property we are going animate during our transition.
@@ -79,6 +79,47 @@ The result in our browser would look like this:
 ![](https://cl.ly/2z0L0P3J0x0l/Screen%20Recording%202017-10-01%20at%2003.58%20PM.gif)
 
 We trigger the transition by hovering over the element.
+
+### Transitioning on more than one property
+
+Sometimes you might want to transition more than one property on an element. To do this, you can separate the values with commas:
+
+```css
+.box {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  transition-property: background-color, width;
+  transition-duration: 3s, 4s;
+  transition-timing-function: ease-in, linear;
+  transition-delay: 1s, 2s;
+}
+
+.box:hover {
+  background-color: purple;
+  width: 200px;
+}
+```
+
+We could also write this same thing using the `transition` shorthand.
+
+```css
+.box {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  transition: background-color 3s east-in 1s, width 4s linear 2s;
+}
+
+.box:hover {
+  background-color: purple;
+  width: 200px;
+}
+```
+
+![](https://cl.ly/3M3j2T0Z2V11/Screen%20Recording%202017-10-07%20at%2012.29%20PM.gif)
+
+Which syntax you use to write it is up to you.
 
 **Note**:
 We can add a transition for most CSS properties, however there are a few that just won't work:
