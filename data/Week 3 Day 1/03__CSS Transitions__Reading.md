@@ -2,11 +2,10 @@
 uuid: e05bb162-e79e-425b-b4fa-5874d4be235f
 ---
 
-As we saw with **hover**, we can use CSS to add some movement to our webpage. We can use CSS **transitions** to control how a property should transiton when it's value is changed.
+When the value of a CSS property changes, such as the text colour on hover, we can use CSS **transitions** to animate how the property will change. We customize CSS transitions with four different properties.
 
-We've seen the example of a CSS element changing color when it's hovered over. We can control how that color change takes place, using a CSS **transition**. We customize CSS transitions will four different properties.
+### transition-property
 
-### property
 The `transition-property` is which property we are going animate during our transition.
 
 ```css
@@ -16,6 +15,7 @@ The `transition-property` is which property we are going animate during our tran
 ```
 
 ### delay
+
 Once a transition is triggered, the delay is how long it will wait before the transition starts. Can be set to seconds (s) or milliseconds (ms).
 
 ```css
@@ -25,7 +25,8 @@ div {
 ```
 
 ### duration
-How long the transition will take. Can be set to seconds (s) or millseconds (ms).
+
+How long the transition will take. Can be set to seconds (s) or milliseconds (ms).
 
 ```css
 div {
@@ -33,16 +34,17 @@ div {
 }
 ```
 
-### timing function
-The timing function dictates the speed of the transition over time. Should it start out really slow and then speed up, or evenly change throughout the duration? We can specify this with a `transition-timing-function`
+### transition-timing-function
 
-How the transition is distributed across time.
+The timing function dictates the speed of the transition over time. Should it start out really slow and then speed up, or evenly change throughout the duration? We can specify this using the `transition-timing-function` property.
+
 Can be set to:
-- ease-in
+
+- `ease-in`
   - This is the default, it will start out slow before picking up speed near the end of the duration
-- linear
+- `linear`
   - The speed of this transition will be the same throughout the duration
-- ease-in-out
+- `ease-in-out`
   - The transition will be slow at the start and at the end.
 
 ```css
@@ -51,9 +53,9 @@ Can be set to:
   }
 ```
 
-### shorthand
+### Shorthand
 
-We can also define a transition all on one line, using this short hand
+We can also define a transition all on one line, using this short hand:
 
 ```css
 div {
@@ -61,7 +63,7 @@ div {
 }
 ```
 
-Let's add a transition to a div with a background-color that changes on a hover.
+Let's add a transition to a div with a `background-color` that changes on mouse hover.
 
 ```css
   div {
@@ -119,10 +121,10 @@ We could also write this same thing using the `transition` shorthand.
 
 ![](https://cl.ly/3M3j2T0Z2V11/Screen%20Recording%202017-10-07%20at%2012.29%20PM.gif)
 
-Which syntax you use to write it is up to you.
+Which syntax you use is up to you.
 
-**Note**:
-We can add a transition for most CSS properties, however there are a few that just won't work:
+**Note**: We can add a transition for most CSS properties, however there are a few that just won't work, such as:
+
 - display
 - position
 - font-family
