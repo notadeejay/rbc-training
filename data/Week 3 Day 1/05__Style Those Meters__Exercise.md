@@ -2,9 +2,25 @@
 uuid: d2b0d0d1-b982-4654-878b-c6804d128fd9
 ---
 
+<!--
+  @Horatiu
+  I'm currently re-writing this one here.
+  (07/10/2017) Skip this one if you get to it in the review before I have a chance to finish it.
+ -->
+
 So far your resume page is looking pretty great. There's one spot we still need to take care of though:
 
 The `<meter>` elements in your **Skills** section.
+
+The `<meter>` element has a few Psuedo Elements we can use to style it.
+
+```html
+<meter max="10" value="8">
+```
+
+By default, this is how the browser styles our meter:
+
+![](https://cl.ly/3P042M0n3y3l/Image%202017-10-07%20at%2012.45.00%20PM.png)
 
 ## Tasks
 - [ ] Using pseudo elements style your meter tags to match the design
