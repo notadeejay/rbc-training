@@ -6,7 +6,7 @@ uuid: 8b93e314-dd90-40f5-a059-b1021ff08a47
 
 If you haven't already added a **Download CV** button to your resume site,
 follow the instructions from [this]() stretch goal.
-
+<!-- Add link to button stretch goal when links are confirmed -->
 
 A CSS property that can help us write some incredible animations is the **transform** property.
 
