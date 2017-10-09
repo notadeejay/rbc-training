@@ -24,8 +24,7 @@ These keyframes are not involved with a selector, they just sit in your CSS file
 }
 ```
 
-We start with the keyword `@keyframes` followed by a name. You can name a keyframe
-whatever you would like.
+We start with the keyword `@keyframes` followed by a name. You can name a keyframe whatever you would like.
 
 
 ```css
@@ -67,7 +66,8 @@ How long it will take for the animation to complete.
 ```
 
 ##### timing-function
-<!-- Add definition -->
+
+The timing function dictates the speed of the transition over time.
 
 ```css
   .example {
@@ -75,6 +75,7 @@ How long it will take for the animation to complete.
     animation-timing-function: ease-in-out;
   }
 ```
+`ease-in-out` means the animation will progress slower at the start and end than in the middle.
 
 ##### delay
 
@@ -89,7 +90,7 @@ How long the animation will wait after being triggered before it starts.
 
 ##### iteration-count
 
-How many times the animation will repeat before stoppping. It can be set to a number, or `infinite`.
+How many times the animation will repeat before stopping. It can be set to a number, or `infinite`.
 
 ```css
   .example {

@@ -25,6 +25,9 @@ Property applied to flex items
 
 ```css
   @media (min-width: 600px) {
-    /* Add styles here */
+    p {
+      color: blue;
+    }
   }
 ```
+This will make all paragraph tags blue on screen sizes larger than 600px.
