@@ -7,13 +7,31 @@ Today, we talked about CSS transitions. They can give you control over how an el
 ### Tasks
 
 - [ ] Add a transition for the hover state on your anchor tags
-- [ ] See if you can transition on more than one property
+- [ ] If your hover state changes more than one property, add a transition for both of the properties.
 
 ### Tips and Tricks
 
 #### transition
 
-The transition property takes
+To define a CSS transition we need to set the
+- transition-property
+- duration
+- timing-function
+- delay
+
+We can do this by setting each property individually:
+
+```css
+  div {
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+
+  }
+```
+
+Or we can declare it all on one line using this short hand:
 
 ```css
 div {
@@ -21,10 +39,12 @@ div {
 }
 ```
 
+Example:
+
 ```css
 div {
   transition: font-size 2s linear 1s;
 }
 ```
 
-CSS transitions can be triggered by a hover.
+CSS transitions can be triggered when you hover over an element.
