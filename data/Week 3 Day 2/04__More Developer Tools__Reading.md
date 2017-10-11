@@ -9,6 +9,6 @@ Luckily, most browsers have a set of tools you can use that mimic what your site
 ![using dev tool](https://cl.ly/1q0E0i3T2l0d/Screen%20Recording%202017-10-01%20at%2005.44%20PM.gif)
 
 ### Tasks
-- [ ] Take a few minutes and see how your web page looks on different devices.
+- [ ] Use chrome dev tools to see how your web page looks on different devices.
 
 Is it squished in some views? Is any of the content hidden on a smaller screen size?

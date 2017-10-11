@@ -2,9 +2,9 @@
 uuid: b5e880a8-848d-4465-85ea-5073f1869f91
 ---
 
+In addition to having CSS **transitions**, CSS also has **animations**. If we're getting technical (and we are) a CSS **Transition** *is* an animation, just one that is performed between two states. If you want to add some movement to your page that does not specifically involve a start state and an end state, you can use an animation.
 
-Animations and key frames work together. They work in tandem to add some interactivity and some movement to the elements on your page.
-
+Animations are made up of two key pieces, the **Animation properties** and the **keyframes**.
 The **keyframe** will tell us WHAT is happening, and the **animation** will define HOW it's happening.
 
 ### Keyframes
@@ -39,9 +39,29 @@ We start with the keyword `@keyframes` followed by a name. You can name a keyfra
   }
 ```
 
+Instead of **to** and **from**, we can also define keyframes using percentages.
+
+```css
+  @keyframes change-colors {
+    0% {
+      color: red;
+    }
+
+    50% {
+      color: blue;
+    }
+
+    100% {
+      color: purple;
+    }
+  }
+```
+
+
+
 ### Animation Property
 
-We place our animation property *inside* of our selector. We can customize our animation
+We place our animation property *inside* of our CSS block. We can customize our animation
 with several properties. Some of them you may recognize from the transition property we learned about last week.
 
 ##### name
@@ -75,7 +95,7 @@ The timing function dictates the speed of the transition over time.
     animation-timing-function: ease-in-out;
   }
 ```
-`ease-in-out` means the animation will progress slower at the start and end than in the middle.
+`ease-in-out` means the animation will progress slower at the start and end than it will in the middle.
 
 ##### delay
 
@@ -121,7 +141,7 @@ Controls how the element will look once the transition has completed. If we set 
 ```css
   .example {
     animation-name: grow-taller;
-    animation-fill-mode: forward;
+    animation-fill-mode: forwards;
   }
 ```
 
@@ -141,7 +161,7 @@ We can also define all of these values on one line:
 
 ```css
   .example {
-    animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]
+    animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state];
   }
 ```
 
@@ -158,6 +178,7 @@ div {
   height: 100px;
   width: 200px;
   background-color: green;
+
   animation-name: growtaller;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
