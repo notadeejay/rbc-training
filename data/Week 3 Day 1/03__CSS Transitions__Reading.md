@@ -4,9 +4,10 @@ uuid: e05bb162-e79e-425b-b4fa-5874d4be235f
 
 When the value of a CSS property changes, such as the text colour on hover, we can use CSS **transitions** to animate how the property will change. We customize CSS transitions with four different properties.
 
+
 ### transition-property
 
-The `transition-property` is which property we are going animate during our transition.
+The `transition-property` is which property we are going animate during our transition. When this property is changed, the transition is **triggered**. We can transition an element in two main ways, one is using the **hover** psuedo selector, and changing the property when the element is hovered over. The second is done using JavaScript, which we will get to later on in this course.
 
 ```css
   div {

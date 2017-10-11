@@ -77,7 +77,7 @@ And we want to select all the paragraph tags that come *after* the `<blockquote>
 
 ```css
   blockquote ~ p {
-    font-size: 20px;
+    color: purple;
   }
 ```
 
