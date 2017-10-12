@@ -46,8 +46,51 @@ The transform property applies a 2D or 3D transformation to an element. Using it
 
 ![](https://cl.ly/0s2123303B1a/Screen%20Recording%202017-10-01%20at%2006.36%20PM.gif)
 
-
-
 ### Tasks
 
 - [ ] Add an animate that will rotate, or scale your download cv button when a user hovers over it.
+
+
+### Tips & Tricks
+
+#### Animations
+
+Animations require two pieces the **keyframe** and the **animation properties**
+
+
+We define keyframes using the `@keyframes` keyword
+
+```css
+  @keyframes wobble {
+    from {
+      transform: rotate(120deg)
+    }
+    to {
+      transform: rotate(10deg)
+    }
+  }
+```
+
+Then we define our animation properties:
+
+- `animation-name` - the name of the keyframe
+- `animation-duration` - how long the animation will take
+- `animation-timing-function` - function that defines the speed of the animation over time
+- `animation-delay` - how long the transition will wait to start after it's been triggered
+- `animation-iteration-count` - how many times the animation will repeat
+- `animation-direction` - which direction the animation will go (reverse, alternate, normal)
+- `animation-fill-mode` - which styles will be applied when the animation is finished
+- `animation-play-state` - can be set to `play` or `paused`
+
+```css
+div {
+  animation-name: wobble;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-play-state: play;
+}
+```

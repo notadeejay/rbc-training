@@ -2,9 +2,6 @@
 uuid: c227e89a-8a15-4704-93d4-42b4bb24b1d2
 ---
 
-<!-- Start by finding pain points in the site when you resize -->
-
-
 ### Tasks
 
 - [ ] Add a media query and styles to when you view your resume page on a smaller screen, all of the link tags in your nav bar are still visible
@@ -15,10 +12,31 @@ uuid: c227e89a-8a15-4704-93d4-42b4bb24b1d2
 
 ### Tips and Tricks
 
-To fix these resposive issues, you might find these properties helpful
+To fix these responsive issues, you might find these properties helpful
 
 ### order
-Property applied to flex items
+Property applied to flex items, the default order is 0. Elements with a higher order number appear later in the collection.
+
+```html
+  <div class="parent">
+    <div class="a">A</div>
+    <div class="b">B</div>
+    <div class="c">C</div>
+    <div class="d">D</div>
+  </div>
+```
+
+```css
+.parent {
+  display: flex;
+}
+
+.a {
+  order: 1;
+}
+```
+
+In this example, the div containing the A would appear after the other divs in the container, because it has the highest order property.
 
 ### @media
   Allows specific styles to only be applied on specific screen types, and screen widths.
