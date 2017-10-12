@@ -11,4 +11,4 @@ Before you deploy your project today, do your best to "break" your site. If you 
 - [ ] Check that each link in the nav bar is working
 - [ ] Check that each link in the footer is worker
 - [ ] Check that all of the information on your page can be easily read on various screen sizes and devices
-- [ ] Swap projects with a partner and see if you can find any errors in their project.
+- [ ] Swap projects with a partner and see if you can find any errors in each other's project. If you do find an issue, work together to solve it.

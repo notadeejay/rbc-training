@@ -43,3 +43,6 @@ Then, navigate to the url that you customized earlier. You should see your site 
 #### Congrats! You've just launched a website!
 
 ![](https://media.giphy.com/media/g9582DNuQppxC/giphy.gif)
+
+
+Share the link to your page in the class Slack channel, so we can all admire your awesome work.
