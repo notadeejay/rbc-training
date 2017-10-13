@@ -2,10 +2,9 @@
 uuid: b5e880a8-848d-4465-85ea-5073f1869f91
 ---
 
-In addition to having CSS **transitions**, CSS also has **animations**. If we're getting technical (and we are) a CSS **Transition** *is* an animation, just one that is performed between two states. If you want to add some movement to your page that does not specifically involve a start state and an end state, you can use an animation.
+In addition to having CSS **transitions**, CSS also has **animations**. If we're getting technical (and we are) a CSS transition *is* an animation, just one that is performed between two states. If you want to add some movement to your page that does not specifically involve a start and end state, you can use an animation.
 
-Animations are made up of two key pieces, the **Animation properties** and the **keyframes**.
-The **keyframe** will tell us WHAT is happening, and the **animation** will define HOW it's happening.
+Animations are made up of two key pieces, the **animation properties** and the **keyframes**. The **keyframes** will tell us WHAT is happening, and the **animation properties** will define HOW it's happening.
 
 ### Keyframes
 
@@ -24,7 +23,7 @@ These keyframes are not involved with a selector, they just sit in your CSS file
 }
 ```
 
-We start with the keyword `@keyframes` followed by a name. You can name a keyframe whatever you would like.
+We start with the keyword `@keyframes` followed by a name. You can name a keyframes definition whatever you like.
 
 
 ```css
@@ -39,7 +38,7 @@ We start with the keyword `@keyframes` followed by a name. You can name a keyfra
   }
 ```
 
-Instead of **to** and **from**, we can also define keyframes using percentages.
+Instead of `to` and `from`, we can also define keyframes using percentages.
 
 ```css
   @keyframes change-colors {
@@ -64,10 +63,9 @@ Instead of **to** and **from**, we can also define keyframes using percentages.
 We place our animation property *inside* of our CSS block. We can customize our animation
 with several properties. Some of them you may recognize from the transition property we learned about last week.
 
-##### name
+#### name
 
-The name of your animation should match **exactly** the name of your keyframe.
-It's what links your keyframe and your animation together.
+The name of your animation should match **exactly** the name of your keyframes. It's what links your keyframes and your animation together.
 
 ```css
   .example {
@@ -75,7 +73,8 @@ It's what links your keyframe and your animation together.
   }
 ```
 
-##### duration
+#### duration
+
 How long it will take for the animation to complete.
 
 ```css
@@ -85,7 +84,7 @@ How long it will take for the animation to complete.
   }
 ```
 
-##### timing-function
+#### timing-function
 
 The timing function dictates the speed of the transition over time.
 
@@ -95,9 +94,10 @@ The timing function dictates the speed of the transition over time.
     animation-timing-function: ease-in-out;
   }
 ```
+
 `ease-in-out` means the animation will progress slower at the start and end than it will in the middle.
 
-##### delay
+#### delay
 
 How long the animation will wait after being triggered before it starts.
 
@@ -108,9 +108,9 @@ How long the animation will wait after being triggered before it starts.
   }
 ```
 
-##### iteration-count
+#### iteration-count
 
-How many times the animation will repeat before stopping. It can be set to a number, or `infinite`.
+How many times the animation will repeat before stopping. It can be set to a number, or to `infinite`.
 
 ```css
   .example {
@@ -119,13 +119,14 @@ How many times the animation will repeat before stopping. It can be set to a num
   }
 ```
 
-##### direction
+#### direction
 
 How the animation will occur. You can set it to:
-- normal
-- reverse
-- alternate
-- alternate-reverse
+
+- `normal`
+- `reverse`
+- `alternate`
+- `alternate-reverse`
 
 ```css
   .example {
@@ -134,9 +135,9 @@ How the animation will occur. You can set it to:
   }
 ```
 
-##### fill-mode
+#### fill-mode
 
-Controls how the element will look once the transition has completed. If we set it to forwards, when the animation ends, the styles in the `to` block of the keyframe will still be applied.
+Controls how the element will look once the transition has completed. If we set it to `forwards`, when the animation ends, the styles in the `to` block of the keyframe will still be applied.
 
 ```css
   .example {
@@ -145,7 +146,7 @@ Controls how the element will look once the transition has completed. If we set 
   }
 ```
 
-##### play-state
+#### play-state
 
 Can be set to either `running` or `paused`.
 
@@ -156,7 +157,8 @@ Can be set to either `running` or `paused`.
   }
 ```
 
-##### Shorthand
+#### Shorthand
+
 We can also define all of these values on one line:
 
 ```css
@@ -167,11 +169,15 @@ We can also define all of these values on one line:
 
 Phew. That's a LOT of values. You do not need to set ALL of these values for your animation to work.
 
-### Example
+### Examples
+
+Given this HTML:
 
 ```html
   <div></div>
 ```
+
+And this CSS:
 
 ```css
 div {
@@ -199,11 +205,9 @@ div {
 }
 ```
 
-Result:
+The result will be the following:
 
 ![](https://cl.ly/3B1O200B2628/Screen%20Recording%202017-10-01%20at%2004.56%20PM.gif)
 
 
-Examples:
-
-https://codepen.io/MaggieMoss/pen/vepbdX?editors=1100
+For another example, see <https://codepen.io/MaggieMoss/pen/vepbdX?editors=1100>.

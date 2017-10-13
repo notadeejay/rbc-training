@@ -2,20 +2,21 @@
 uuid: c227e89a-8a15-4704-93d4-42b4bb24b1d2
 ---
 
-### Tasks
+## Tasks
 
-- [ ] Add a media query and styles to when you view your resume page on a smaller screen, all of the link tags in your nav bar are still visible
-- [ ] Add styles so on a smaller screen size your picture sits below your name and occupation
-- [ ] Add styles to make sure the content in your **Experience** section is not squished on smaller screen sizes
-- [ ] Add styles to make sure the content in your **Skills** section looks great on smaller screen sizes
-- [ ] Add styles to make sure the content in your **Footer** section looks great on smaller screen sizes
+- [ ] Add styles so that when you view your resume page on a smaller screen, all of the link tags in your Nav Bar are still visible
+- [ ] Add styles so that on a smaller screen size, your picture sits below your name and occupation
+- [ ] Add styles so that the content in your **Experience** section is not squished on smaller screen sizes
+- [ ] Add styles so that the content in your **Skills** section looks great on smaller screen sizes
+- [ ] Add styles so that the content in your **Footer** section looks great on smaller screen sizes
 
-### Tips and Tricks
+## Tips and Tricks
 
-To fix these responsive issues, you might find these properties helpful
+To fix these responsive issues, you might find these properties helpful.
 
 ### order
-Property applied to flex items, the default order is 0. Elements with a higher order number appear later in the collection.
+
+Property applied to flex items. The default order is 0. Elements with a higher order number appear later in the collection.
 
 ```html
   <div class="parent">
@@ -39,7 +40,8 @@ Property applied to flex items, the default order is 0. Elements with a higher o
 In this example, the div containing the A would appear after the other divs in the container, because it has the highest order property.
 
 ### @media
-  Allows specific styles to only be applied on specific screen types, and screen widths.
+
+Allows specific styles to only be applied on specific screen types and screen widths.
 
 ```css
   @media (min-width: 600px) {
@@ -48,4 +50,5 @@ In this example, the div containing the A would appear after the other divs in t
     }
   }
 ```
+
 This will make all paragraph tags blue on screen sizes larger than 600px.
