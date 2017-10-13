@@ -72,4 +72,4 @@ We've said before that the browser adds default styles to our HTML. What those d
 
 At the same time, just like human languages evolve over time, so do coding languages like HTML and CSS. When new tags and properties are added to HTML and CSS, not all browsers implement them exactly the same way, or even at the same time.
 
-When Safari and Chrome add new CSS properties that can be styled – like the pseudo elements for meter tags above, a `-webkit-` prefix is added to these properties to signify that these CSS rules are specific to these browser.
+When Safari and Chrome add new CSS properties that can be styled – like the pseudo elements for meter tags above, a `-webkit-` prefix is added to these properties to signify that these CSS rules are specific to these browsers.
