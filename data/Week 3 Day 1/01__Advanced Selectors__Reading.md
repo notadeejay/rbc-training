@@ -41,8 +41,8 @@ Remember that when we **nest** elements, like the `<h1>` and `<p>` tags in the `
 ```html
 <div>
   <h1>Hello World</h1>
-  <p>I'm a paragraph tag.</p>
-  <p>I'm another paragraph tag.</p>
+  <p>I'm a paragraph tag</p>
+  <p>Another paragraph tag</p>
 </div>
 ```
 
@@ -66,10 +66,10 @@ This will allow you to select all of the siblings that follow an element. For ex
 ```html
 <article>
   <h2>Blog Post Title</h2>
-  <p>Opening paragraph.</p>
+  <p>Opening paragraph</p>
   <blockquote>To be or not to be.</blockquote>
-  <p>I'm a paragraph tag nested inside of an article tag.</p>
-  <p>I'm a third paragraph.</p>
+  <p>I'm a paragraph tag nested inside of a div tag.</p>
+  <p>I'm a second paragraph</p>
 </article>
 ```
 
