@@ -2,12 +2,9 @@
 uuid: 7dd57358-a644-4281-b726-45afc1a9260e
 ---
 
-Everyone has experienced visiting a website on their phone, and having a difficult time navigating around it.
-Maybe you had to scroll to the left and right to read the content, or no matter how you tried you couldn't click the nav bar.
+Many people have experienced visiting a website on their phone only to have a difficult time navigating around it. Maybe you had to scroll to the left and right to read the content, or no matter what you tried, you couldn't click the Nav Bar.
 
-As more people access the internet from mobile devices, making sure your site
-looks great on all platforms continues to become more and more important. Luckily, CSS gives us
-**media queries**, so we can apply different styles to different screen widths and devices.
+As more people access the internet from mobile devices, making sure your site looks great on all platforms is becoming increasingly important. Using CSS **media queries** we can apply different styles at different screen widths for different devices.
 
 Take this layout for example:
 
@@ -18,14 +15,14 @@ As the page resizes, our sidebar and main elements can get a bit squished:
 ![no query resize](https://cl.ly/0P0o3f331d1F/Screen%20Recording%202017-09-21%20at%2005.52%20PM.gif)
 
 
-If we add media queries to adjust how these elements should be displayed:
+But, if we were to add media queries to adjust how these elements should be displayed, this would now look like this:
+
 ![media query example](https://cl.ly/1o0U1g3A1b1i/Screen%20Recording%202017-09-21%20at%2005.49%20PM.gif)
 
 
 Much better!
 
-
-Basics of Media Queries:
+### Basics of Media Queries
 
 ```css
   @media [media-type] and (expression) {
@@ -33,7 +30,7 @@ Basics of Media Queries:
   }
 ```
 
-We start with the `@media` keyword, then we say what **screen sizes** and what **screen types** we would like these styles to be applied to.
+We start with the `@media` keyword, then we specify what **screen sizes** and what **screen types** we would like these styles to be applied to.
 
 
 ```css
@@ -44,7 +41,7 @@ We start with the `@media` keyword, then we say what **screen sizes** and what *
   }
 ```
 
-This example would apply a `background-color` of green to a screen that has a **maximum** width of `800px`. In other words, screens that are less that 800px.
+This example would apply a `background-color` of `green` to a screen that has a **maximum** width of `800px`. In other words, screens that are less than 800 pixels wide.
 
 
 ### Examples
@@ -57,4 +54,4 @@ This example would apply a `background-color` of green to a screen that has a **
   }
 ```
 
-This media query would add the display **flex** property to the `<main>` element on screen sizes larger than 500px.
+This media query would add the `display: flex` rule to the `<main>` element on screen sizes larger than 500 pixels.

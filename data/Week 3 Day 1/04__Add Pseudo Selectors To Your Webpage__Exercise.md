@@ -6,7 +6,7 @@ Let's add some pseudo selectors to your webpage.
 
 ### Tasks
 
-- [ ] Add CSS so that when you hover over the links in your Nav Bar, they change colour. (Feel free to change other properties when you hover over your links as well)
+- [ ] Add CSS so that when you hover over the links in your Nav Bar, they change colour (feel free to change other properties when you hover over the links as well)
 - [ ] Add CSS so the first letter of each paragraph in the **About** section is bold
 - [ ] Add CSS so that when someone highlights text on your resume page, it highlights it in your favourite colour
 
@@ -46,7 +46,7 @@ div::first-letter {
 
 Will add styles to text when it is highlighted.
 
-```
+```css
 div::selection {
   color: orange;
 }
