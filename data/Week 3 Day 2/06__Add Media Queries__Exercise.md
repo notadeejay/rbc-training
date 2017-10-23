@@ -6,9 +6,9 @@ uuid: c227e89a-8a15-4704-93d4-42b4bb24b1d2
 
 - [ ] Add styles so that when you view your resume page on a mobile screen, all of the link tags in your Nav Bar are still visible
 - [ ] Add styles so that on a mobile screen, your picture sits below your name and occupation
-- [ ] Add styles so that the content in your **Experience** section is not squished on mobile screen
-- [ ] Add styles so that the content in your **Skills** section looks great on mobile screen
-- [ ] Add styles so that the content in your **Footer** section looks great on mobile screen
+- [ ] Add styles so that the content in your **Experience** section is clearly visible on mobile screen
+- [ ] Add styles so that the content in your **Skills** section clearly visible on mobile screen
+- [ ] Add styles so that the content in your **Footer** section clearly visible on mobile screen
 
 ## Tips and Tricks
 
