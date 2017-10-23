@@ -2,7 +2,7 @@
 uuid: b5e880a8-848d-4465-85ea-5073f1869f91
 ---
 
-In addition to having CSS **transitions**, CSS also has **animations**. If we're getting technical (and we are) a CSS transition *is* an animation, just one that is performed between two states. If you want to add some movement to your page that does not specifically involve a start and end state, you can use an animation.
+In addition to having CSS **transitions**, CSS also has **animations**. If we're getting technical (and we are) a CSS transition *is* an animation, but we can also have animations that don't rely on a hover or a transition.
 
 Animations are made up of two key pieces, the **animation properties** and the **keyframes**. The **keyframes** will tell us WHAT is happening, and the **animation properties** will define HOW it's happening.
 
