@@ -19,16 +19,6 @@ We can break down our `<meter>` into two main components:
 Using CSS pseudo elements, we can add styles these meter components.
 
 
-```css
-meter::-webkit-meter-bar {
-  background: blue;
-}
-
-meter::-webkit-meter-optimum-value {
-  background: yellow;
-}
-```
-
 ## Tasks
 
 - [ ] Using pseudo elements, style your meter tags to match the design
@@ -52,7 +42,7 @@ This is the current value of the meter element. By default, it's green.
 
 ```css
   meter::-webkit-meter-optimum-value {
-    /* Add properties here */
+    background: orange;
   }
 ```
 
