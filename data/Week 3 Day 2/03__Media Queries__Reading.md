@@ -30,7 +30,9 @@ Much better!
   }
 ```
 
-We start with the `@media` keyword, then we specify what **screen sizes** and what **screen types** we would like these styles to be applied to.
+We start with the `@media` keyword, then we specify what **screen types** and what **screen sizes** we would like these styles to be applied to.
+
+Different screen types include screen, print (used for printers) and speech (for screen readers).
 
 
 ```css
@@ -46,6 +48,8 @@ This example would apply a `background-color` of `green` to a screen that has a 
 
 ### Examples
 
+#### Change Display Property
+
 ```css
   @media screen (min-width: 500px) {
     main {
@@ -55,3 +59,16 @@ This example would apply a `background-color` of `green` to a screen that has a 
 ```
 
 This media query would add the `display: flex` rule to the `<main>` element on screen sizes larger than 500 pixels.
+
+
+#### Remove Image For Printing
+
+```css
+@media print {
+  #header-image {
+      display: none;
+  }
+}
+```
+
+This would remove the header image of a document when a user prints it.
