@@ -31,4 +31,4 @@ h2:hover + p {
 
 ### Tasks
 
-- [ ] Add a hidden tooltip to your resume page
+- [ ] Add a hidden tooltip to your download resume button
