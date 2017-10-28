@@ -1,7 +1,7 @@
 ---
 uuid: 11b3ad10-b326-4d79-ab9d-03859ca5059d
+stretch: true
 ---
-
 
 Chances are, you've come across a website that uses the parallax effect.
 
@@ -15,21 +15,20 @@ We can set several properties on the background of an element.
 ### background: url()
 
 ```css
-  div {
-    background: url('https://images.unsplash.com/photo-1471644518115-1f02e9819854?w=1500');
-  }
+div {
+  background: url('https://images.unsplash.com/photo-1471644518115-1f02e9819854?w=1500');
+}
 ```
 
 ### background-position
-The background-position property sets the starting position of a background image.
+
+The `background-position` property sets the starting position of a background image.By default, a background image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
 
 ```css
 div {
   background-position: cover;
 }
 ```
-
-**Tip**: By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
 
 ### background-attachment
 
@@ -53,8 +52,8 @@ The background is fixed relative to the element's contents. If the element has a
 
 The background is fixed relative to the element itself and does not scroll with its contents.
 
+### Example
 
-### Put it all together:
 ```css
 div {
   background: url('https://images.unsplash.com/photo-1471644518115-1f02e9819854?w=1500');
@@ -67,11 +66,7 @@ div {
 
 - [ ] Experiment with adding a parallax effect to your webpage
 
-### Examples
+## Resources
 
-- http://learning-parallax.surge.sh
-
-
-### Resources
-- Unsplash is a great place to find awesome photos that you can use in your projects
-  - https://unsplash.com/
+- A parallax example: <http://learning-parallax.surge.sh>
+- Unsplash offers amazing free photos that you can use in your projects: <https://unsplash.com/>
