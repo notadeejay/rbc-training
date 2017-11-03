@@ -10,22 +10,24 @@ and outline the elements we'll need to add.
 
 
 If we break down the `<header>` section of our design, we see that it contains 3 main pieces:
+
 - A nav bar
 - Your name and occupation
 - A photo
 
-### Tasks
-- [ ] Add a `<header>` element to your webpage
-- [ ] Add a nav bar
-- [ ] Add your name
-- [ ] Add your occupation
-- [ ] Add a photo
+## Tasks
+
+- Add a `<header>` element to your webpage
+- Add a nav bar
+- Add your name
+- Add your occupation
+- Add a photo
 
 When you're finished, your page should look something like this:
 
 ![](https://cl.ly/2f2j2h0m2Y3M/Image%202017-09-30%20at%2010.27.17%20AM.png)
 
-## HTML Tags Reference
+## HTML tags reference
 
 The following HTML elements might come in handy as you're building this section.
 
@@ -34,47 +36,47 @@ The following HTML elements might come in handy as you're building this section.
 Used to contain links that allow a user to navigate around the webpage.
 
 ```html
-  <nav>
-    <!-- Add links or navigation -->
-  </nav>
+<nav>
+  <!-- Add links or navigation -->
+</nav>
 ```
 
 
 #### img
+
 Used to add images to webpages.
 
 ```html
-  <img alt="Nicolas Cage" src="https://www.placecage.com/c/460/300">
+<img alt="Nicolas Cage" src="https://www.placecage.com/c/460/300">
 ```
 
 #### div
-A div is a generic container element. You can use it to group elements together, or
-for styling purposes (once we get to CSS).
+
+A div is a generic container element. You can use it to group elements together, or for styling purposes (once we get to CSS).
 
 ```html
-  <div>
-    <h2>Things you find at Lighthouse</h2>
-    <ul>
-      <li>Office Dogs</li>
-      <li>Pizza</li>
-      <li>Rubber Ducks</li>
-    </ul>
-  </div>
+<div>
+  <h2>Things you find at Lighthouse</h2>
+  <ul>
+    <li>Office Dogs</li>
+    <li>Pizza</li>
+    <li>Rubber Ducks</li>
+  </ul>
+</div>
 ```
 
 #### a
 
-Creates a link that can be used to navigate around the internet, or specific site.
-Requires an `href` attribute.
+Creates a link that can be used to navigate around the internet, or specific site. Requires an `href` attribute.
 
 ```html
-  <a href="/about">About</a>
+<a href="/about">About</a>
 ```
 
 
-### Headings
+#### Headings
 
-Heading tags (`h1` -> `h6`) are used to add titles and sub headings to your web page.
+Heading tags (`h1` -> `h6`) are used to add titles, headings, and subheadings to your web page.
 
 ```html
 <h1>I'm the page title</h1>
@@ -88,8 +90,7 @@ As you build out this section of your resume page, here are a few things to watc
 
 ### Missing Quotes
 
-It's easy to leave out your closing quotes on a web page, if you notice that suddenly all of your code is the same colour,
-go through and see if you can spot the error:
+It's easy to forget about closing quotes. If you notice that suddenly all of your code is the same (or suddenly different) colour, go through and see if you can spot the error:
 
 ![](https://cl.ly/3C1A2A0v1B28/Screen%20Recording%202017-10-25%20at%2007.23%20PM.gif)
 
@@ -97,8 +98,8 @@ Remember that your editor is there to help you write better code.
 
 ### Closing Tags
 
-It's easy to make a typo, and add two opening tags instead of a closing tag. Go through your code and make sure your opening tags have a closing tag to match them.
+It's easy to make a typo and add two opening tags instead of a closing tag. Go through your code and make sure your opening tags have closing tags to match them.
 
 ### Indentation
 
-Look at your code so far, is it easy to see which elements are parents and which are children? Ask a class mate or a mentor to review your code.
+Look at your code so far. Is it easy to see which elements are parents and which are children? Ask a class mate or a mentor to review your code.

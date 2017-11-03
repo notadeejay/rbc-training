@@ -16,34 +16,35 @@ The main components for our **Skills** section are:
   - A percentage that matches skill level
 
 
-### Tasks
+## Tasks
 
-- [ ] Add an element to contain your entire **Skills** section
-- [ ] A section title
-- [ ] A list of your skills with each entry including a name, progress bar, and a percentage
+- Add an element to contain your entire **Skills** section
+- A section title
+- A list of your skills with each entry including a name, progress bar, and a percentage
 
 
-### HTML Tags
+## HTML tags reference
+
 The following HTML elements might come in handy as you're building this section.
 
 #### meter
-<!-- http://blog.teamtreehouse.com/use-meter-progress-elements -->
+
 The meter element is used to display a measurement on a known scale.
 
 
 ```html
-  <meter min="0" max="10" value="6"></meter>
+<meter min="0" max="10" value="6"></meter>
 ```
 
 The `meter` element takes several attributes:
 
-- **max**: The maximum value on the scale
-- **min**: The minimum value on the scale
-- **value**: The measured value
+- `max`: The maximum value on the scale
+- `min`: The minimum value on the scale
+- `value`: The measured value
 
-### Headings
+#### Headings
 
-Heading tags (`h1` -> `h6`) are used to add titles and sub headings to your web page.
+Heading tags (`h1` -> `h6`) are used to add titles, headings and subheadings to your web page.
 
 ```html
 <h1>Webpage Title</h1>
@@ -54,42 +55,39 @@ Heading tags (`h1` -> `h6`) are used to add titles and sub headings to your web 
 Semantic tag, used when grouping a collection of elements together when they have a title.
 
 ```html
-  <section>
-      <h2>I'm a section title</h2>
-      <!-- More HTML goes here -->
-  </section>
+<section>
+  <h2>I'm a section title</h2>
+  <!-- More HTML goes here -->
+</section>
 ```
 
 #### article
-<!-- Adding extra tags here so they can make a choice on the semantic tag they are using -->
-
-`<article>` tags are used to wrap pieces of content that can be read independently from the rest of the website.
-Common examples are blog posts, magazine articles, and news reports.
+`<article>` tags are used to wrap pieces of content that can be read independently from the rest of the website. Common examples are blog posts, magazine articles, and news reports.
 
 ```html
-  <article>
-    <h3>Article Title</h3>
-    <p>Once up on a time ...</p>
-  </article>
+<article>
+  <h3>Article Title</h3>
+  <p>Once up on a time ...</p>
+</article>
 ```
 
 #### p
 
-A commonly used HTML element, used for, well, paragraphs or text that is not a heading.
+A common HTML element, used for, well, paragraphs or text that is not a heading.
 
 ```html
-  <p>
-    <!-- Paragraph Text here -->
-  </p>
+<p>
+  <!-- Paragraph Text here -->
+</p>
 ```
 
 #### div
-A `<div>` is a generic container element. You can use it to group elements together, or
-for styling purposes (once we get to CSS).
+
+A `<div>` is a generic container element. You can use it to group elements together, or for styling purposes (once we get to CSS).
 
 ```html
-  <div>
-    <h2>A div is often used to group elements together</h2>
-    <p>Like this</p>
-  </div>
+<div>
+  <h2>A div is often used to group elements together</h2>
+  <p>Like this</p>
+</div>
 ```

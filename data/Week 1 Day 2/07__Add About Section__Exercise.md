@@ -13,25 +13,26 @@ We can break it down into four main pieces:
 - A subtitle
 - A few paragraphs
 
-### Tasks
+## Tasks
 
-- [ ] Add a container element for your **About** section
-- [ ] Add a title to the section
-- [ ] Add a subtitle
-- [ ] Add a few paragraphs all about you
+- Add a container element for your **About** section
+- Add a title to the section
+- Add a subtitle
+- Add a few paragraphs all about you
 
 
-### HTML Tags
+## HTML tags reference
+
 These HTML elements might come in handy as you're building this section.
 
 #### p
 
-A commonly used HTML element, used for, well, paragraphs.
+A common HTML element, used for, well, paragraphs.
 
 ```html
-  <p>
-    <!-- Paragraph Text here -->
-  </p>
+<p>
+  <!-- Paragraph Text here -->
+</p>
 ```
 
 #### section
@@ -39,18 +40,18 @@ A commonly used HTML element, used for, well, paragraphs.
 Semantic tag, used when grouping a collection of elements together when they have a title.
 
 ```html
-  <section>
-      <h2>Kitten Pictures</h2>
-      <div>
-        <p>Whiskers</p>
-        <img src="http://placekitten/img/200/300" alt="grey kitten">
-      </div>
-  </section>
+<section>
+    <h2>Kitten Pictures</h2>
+    <div>
+      <p>Whiskers</p>
+      <img src="http://placekitten/img/200/300" alt="grey kitten">
+    </div>
+</section>
 ```
 
 #### Headings
 
-Heading tags (`h1` -> `h6`) are used to add headings and sub headings to your web page
+Heading tags (`h1` -> `h6`) are used to add titles, headings and subheadings to your web page.
 
 ```html
 <h1>Webpage Title</h1>
@@ -58,30 +59,28 @@ Heading tags (`h1` -> `h6`) are used to add headings and sub headings to your we
 
 
 #### article
-<!-- Adding extra tags here so they can make a choice on the semantic tag they are using -->
 
-Article tags are used to wrap pieces of content that can be read independently from the rest of the website.
-Common examples are blog posts, magazine articles, and news reports.
+Article tags are used to wrap pieces of content that can be read independently from the rest of the website. Common examples are blog posts, magazine articles, and news reports.
 
 ```html
-  <article>
-    <h3>Article Title </h3>
-    <p>Once up on a time ... </p>
-  </article>
+<article>
+  <h3>Article Title </h3>
+  <p>Once up on a time ... </p>
+</article>
 ```
 
 #### div
-A div is a generic container element. You can use it to group elements together, or
-for styling purposes (once we get to CSS).
+
+A div is a generic container element. You can use it to group elements together, or for styling purposes (once we get to CSS).
 
 ```html
-  <div>
-    <h4>Title</h4>
-    <img src="./logo.png" src="Company Logo"/>
-  </div>
+<div>
+  <h4>Title</h4>
+  <img src="./logo.png" src="Company Logo"/>
+</div>
 ```
 
-### Tips and Tricks
+## Tips and Tricks
 
 If you've suddenly found yourself with a serious case of writer's block, and simply cannot think of anything to write about yourself, try using **Lorem Ipsum** text. Lorem Ipsum is Latin text that is commonly used as a placeholder.
 

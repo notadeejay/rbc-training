@@ -42,7 +42,7 @@ When we want to make a resource downloadable, we add the `download` keyword to o
 
 ## Tasks
 
-- [ ] Move/copy the file you would like your users to download into your project folder
-- [ ] Add to your page an anchor tag with a relative path to the file
-- [ ] Add the keyword `download` to the opening anchor tag
-- [ ] Test your download link
+- Move/copy the file you would like your users to download into your project folder
+- Add to your page an anchor tag with a relative path to the file
+- Add the keyword `download` to the opening anchor tag
+- Test your download link
