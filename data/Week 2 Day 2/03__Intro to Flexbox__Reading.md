@@ -2,12 +2,6 @@
 uuid: fde6f0c5-1abd-4e21-9123-f04839b2c673
 ---
 
-<!-- Edit / Review Notes:
-  - make the copy in this reading "flow" better, it feels a little choppy right now
-  - Are the photos the best way to convey the flex box properties?
-  - If need to fix flex box images in future - saved in this pen: https://codepen.io/MaggieMoss/pen/aLyWGW
- -->
-
 CSS not only lets us change fonts and colors, but also allows us to change the layout of our page. Before we start adjusting the layout of our page, we need to understand the `display` property.
 
 We know that our browser applies default styles to our HTML elements. One of these default styles is `display`.
@@ -21,9 +15,9 @@ It can contain other block elements or inline elements.
 A great example of a block element is a paragraph.
 
 ```html
-  <p>
-    I'm a block level element.
-  </p>
+<p>
+  I'm a block level element.
+</p>
 ```
 
 The paragraph element will stretch all the way across its parent:
@@ -47,9 +41,9 @@ The paragraph element will stretch all the way across its parent:
 Inline elements do not start a new line when they are rendered in the browser. They only take up as much space as the content needs. A span tag is an example of an inline element.
 
 ```html
-  <span>
-    I'm an inline element.
-  </span>
+<span>
+  I'm an inline element.
+</span>
 ```
 
 When we compare a block element (the paragraph) to an inline element, the size difference becomes apparent.
@@ -83,20 +77,20 @@ how elements on your page should appear. It is great for layouts that need to ad
 Remember that when we nest HTML elements we refer to the outer element as the **parent** and the inner elements as the **children**.
 
 ```html
-  <section class="parent">
-    <div class="a">A</div>
-    <div class="b">B</div>
-    <div class="c">C</div>
-    <div class="d">D</div>
-  </section>
+<section class="parent">
+  <div class="a">A</div>
+  <div class="b">B</div>
+  <div class="c">C</div>
+  <div class="d">D</div>
+</section>
 ```
 
 To start using Flexbox, we add the `display: flex` property to the **parent** element.
 
 ```CSS  
-  .parent {
-    display: flex;
-  }
+.parent {
+  display: flex;
+}
 ```
 ![](https://cl.ly/1x3S3Y412O0J/Screen%20Recording%202017-10-01%20at%2012.57%20PM.gif)
 
@@ -265,21 +259,21 @@ We can control which order the elements appear in using the `order` property, wh
 If we add `order: 1;` to the div holding the letter A:
 
 ```css
-  .a {
-    order: 1;
-  }
+.a {
+  order: 1;
+}
 
-  .b {
-    order: 4;
-  }
+.b {
+  order: 4;
+}
 
-  .c {
-    order: 3;
-  }
+.c {
+  order: 3;
+}
 
-  .d {
-    order: 2;
-  }
+.d {
+  order: 2;
+}
 ```
 
 This lets us reorder how the elements appear in on the page, without changing out HTML.
@@ -292,9 +286,9 @@ This lets us reorder how the elements appear in on the page, without changing ou
 The `flex-grow` property dictates how much space a flex item should take up.
 
 ```css
-  .b {
-    flex-grow: 3;
-  }
+.b {
+  flex-grow: 3;
+}
 ```
 
 Here the `.b` element takes up three times as much space as the others.
