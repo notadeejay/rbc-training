@@ -2,10 +2,14 @@
 uuid: 9e00cd08-56fe-4f07-a793-dc1473d76f9d
 ---
 
-We can also customize the backgrounds of our elements using gradients. Gradients are a great way to add texture and depth to your webpage.
+The `background` property in CSS has several different properties that we can assign it to. We've previously used it to set the colour of our elements. We can get even more specific with those colours when we start to use **gradients**. Gradients allow us to have a background that transitions between two or more colours.
+
+There are a few different types of gradients.
 
 
 ## Linear Gradient
+
+When we define a linear gradient, the colour transitions progressively along an imaginary line. We can specify which colours we would like it to transition through, and which direction we would like this imaginary line to start in.
 
 ```css
 background: linear-gradient(direction, color-stop1, color-stop2, ...)
@@ -14,7 +18,7 @@ background: linear-gradient(direction, color-stop1, color-stop2, ...)
 
 ### Examples
 
-#### To Left
+#### Horizontal
 
 This will cause the gradient to go from yellow to red as we move to the left of the element.
 
@@ -31,7 +35,9 @@ We can also use
 - to left
 - top
 
-#### Rotated
+#### Rotate
+
+We can also rotate the gradient line, so that it's at an angle. Using this technique, we could make only the top corner of a rectangle a different color.
 
 ```css
 .box {
@@ -43,38 +49,41 @@ We can also use
 
 #### Gradient Line
 
-In this example, we've set the gradient to start at 75% of the way across the element.
+By default, each color you specify in a gradient will take up the same amount of space. That is to say, if you have four colors, they will each take up roughly 25% of that imaginary line.
+
+In this example, instead of having our element be half yellow, and half red, we set the first color to take up 75% the element. In other words, our element will be 75% yellow, and 25% red.
 
 ```css
 .box {
-  background: linear-gradient(30deg, yellow, 75%, red);
+  background: linear-gradient(to right, yellow, 75%, red);
 }
 ```
 
-![](https://cl.ly/2b3n1r1r2209/Image%202017-10-22%20at%202.51.31%20PM.png)
+![](https://cl.ly/0n0I1d1G020l/Image%202017-11-03%20at%2012.52.44%20PM.png)
 
 
 ## Radial Gradients
 
-A radial gradient is defined by it's center.
+A radial gradient transitions colours starting from the centre. Note that this property can take as many colors as you would like.
 
 ```css
-background: radial-gradient(shape size at position, start-color, ..., last-color);
+background: radial-gradient( start-color, middle-color, last-color);
 ```
 
 ### Examples
 
 ```css
   div {
-    background: radial-gradient(circle, red, yellow, green);
+    background: radial-gradient(red, yellow, green);
   }
 ```
 
+![](https://cl.ly/2H3W2v3v0r0r/Image%202017-11-03%20at%2012.54.36%20PM.png)
 
 ### Tasks
 
 - [ ] Add a gradient to your resume page
-- [ ] Open up a new code pen, and play around with rotating
+- [ ] Open up a new code pen, and play around with the different types of gradients
 
 ### Additional Resources
 
