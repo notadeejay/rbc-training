@@ -11,12 +11,14 @@ Before we jump in to writing CSS we'll look through our design for elements that
 
 
 ## Colours
+
 The **Header** and the **Skills** section both have a blue background and white text.
 
 ![](https://cl.ly/1e2O1f3L0o0I/[da12ec8127e3c9e0ebc15aa83cef0d1d]_Image%202017-10-11%20at%206.37.08%20PM.png)
 
 
 ## Fonts
+
 All of our sections have a section title. They are all the same font weight and font size.
 
 ![](https://cl.ly/0S3L0a030V2x/[254df7feaab48d41f06006970ac24187]_Image%202017-10-11%20at%206.38.07%20PM.png)
@@ -27,4 +29,5 @@ All of our subtitles share the same font size and weight too.
 
 
 ## Tasks
-- [ ] Look through the design and see if you can spot any other elements that share CSS styles
+
+- Look through the design and see if you can spot any other elements that share CSS styles
