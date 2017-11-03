@@ -6,8 +6,8 @@ Let's add some margin and padding to our sections. If we look at the mockup, we 
 
 ## Tasks
 
-- [ ] Add padding to the **Header**, **About**, **Skills**, **Experience** and **Footer** sections
-- [ ] Adjust the padding on the `<body>` element to eliminate any gaps on the page
+- Add padding to the **Header**, **About**, **Skills**, **Experience** and **Footer** sections
+- Adjust the padding on the `<body>` element to eliminate any gaps on the page
 
 
 ## Tips & Tricks
@@ -25,9 +25,9 @@ header, .highlight, p strong, h1 {
 Adds space between an element and those that surround it.
 
 ```css
-  .sidebar {
-    margin: 20px;
-  }
+.sidebar {
+  margin: 20px;
+}
 ```
 
 ### padding
@@ -35,7 +35,7 @@ Adds space between an element and those that surround it.
 Adds space between the content and the border of an HTML element.
 
 ```css
-  div {
-    padding: 20px;
-  }
+div {
+  padding: 20px;
+}
 ```

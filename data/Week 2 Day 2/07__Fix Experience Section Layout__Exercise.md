@@ -7,9 +7,9 @@ Now that we're getting the hang of Flexbox, let's move on to the **Experience** 
 
 ## Tasks
 
-- [ ] Add styles so the date and job title sit on the same horizontal line
-- [ ] Add styles so the company name and description sit on the same horizontal line
-- [ ] Adjust the margin and padding in your **Experience** section to reflect the design
+- Add styles so the date and job title sit on the same horizontal line
+- Add styles so the company name and description sit on the same horizontal line
+- Adjust the margin and padding in your **Experience** section to reflect the design
 
 Once you're finished styling your **Experience** section, it should look something like this:
 
@@ -24,6 +24,7 @@ These properties might come in handy as you're styling this section.
 A property added to the flexbox container, or parent, that defines how the flex items are laid out along the cross axis.
 
 Can be set to:
+
 - `flex-start`
 - `flex-end`
 - `center`
@@ -42,7 +43,7 @@ Can be set to:
 A property applied to a flex item, that dictates the amount of space inside the flex container that the item should take up.
 
 ```css
-  .child {
-    flex-grow: 3;
-  }
+.child {
+  flex-grow: 3;
+}
 ```

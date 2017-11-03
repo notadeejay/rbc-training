@@ -22,20 +22,20 @@ Sets the space _between_ an element and those that surround it.
 We can set equal margins on all sides of an element like so:
 
 ```css
-  .example {
-    margin: 10px;
-  }
+.example {
+  margin: 10px;
+}
 ```
 
 Or we can specifically set the margin on the top, right, bottom, and left of an element.
 
 ```css
-  .example {
-    margin-top: 5px;
-    margin-right: 30px;
-    margin-bottom: 10px;
-    margin-left: 2px;
-  }
+.example {
+  margin-top: 5px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+}
 ```
 
 Or we can use a shorthand to write the above all on one line:
@@ -49,9 +49,9 @@ Or we can use a shorthand to write the above all on one line:
 From our list of margin sizes, the first will be assigned to the top, the second to the right, the third to the bottom and the fourth to the left.
 
 ```css
-  selector {
-    margin: [top] [right] [bottom] [left];
-  }
+selector {
+  margin: [top] [right] [bottom] [left];
+}
 ```
 
 ![](https://cl.ly/2h001R370a3o/Screen%20Recording%202017-10-01%20at%2012.03%20PM.gif)
@@ -63,9 +63,9 @@ Padding is the space between the content and the border.
 You can set the padding to be the same on all sides of the content:
 
 ```css
-  .sidebar {
-    padding: 10px;
-  }
+.sidebar {
+  padding: 10px;
+}
 ```
 
 Or you can specify how much padding will be added on each side of the element:
@@ -115,9 +115,9 @@ There are three main properties that we can style to create a border.
 - double
 
 ```css
-  .example {
-    border-style: dotted;
-  }
+.example {
+  border-style: dotted;
+}
 ```
 
 #### border-color
@@ -125,15 +125,15 @@ There are three main properties that we can style to create a border.
 Can be set to a hexadecimal colour or any CSS colour.
 
 ```css
-  .example {
-    border-color: blue;
-  }
+.example {
+  border-color: blue;
+}
 ```
 
 ```css
-  .example {
-    border-color: #fafafa;
-  }
+.example {
+  border-color: #fafafa;
+}
 ```
 
 #### border-width

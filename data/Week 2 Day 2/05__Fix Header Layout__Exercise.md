@@ -8,9 +8,9 @@ Let's start with the **Header** of your webpage.
 
 ## Tasks
 
-- [ ] Using flexbox, style the **Nav Bar** so your name and the anchor tags are on the same line
-- [ ] Using flexbox, add styles so your name and occupation sit next to your image
-- [ ] Adjust the margin and padding you've added to elements in the **Header**, if needed
+- Using flexbox, style the **Nav Bar** so your name and the anchor tags are on the same line
+- Using flexbox, add styles so your name and occupation sit next to your image
+- Adjust the margin and padding you've added to elements in the **Header**, if needed
 
 When you've added these styles, your **Header** should look something like this:
 
@@ -23,9 +23,9 @@ When you've added these styles, your **Header** should look something like this:
 To use flexbox, add the `display:flex` property to the **parent** element.
 
 ```css
-  .parent {
-    display: flex;
-  }
+.parent {
+  display: flex;
+}
 ```
 
 #### justify-content
@@ -46,6 +46,7 @@ Can be set to:
 A property added to the flexbox container (parent), that defines how the flex items are laid out along the cross axis.
 
 Can be set to:
+
 - `flex-start`
 - `flex-end`
 - `center`

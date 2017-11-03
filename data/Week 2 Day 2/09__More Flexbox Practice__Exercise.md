@@ -3,7 +3,7 @@ uuid: 5cf63610-7c13-438c-9374-7e7efe446b67
 stretch: true
 ---
 
-In this stretch activity, you'll find screen shots of layouts you might find familiar. We've written HTML for you and provided you with layout designs. Your job is to write CSS that matches the designs. You might find it easiest to copy and paste this HTML into codepen, and write your CSS there.
+In this stretch activity, you'll find screen shots of layouts you might find familiar. We've written HTML for you and provided you with layout designs. Your job is to write CSS that matches the designs. You might find it easiest to copy and paste this HTML into CodePen, and write your CSS there.
 
 ### Layout One
 

@@ -7,9 +7,9 @@ to look just like the design. For today, we'll just focus on fixing the layout.
 
 ## Tasks
 
-- [ ] Add styles so the skill name, `<meter>` and percentage are all in a row
-- [ ] Add styles so the `<meter>` takes up twice as much space as the skill name and percentage
-- [ ] Adjust the margin and padding in your **Skills** section to match the design
+- Add styles so the skill name, `<meter>` and percentage are all in a row
+- Add styles so the `<meter>` takes up twice as much space as the skill name and percentage
+- Adjust the margin and padding in your **Skills** section to match the design
 
 
 When you are finished, your **Skills** section should look something like this:
@@ -24,6 +24,7 @@ When you are finished, your **Skills** section should look something like this:
 A property added to the flexbox container, or parent, that defines how the flex items are laid out along the cross axis.
 
 Can be set to:
+
 - `flex-start`
 - `flex-end`
 - `center`
@@ -43,7 +44,7 @@ Can be set to:
 A property applied to a flex item, that dictates the amount of space inside the flex container the item should take up.
 
 ```css
-  .child {
-    flex-grow: 3;
-  }
+.child {
+  flex-grow: 3;
+}
 ```
