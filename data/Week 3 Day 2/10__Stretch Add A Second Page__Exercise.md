@@ -10,7 +10,7 @@ uuid: ae7ccad4-68e2-4c6a-93b8-fbaeb1d7565f
 Most websites you've visited, probably had a more than one page to display. We can do this with static sites.
 
 
-We can add links to other pages on our site using **relative paths**.
+We can add links to other pages on our site using **relative paths**. If you need a refresher on absolute vs. relative paths [checkout this reading.](/872f1868-83fa-4e85-90ad-e9c2e67bec6c)
 
 
 ```html
