@@ -23,3 +23,10 @@ We can add links to other pages on our site using **relative paths**.
 - [ ] Add a basic HTML skeleton to your page, and link your `styles.css` file
 - [ ] In your `index.html`, add a link to your second page.
 - [ ] Add content to your second HTML page
+
+### Tips & Tricks
+
+Try adding a page to show off some projects you've worked on, or a list of your favourite
+blogs, podcasts or tv shows.
+
+Or, add a page to show off all of your awesome web development projects.
