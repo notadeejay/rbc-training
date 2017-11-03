@@ -8,14 +8,14 @@ Visit https://fonts.google.com/ and search through their collection for a font y
 
 In our design, we used **Open Sans** (https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans), but don't be afraid to use a different font, if you find one that you like better.
 
-### Tasks
+## Tasks
 
-- [ ] Select a Google Font
-- [ ] Select the italic and bold version of your font
-- [ ] Copy the generated `<link>` tag and paste it into the `<head>` of your HTML page
-- [ ] Add a CSS rule so all the text on your page uses your new font
+- Select a Google Font
+- Select the italic and bold version of your font
+- Copy the generated `<link>` tag and paste it into the `<head>` of your HTML page
+- Add a CSS rule so all the text on your page uses your new font
 
-### How to Add a Google Font To Your Page
+## How to add a Google font to your page
 
 When you've selected a font, click the **plus** button on the top right corner of the card.
 
@@ -33,8 +33,8 @@ The last step is to copy the `font-family` CSS rule and apply it to your documen
 One way to do this is to style the body tag:
 
 ```css
-  body {
-    font-family: 'Open Sans', sans-serif;
-  }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 ```
 

@@ -10,7 +10,7 @@ tell the browser "Hey, use this CSS file to style this HTML page".
 The main way we do that is to use a `<link>` tag.
 
 ```HTML
-  <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style.css">
 ```
 
 A link is a **self closing** tag that takes two attributes:
@@ -20,13 +20,13 @@ A link is a **self closing** tag that takes two attributes:
 
 Remember that code is very specific. For example, if you call your CSS file `style.css` but try to link `styles.css` instead (the difference being the extra "s" in "styles"), your browser will not be able to find the correct CSS file to load.
 
-### Tasks
+## Tasks
 
-- [ ] Create a new CSS file in your project (see the **Tips & Tricks** section below if you're not sure how to do this)
-- [ ] Add a `<link>` tag to the `<head>` of your HTML document
-- [ ] Add CSS rule(s) to turn the **Header** section of your HTML document blue
-- [ ] Save your CSS file, and click the preview button within Brackets
-- [ ] Confirm your CSS and HTML are successfully linked together
+- Create a new CSS file in your project (see the **Tips & Tricks** section below if you're not sure how to do this)
+- Add a `<link>` tag to the `<head>` of your HTML document
+- Add CSS rule(s) to turn the **Header** section of your HTML document blue
+- Save your CSS file, and click the preview button within Brackets
+- Confirm your CSS and HTML are successfully linked together
 
 Once you have done this, your page should look something like:
 
@@ -34,7 +34,7 @@ Once you have done this, your page should look something like:
 
 Congrats! You're on your way to a beautifully styled web page!
 
-### Tips & Tricks
+## Tips & Tricks
 
 #### Creating a new CSS file
 
@@ -48,7 +48,7 @@ then select **New File**. Then, name your new file `style.css`.
 Changes the background colour of the selected HTML element:
 
 ```css
-  header {
-    background-color: blue;
-  }
+header {
+  background-color: blue;
+}
 ```

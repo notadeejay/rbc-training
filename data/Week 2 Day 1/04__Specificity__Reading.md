@@ -11,35 +11,35 @@ But, what determines if two CSS rules are equal? The answer is **specificity**.
 
 There are four main ways to select an element in CSS.
 
-#### Tag Names
+#### By tag name
 
 ```css
-  p {
-    color: blue;
-  }
+p {
+  color: blue;
+}
 ```
 
-#### Classes
+#### By class
 
 ```css
-  .highlight {
-    color: yellow;
-  }
+highlight {
+  color: yellow;
+}
 ```
 
-#### IDs:
+#### By ID:
 
 ```css
-  #alert {
-    background-color: red;
-  }
+#alert {
+  background-color: red;
+}
 ```
 
 
-#### Inline Styles
+#### Inline styles
 
 ```html
-  <p style="color: orange;">I'm a paragraph with inline styles</p>
+<p style="color: orange;">I'm a paragraph with inline styles</p>
 ```
 
 Each of these methods of selecting an element has a different **specificity**. Selecting by an ID is more specific than selecting by a class name, and selecting by a class name is more specific than selecting my an element name.
@@ -65,9 +65,9 @@ We can write the specificity of a CSS block as `0, 0, 0, 0`. The first space is 
 If we want to change the font colour of the paragraph tag, we could add some CSS that looks like this:
 
 ```css
-  p {
-    color: blue;
-  }
+p {
+  color: blue;
+}
 ```
 
 When we're calculating specificity we could say that this selector has a specificity score of `0, 0, 0, 1`, since it uses 1 tag.

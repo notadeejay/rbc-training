@@ -13,9 +13,9 @@ Three main ways that a style sheet will cascade:
 We've seen how one CSS rule can affect multiple elements on the page, for example:
 
 ```css
-  p {
-    color: blue;
-  }
+p {
+  color: blue;
+}
 ```
 
 This code will change the text colour to blue for **all** paragraph elements on our page.
@@ -25,13 +25,13 @@ We've also seen how one HTML tag can be affected by many styles.
 If we then add another bit of CSS code to our stylesheet:
 
 ```css
-  p.highlight {
-    background-color: yellow;
-  }
+p.highlight {
+  background-color: yellow;
+}
 ```
 
 ```html
-  <p class="highlight"> I'm a highlighted paragraph </p>
+<p class="highlight"> I'm a highlighted paragraph </p>
 ```
 
 Then our paragraph tags with the class `highlight` will have blue text *and* a yellow background.
