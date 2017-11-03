@@ -53,25 +53,29 @@ Anchor tags are used to provide links to other sections, pages or outside webpag
 Other anchor attributes and tricks:
 
 - `target`: Determines where the link should open
-  - `self`: opens the link in the same frame as it was clicked (default)
 
-  ```html
-  <a href="https://www.lighthouselabs.ca" target="self">Go to Lighthouse Labs</a>
-  ```
+Useful options available for the `target` attribute are `self`, `_blank`, `mailto`, and `tel`.
 
-  - `_blank`: opens the link in a new browser tab
+- `self`: opens the link in the same frame as it was clicked (default)
+
+```html
+<a href="https://www.lighthouselabs.ca" target="self">Go to Lighthouse Labs</a>
+```
+
+- `_blank`: opens the link in a new browser tab
     
-  ```html
-  <a href="https://www.lighthouselabs.ca" target="_blank">Go to Lighthouse Labs</a>
-  ```
+```html
+<a href="https://www.lighthouselabs.ca" target="_blank">Go to Lighthouse Labs</a>
+```
 
 - `mailto`: Directs the link to be opened in an email client
 
-  ```html
-  <a href="mailto:info@lighthouselabs.ca">Email Us</a>
-  ```
+```html
+<a href="mailto:info@lighthouselabs.ca">Email Us</a>
+```
 
 - `tel`: A phone number is dialled when a link is clicked (on mobile)
-  ```html
-  <a href="tel:1231231234">Call me!</a>
-  ```
+
+```html
+<a href="tel:1231231234">Call me!</a>
+```
