@@ -1,0 +1,71 @@
+---
+uuid: 338a2781-24c9-4277-865f-78d77ede6cec
+---
+
+
+### Comparators
+
+When we’re writing code, we often want to know the answers to simple yes or no questions.
+
+If we were writing an app that sells beer, we’d need to check that all our users are 19 or older:
+
+```javascript
+var age = 12
+console.log(age > 18)
+// would output false
+```
+
+```javascript
+var age = 21
+console.log(age > 18)
+// would output true
+```
+
+We can also check if two values are the same, to do this we use **two** equals signs. If the two values are the same, it will return **true**. If they don't match, it will return **false**.
+
+```javascript
+var weather = ‘raining’
+
+console.log(weather == ‘raining’)
+// would output true
+
+console.log(weather == ‘sunny’)
+// would output false
+```
+
+## If statements
+If statements rely on a **condition**. A condition is something that can evaluate to true or to false. They work hand in hand with our boolean data type.
+
+If statements in JavaScript follow a pattern.
+
+![if statement example](https://d3vv6lp55qjaqc.cloudfront.net/items/3B313R1J3B3B192P1J2h/Image%202017-08-29%20at%208.14.23%20PM.png?X-CloudApp-Visitor-Id=2818368&v=16b4a668)
+
+The condition can be a variable that is set to either true or false like so:
+
+```javascript
+var raining = true
+
+if (raining) {
+   console.log(“Bring an umbrella”)
+}
+```
+
+Or a comparator
+
+```javascript
+weather = “raining”
+
+if (weather == “raining”) {
+   console.log(“Bring an umbrella”)
+}
+```
+
+In these cases, the code wrapped inside the curly brackets of an if statement, will only
+be run **if** the condition evaluates to true.
+
+**Tip:** If you’re struggling to understand a some code, go through it slowly and read it out loud. When you were first learning to read, you probably had to sound out some words, letter by letter. This technique works for code too!
+
+#### Tasks
+- [ ] Declare a variable called `age` and assign it to an integer
+- [ ] Write some code to check if the integer `age` is greater than 21
+- [ ] Add an `if statement` that will output `Over 21!` if age is greater than 21, and `Under 21` if the it's under 21.
