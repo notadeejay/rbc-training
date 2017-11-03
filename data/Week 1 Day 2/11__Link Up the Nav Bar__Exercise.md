@@ -9,24 +9,24 @@ We just learned about some cool things we can do with anchor tags. We can link a
 We can add an anchor tag with an `href` to an `id` like this:
 
 ```html
-  <a href="#about">About</a>
+<a href="#about">About</a>
 ```
 
 And add an `id` to a `<section>` of our page:
 
 ```html
-  <section id="about">
-  </section>
+<section id="about">
+</section>
 ```
 
 Then, when we click our anchor tag, the page will automatically scroll to find an HTML element with the `id` specified in the section tag's `href`.
 
 ## Tasks
 
-- [ ] Add `id`s to the **About**, **Skills**, **Experience** and **Footer** sections
-- [ ] In the **Header**, update the `href` attributes of the **About**, **Skills**, **Experience** and **Footer** anchor tags to match the `id` of their respective sections
+- Add `id`s to the **About**, **Skills**, **Experience** and **Footer** sections
+- In the **Header**, update the `href` attributes of the **About**, **Skills**, **Experience** and **Footer** anchor tags to match the `id` of their respective sections
 
-When you have added these ids and updated the href values, make sure you test out the links in your header, and ensure they're working just as you would expect them to.
+When you have added these IDs and updated the `href` values, make sure you test out the links in your header, and ensure they're working just as you would expect them to.
 
 
 Once you're done, pair up with a class mate and review each other's code. Make sure you check for proper indentation and properly closed tags :)

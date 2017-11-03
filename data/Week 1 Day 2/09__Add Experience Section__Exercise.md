@@ -12,16 +12,17 @@ We can further break down each job in the **Experience** section like this:
 
 
 Once we've broken this section down, we have:
+
 - A container for the entire section
 - A section title
 - Several jobs with a date, job title, company name, and a description
 
 
-### Tasks
+## Tasks
 
-- [ ] Add an element to contain **all** of the content in your **Experience** section
-- [ ] Add a section title
-- [ ] Add some information about your past employment, or projects you've worked on, and for each one, include a job title, date range, company name, and a brief description
+- Add an element to contain **all** of the content in your **Experience** section
+- Add a section title
+- Add some information about your past employment, or projects you've worked on, and for each one, include a job title, date range, company name, and a brief description
 
 
 <!-- When you have added the content for your experience section, your preview should look something like: -->
