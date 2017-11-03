@@ -5,6 +5,7 @@ slug: 'w2-sample-project'
 image: http://www.stdtime.com/images/articles/project-tracking-strategies/project-plan.jpg
 name: 'Sample Project'
 evaluated: false
+archived: true
 blurb: |
   Sample Project
 outcomes:
