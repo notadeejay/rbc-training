@@ -1,12 +1,13 @@
 ---
 uuid: da5d4723-c521-4140-93c4-eaa41c5a388a
+stretch: true
 ---
 
-So far, when we've written transitions we've used built in timing functions, like **ease** or **linear**. CSS also allows us to customize these timing functions even further. So you can get your transitions *just* right.
+So far, when we've written CSS transitions we've used built in timing functions like **ease** or **linear**. CSS also allows us to customize these timing functions even further, So we can get our transitions *just* right.
 
 ### Tasks
 
-- [ ] Go to code pen and create a pen
+- [ ] Go to CodePen and create a new pen
 - [ ] Define a transition
 - [ ] Experiment with using different timing functions
 
