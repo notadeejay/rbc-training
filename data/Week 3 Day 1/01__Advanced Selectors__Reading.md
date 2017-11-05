@@ -4,25 +4,26 @@ uuid: 990f8592-a13c-4363-9fcb-1f528a5ee5b7
 
 
 So far, we've been selecting elements for styling by their:
+
 1. Element names
 2. Classes
 3. IDs
 
 CSS also has some neat selectors that allow you to select elements on your page based on their relationship(s) to each other.
 
-### Stacking Selectors
+## Stacking selectors
 
 We can apply the **same** styles to more than one selector. To do this, we separate our selectors with a comma.
 
 ```css
-  p, a {
-    color: blue;
-  }
+p, a {
+  color: blue;
+}
 ```
 
 This CSS block would make all of the paragraph tags *and* anchor tags on our page have blue text.
 
-It is the exact same as writing this:
+It produces the same result as writing this:
 
 ```css
 p {
@@ -34,7 +35,7 @@ a {
 }
 ```
 
-### Adjacent Sibling Selector
+## Adjacent sibling selector
 
 Remember that when we **nest** elements, like the `<h1>` and `<p>` tags in the `<div>` in the example below, we refer to the `<div>` as the **parent** and the nested elements as **children**.
 
@@ -51,15 +52,15 @@ This means that we can also refer to the `<h1>` and `<p>` tags as **siblings**.
 If we only want to style paragraph elements that come immediately after an `<h1>` element, we can use the adjacent sibling selector.
 
 ```css
-  h1 + p {
-    color: green;
-  }
+h1 + p {
+  color: green;
+}
 ```
 
 ![](https://cl.ly/0U251Y0c0Y0R/Image%202017-10-05%20at%207.54.18%20PM.png)
 
 
-### General Sibling Selector
+## General sibling selector
 
 This will allow you to select all of the siblings that follow an element. For example, if we had this HTML:
 
@@ -76,15 +77,15 @@ This will allow you to select all of the siblings that follow an element. For ex
 And we want to select all the paragraph tags that come *after* the `<blockquote>` tag, we could use:
 
 ```css
-  blockquote ~ p {
-    color: purple;
-  }
+blockquote ~ p {
+  color: purple;
+}
 ```
 
 ![](https://cl.ly/383H1E1V0a12/Image%202017-10-05%20at%207.55.19%20PM.png)
 
 
-### Direct Descendant Selector
+## Direct descendant selector
 
 The child selector allows you to style all direct descendants.
 
@@ -101,21 +102,21 @@ The child selector allows you to style all direct descendants.
 We can use the child selector like so:
 
 ```css
-  main > h2 {
-    color: purple;
-  }
+main > h2 {
+  color: purple;
+}
 ```
 
 This would style only the first `<h2>`, since the second is not a **direct** descendant of the `<main>` tag.
 
 ![](https://cl.ly/3R0t3D2n1i2R/Image%202017-10-05%20at%207.56.29%20PM.png)
 
-### All Selector
+## All selector
 
 Using `*` as a selector will match all elements. This will make all text green (unless, of course, more-specific CSS rules overwrite it):
 
 ```css
   * {
-    color: green;
-  }
+  color: green;
+}
 ```
