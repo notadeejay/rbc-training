@@ -1,12 +1,13 @@
 ---
 uuid: 2f503896-2ac3-4548-9f3c-6be7d7559179
+archived: true
 ---
 
 Here are some terms you might hear at Lighthouse Labs:
 
 ## Bugs
 
-Not *those* bugs. *Software* bugs. Have you ever used a website when something strange happened? Like suddenly it told you you had registered for your account in 1970, or when you clicked a button three times and then none of the links worked? Well then, you've found bugs. A bug happens when code has an error or an unintended consequence. 
+Not *those* bugs. *Software* bugs. Have you ever used a website when something strange happened? Like suddenly it told you you had registered for your account in 1970, or when you clicked a button three times and then none of the links worked? Well then, you've found bugs. A bug happens when code has an error or an unintended consequence.
 
 ## Refactor
 
