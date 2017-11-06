@@ -2,6 +2,7 @@
 uuid: 1f61fffa-76cf-11e7-b5a5-be2e44b06b34
 duration: 45
 allow_submissions: true
+archived: true
 ---
 
 #### What's Slack?

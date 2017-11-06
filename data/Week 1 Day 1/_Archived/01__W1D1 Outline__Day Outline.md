@@ -10,6 +10,3 @@ Day Outline W1D1
 - Intro Lecture
 - Build an applet
 - Set up your tools
-
-
-<!-- ADD disclaimer that there will be times they need to search the web to complete a task, etc. -->
