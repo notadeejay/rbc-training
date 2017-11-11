@@ -2,8 +2,6 @@
 uuid: 8b93e314-dd90-40f5-a059-b1021ff08a47
 ---
 
-
-
 ## The CSS `transform` property
 
 A CSS property that can help us write some incredible animations is the `transform` property.The transform property applies a 2D or 3D transformation to an element. Using it, we can `skew`, `scale`, and `rotate` our elements.
