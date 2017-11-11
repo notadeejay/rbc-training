@@ -8,7 +8,7 @@ So far your resume page is looking pretty great. There's one spot we still need 
 <meter max="10" value="8">
 ```
 
-By default, this is how Google Chrome styles our meter:
+By default, this is how Google Chrome styles the above meter code:
 
 ![](https://cl.ly/3P042M0n3y3l/Image%202017-10-07%20at%2012.45.00%20PM.png)
 
@@ -21,12 +21,12 @@ Using CSS pseudo elements, we can add styles these meter components.
 
 ## Tasks
 
-- [ ] Using pseudo elements, style your meter tags to match the design
-- [ ] Adjust the alignment, margin, and padding of the **Skills** section to match the design
+- Using pseudo elements, style your meter tags to match the design
+- Adjust the alignment, margin, and padding of the **Skills** section to match the design
 
-## Tips & Tricks
+## CSS reference
 
-### -webkit-meter-bar
+#### -webkit-meter-bar
 
 This is the container that holds the meter gauge. If our meter were a thermometer, the `meter-bar` would be the glass surrounding it.
 
@@ -36,27 +36,27 @@ meter::-webkit-meter-bar {
 }
 ```
 
-### -webkit-meter-optimum-value
+#### -webkit-meter-optimum-value
 
 This is the current value of the meter element. By default, it's green.
 
 ```css
-  meter::-webkit-meter-optimum-value {
-    background: orange;
-  }
+meter::-webkit-meter-optimum-value {
+  background: orange;
+}
 ```
 
-### background
-Changes the background of an HTML element. Can be set to a built in CSS colour,
-or a hexadecimal value.
+#### background
+
+Changes the background of an HTML element. Can be set to a built in CSS colour, or a hexadecimal value.
 
 ```css
-  article {
-    background: blue;
-  }
+article {
+  background: blue;
+}
 ```
 
-### What is Webkit?
+## What is Webkit?
 
 We've said before that the browser adds default styles to our HTML. What those default styles look like depends on the browser that is used. For example, certain elements might look different in Firefox than they do in Chrome.
 

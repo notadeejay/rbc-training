@@ -3,10 +3,9 @@ uuid: 9e00cd08-56fe-4f07-a793-dc1473d76f9d
 stretch: true
 ---
 
-The `background` property in CSS has several different properties that we can assign it to. We've previously used it to set the colour of our elements. We can get even more specific with those colours when we start to use **gradients**. Gradients allow us to have a background that transitions between two or more colours, and are a great way to add texture and depth to a webpage.
+The `background` property in CSS has several different properties that we can assign it to. We've previously used it to set the colour of our elements. We can get even more specific with those colours when we use **gradients**. Gradients allow us to have a background that transitions between two or more colours, and are a great way to add texture and depth to a webpage.
 
 There are a few different types of gradients.
-
 
 ## Linear gradients
 
@@ -32,13 +31,13 @@ This will cause the gradient to go from yellow to red as we move *to the left* o
 
 Other options for the direction we can use are:
 
-- to right
-- to left
-- top
+- `to right`
+- `to left`
+- `top`
 
 #### Rotated
 
-We can also rotate the gradient line, so that it's at an angle. Using this technique, we could make only the top corner of a rectangle a different color.
+We can also rotate the gradient line, so that it's at an angle. Using this technique, we could make only the top corner of a rectangle a different colour.
 
 ```css
 .box {
@@ -50,9 +49,9 @@ We can also rotate the gradient line, so that it's at an angle. Using this techn
 
 #### Gradient line
 
-By default, each color you specify in a gradient will take up the same amount of space. That is to say, if you have four colors, they will each take up roughly 25% of that imaginary line.
+By default, each colour you specify in a gradient will take up the same amount of space. That is to say, if you have four colours, they will each take up roughly 25% of that imaginary line.
 
-In this example, instead of having our element be half yellow, and half red, we set the first color to take up 75% the element. In other words, our element will be 75% yellow, and 25% red.
+In this example, instead of having our element be half yellow and half red, we set the first colour to take up 75% the element. In other words, our element will be 75% yellow, and 25% red.
 
 ```css
 .box {
@@ -65,7 +64,7 @@ In this example, instead of having our element be half yellow, and half red, we 
 
 ## Radial gradients
 
-A radial gradient transitions colours starting from the centre. Note that this property can take as many colors as you would like.
+A radial gradient transitions colours starting from the centre. Note that this property can take as many colours as you would like.
 
 ```css
 background: radial-gradient(start-color, middle-color, last-color);
@@ -74,20 +73,20 @@ background: radial-gradient(start-color, middle-color, last-color);
 ### Example
 
 ```css
-  div {
-    background: radial-gradient(red, yellow, green);
-  }
+div {
+  background: radial-gradient(red, yellow, green);
+}
 ```
 
 ![](https://cl.ly/2H3W2v3v0r0r/Image%202017-11-03%20at%2012.54.36%20PM.png)
 
 ## Tasks
 
-- [ ] Add a gradient to your resume page
-- [ ] Open up a new code pen, and play around with the different types of gradients
+- Add a gradient to your resume page
+- Create a new pen on CodePen, and play around with the different types of gradients
 
-## Additional Resources
+## Additional resources
 
-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients
-- https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
-- https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient
+- Using gradients tutorial: <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients>
+- Official documentation for linear gradients: <https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient>
+- Official documentation for radial gradients: <https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient>

@@ -9,7 +9,7 @@ For example:
 
 ![](https://cdn-images-1.medium.com/max/1600/1*TZq6RcW9ahtPlRywtlg9Yw.gif)
 
-To create these tooltips, we can use the **Adjacent Sibling Selector**.
+To create these tooltips, we can use the **adjacent sibling selector**.
 
 ```html
 <h2>Instructions</h2>
@@ -26,12 +26,11 @@ h2:hover + p {
 }
 ```
 
-
 ![](https://cl.ly/3m2g241n3j1y/Screen%20Recording%202017-10-22%20at%2002.35%20PM.gif)
 
 ## Tasks
 
-- Add CSS to the following HTML to create tooltips for these icons.
+- In a new pen on CodePen, add CSS to the following HTML to create tooltips for the start, pause, and play icons.
 
 ```html
 <main>
@@ -52,7 +51,6 @@ h2:hover + p {
   </div>
 </main>
 ```
-
 
 When you're done, it should look something like this:
 

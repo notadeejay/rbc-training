@@ -4,15 +4,14 @@ uuid: e05bb162-e79e-425b-b4fa-5874d4be235f
 
 When the value of a CSS property changes, such as the text colour on hover, we can use CSS **transitions** to animate how the property will change. We customize CSS transitions with four different properties.
 
-
 ### transition-property
 
 The `transition-property` is which property we are going animate during our transition. When this property is changed, the transition is **triggered**. We can transition an element in two main ways. The first is by using the **hover** pseudo selector to change the property when the element is hovered over. The second is by using JavaScript, which we will get to later on in this course.
 
 ```css
-  div {
-    transition-property: color;
-  }
+div {
+  transition-property: color;
+}
 ```
 
 ### delay
@@ -41,17 +40,14 @@ The timing function dictates the speed of the transition over time. Should it st
 
 Can be set to:
 
-- `ease-in`
-  - This is the default, it will start out slow before picking up speed near the end of the duration
-- `linear`
-  - The speed of this transition will be the same throughout the duration
-- `ease-in-out`
-  - The transition will be slow at the start and at the end.
+- `ease-in` – This is the default, which will start out slow before picking up speed near the end of the duration.
+- `linear` – The speed of this transition will be the same throughout the duration.
+- `ease-in-out – The transition will be slow at the start and at the end.
 
 ```css
-  div {
-    transition-timing-function: ease-in-out;
-  }
+div {
+  transition-timing-function: ease-in-out;
+}
 ```
 
 ### Shorthand
@@ -67,14 +63,14 @@ div {
 Let's add a transition to a div with a `background-color` that changes on mouse hover.
 
 ```css
-  div {
-    background-color: blue;
-    transition: color 2s ease-in 500ms;
-  }
+div {
+  background-color: blue;
+  transition: color 2s ease-in 500ms;
+}
 
-  div:hover {
-    background-color: yellow;
-  }
+div:hover {
+  background-color: yellow;
+}
 ```
 
 The result in our browser would look like this:

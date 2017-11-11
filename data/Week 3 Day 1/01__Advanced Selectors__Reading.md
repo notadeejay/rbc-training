@@ -116,7 +116,7 @@ This would style only the first `<h2>`, since the second is not a **direct** des
 Using `*` as a selector will match all elements. This will make all text green (unless, of course, more-specific CSS rules overwrite it):
 
 ```css
-  * {
+* {
   color: green;
 }
 ```
