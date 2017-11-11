@@ -22,7 +22,8 @@ Don't forget to demonstrate that when the dot is in the corner of the file inste
 
 - Write a simple HTML page that uses several basic HTML tags. Use an `img` to demonstrate self closing tags
 - Use semantic tags, and demonstrate why they're preferable over `div`s (div soup, etc.)
-
+- Using a simple mockup or design of a web page, walk students through how to convert a design into HTML document.
+- Discuss the thought process behind choosing different tags, and that there is more than one way to achieve the same result.
 
 #### Approach:
 
@@ -31,3 +32,4 @@ Don't forget to demonstrate that when the dot is in the corner of the file inste
 - Demonstrate good indentation, and explain why this is important to developers (i.e. 'imagine reading a book where no proper punctuation is used')
 - Remind them they must be _very_ specific, sometimes a missing quote or `<` will cause all sorts of problems,
 reassure them that they will get better at spotting these errors the more practice they have.
+- Show them common mistakes

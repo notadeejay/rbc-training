@@ -2,46 +2,104 @@
 uuid: 825b44c6-aa66-41b8-8b17-1209c442da45
 ---
 
-We're going to start by planning out how we're going to build the `<header>` of our profile page. Let's take a look at our mockup
+We're going to start by planning out how we're going to build the `<header>` of our profile page. Let's take a look at our design
 and outline the elements we'll need to add.
 
 
 ![Marked up mock up](https://d3vv6lp55qjaqc.cloudfront.net/items/0X201f1m0L1i0W152s0Y/%5Bb3c8029b685fc4c5208dd46fa5cbde6e%5D_Image+2017-08-26+at+1.23.31+PM.png)
 
 
-If we break down the header section of our mockup, we see this `<header>` contains 3 main pieces:
+If we break down the `<header>` section of our design, we see that it contains 3 main pieces:
+
 - A nav bar
-- A section for your name and occupation
+- Your name and occupation
 - A photo
 
+## Tasks
+
+- Add a `<header>` element to your webpage
+- Add a nav bar
+- Add your name
+- Add your occupation
+- Add a photo
+
+When you're finished, your page should look something like this:
+
+![](https://cl.ly/2f2j2h0m2Y3M/Image%202017-09-30%20at%2010.27.17%20AM.png)
+
+## HTML tags reference
+
+The following HTML elements might come in handy as you're building this section.
+
+#### nav
+
+Used to contain links that allow a user to navigate around the webpage.
+
+```html
+<nav>
+  <!-- Add links or navigation -->
+</nav>
+```
 
 
-### Tasks:
+#### img
 
-Each one of these 3 main pieces will be its own HTML element:
+Used to add images to webpages.
 
-- [ ] In your `index.html` file add a `<header>` tag
-- [ ] Add a nav bar to your header (the `nav` tag is a great choice for this). Inside of your nav:
-  - A `p` tag containing your name
-  - add an `ul` with four list items (`li`)
-    - about
-    - skills
-    - experience
-    - contact
-- [ ] Below your closing `nav` tag, add an element (A `div` is a great choice for this) to contain:
-  - Another `div` containing:
-    - An `h1` element with your name
-    - An `h5` element with your occupation
-  - [ ] Below your closing `div` tag add an `img` tag with a picture (remember `img` tags are self closing)
+```html
+<img alt="Nicolas Cage" src="https://www.placecage.com/c/460/300">
+```
 
-**Tip**: If you don't have one ready, try one of these sites for a placeholder image
-    - [place kitten](https://placekitten.com/)
-    - [place cage](http://www.placecage.com/)
-    - [Fill Murray](https://www.fillmurray.com/)
+#### div
 
-Note that we will be using CSS later to adjust our layout and the style of these elements. Don't worry
-if your page looks far from the finished project.
+A div is a generic container element. You can use it to group elements together, or for styling purposes (once we get to CSS).
 
-In the live preview from Brackets, your page should look something like this:
+```html
+<div>
+  <h2>Things you find at Lighthouse</h2>
+  <ul>
+    <li>Office Dogs</li>
+    <li>Pizza</li>
+    <li>Rubber Ducks</li>
+  </ul>
+</div>
+```
 
-![sample with header](https://d3vv6lp55qjaqc.cloudfront.net/items/0l1v1S0b2N3z242C1S14/Image%202017-08-26%20at%201.54.41%20PM.png)
+#### a
+
+Creates a link that can be used to navigate around the internet, or specific site. Requires an `href` attribute.
+
+```html
+<a href="/about">About</a>
+```
+
+
+#### Headings
+
+Heading tags (`h1` -> `h6`) are used to add titles, headings, and subheadings to your web page.
+
+```html
+<h1>I'm the page title</h1>
+<h3> I'm a subtitle </h3>
+```
+
+
+## Tips and Tricks
+
+As you build out this section of your resume page, here are a few things to watch out for.
+
+### Missing Quotes
+
+It's easy to forget about closing quotes. If you notice that suddenly all of your code is the same (or suddenly different) colour, go through and see if you can spot the error:
+
+![](https://cl.ly/3C1A2A0v1B28/Screen%20Recording%202017-10-25%20at%2007.23%20PM.gif)
+
+Remember that your editor is there to help you write better code.
+
+### Closing Tags
+
+It's easy to make a typo and add two opening tags instead of a closing tag. Go through your code and make sure your opening tags have closing tags to match them.
+
+### Indentation
+
+Look at your code so far. Is it easy to see which elements are parents and which are children? Ask a class mate or a mentor to review your code.

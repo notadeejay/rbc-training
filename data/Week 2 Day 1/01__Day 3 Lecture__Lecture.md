@@ -14,3 +14,8 @@ Then, for the live coding portion add styles to the HTML page you've just create
 ### Slides
 
 #### Morning slides (Templates)
+
+
+## Exercises
+
+- Remind students to read the entire exercise before they get started.

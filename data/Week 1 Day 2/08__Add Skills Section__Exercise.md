@@ -2,77 +2,92 @@
 uuid: ad778b5d-4dc0-47f4-b304-6e0b8055def8
 ---
 
-Let's break down our **Skills** section next. Remember that we will be changing
-the styles of our HTML code with CSS next week. So if it isn't looking *quite* like you
-pictured, that's okay.
+Let's use the same approach to build our **Skills** section:
 
-![skills breakdown](https://d3vv6lp55qjaqc.cloudfront.net/items/442y1Q1L001Y2m0m3V1M/%5Ba08ec25c1321d4ff1f6c8988fae2e1ce%5D_Image+2017-09-09+at+10.55.59+AM.png)
+![skills breakdown](https://cl.ly/3L2r1I3r1e40/[adb764b3e2a6afff76be3f011a9361ea]_Image%202017-10-25%20at%207.33.49%20PM.png)
+
+The main components for our **Skills** section are:
+
+- A Title
+- A list of skills
+- We can break down the list of skills further, each one contains
+  - The name of the skill
+  - A visual indicator of skill level
+  - A percentage that matches skill level
 
 
-Just like in our **About** section, we'll need an element to contain all of the information about our skills.
+## Tasks
 
-We'll also need an element for the title, 'Skills'. We'll also add a list element to contain all of our individual skills.
+- Add an element to contain your entire **Skills** section
+- A section title
+- A list of your skills with each entry including a name, progress bar, and a percentage
 
-We can break down each skill item a little bit further. Each contain some text, with the name of the skill, a progress bar, and some text with a percentage.
 
-![skill breakdown](https://d3vv6lp55qjaqc.cloudfront.net/items/3C3S3h0b103W0X3G0y3b/%5Bcda170b06dbd0cdb52750f04438b0f28%5D_Image+2017-09-09+at+11.01.45+AM.png)
+## HTML tags reference
 
-There are two main types of lists, **ordered lists** and **unordered lists**. They have different
-default styles. An ordered list will add numbers to the list items, while an unordered list will add bullet points.
+The following HTML elements might come in handy as you're building this section.
 
-An **unordered list tag** looks like this:
+#### meter
+
+The meter element is used to display a measurement on a known scale.
+
 
 ```html
-<ul></ul>
+<meter min="0" max="10" value="6"></meter>
 ```
 
-If you were to make a list of things you'd find around Lighthouse, it might look like:
+The `meter` element takes several attributes:
+
+- `max`: The maximum value on the scale
+- `min`: The minimum value on the scale
+- `value`: The measured value
+
+#### Headings
+
+Heading tags (`h1` -> `h6`) are used to add titles, headings and subheadings to your web page.
 
 ```html
-<ul>
-  <li>Sherman</li>
-  <li>Rubber Ducks</li>
-  <li>Pizza</li>
-</ul>
+<h1>Webpage Title</h1>
 ```
 
-I could also nest elements *within* the `<li>` tags. For example:
+#### section
+
+Semantic tag, used when grouping a collection of elements together when they have a title.
 
 ```html
-  <ul>
-    <li>
-      <h5> Sherman </h5>
-      <p>Office Dog</p>
-    </li>
-    <li>
-      <h5>Rubber Ducks</h5>
-      <p>For help debugging</p>
-    </li>
-  </ul>
+<section>
+  <h2>I'm a section title</h2>
+  <!-- More HTML goes here -->
+</section>
 ```
 
-As well, the skill section includes a **progress** bar, that indicates how good you are at that specific skill.
-HTML has a built in `<progress>` element.
+#### article
+`<article>` tags are used to wrap pieces of content that can be read independently from the rest of the website. Common examples are blog posts, magazine articles, and news reports.
 
-![progress](https://d3vv6lp55qjaqc.cloudfront.net/items/3U0d0a0b3I0w051a0628/Image%202017-09-09%20at%2011.21.01%20AM.png)
+```html
+<article>
+  <h3>Article Title</h3>
+  <p>Once up on a time ...</p>
+</article>
+```
 
-The progress element takes two **attributes**
-1. **max**: the maximum amount for this progress bar
-2. **value**: the value to be displayed
+#### p
 
-For example, if you wanted 60% of the bar to be filled - you would set **max** to `10` and the **value** to `6`.
+A common HTML element, used for, well, paragraphs or text that is not a heading.
 
+```html
+<p>
+  <!-- Paragraph Text here -->
+</p>
+```
 
-### Tasks
-Add a new `<section>` tag for your skills section, then:
-- [ ] Add an `<h2>` element with the text **Skills**
-- [ ] Add an `<ul>` tag, inside add:
-  - [ ] An `<li>` element for each skill you'd like to list
-    - [ ] Add an `<h5>` with the name of your skill
-    - [ ] Add a `<progress>` bar (set the **max**, and **value** attributes to reflect your skillset)
-    - [ ] Add a `<span>` with a percentage
+#### div
 
+A `<div>` is a generic container element. You can use it to group elements together, or for styling purposes (once we get to CSS).
 
-Once you have added your `li` elements, the preview of your skills section should look something like:
-
-![skills preview](https://d3vv6lp55qjaqc.cloudfront.net/items/1f1D440W3n1R0u1J1B1C/Image%202017-09-09%20at%2011.24.57%20AM.png)
+```html
+<div>
+  <h2>A div is often used to group elements together</h2>
+  <p>Like this</p>
+</div>
+```

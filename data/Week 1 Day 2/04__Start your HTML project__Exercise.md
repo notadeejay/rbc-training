@@ -2,37 +2,26 @@
 uuid: 4ef0b11a-65db-4dd6-93b1-e50f6d713176
 ---
 
-## Goal
-
-Today we're going to set up your project that you will be working on for the next several classes.
+Today you're going to set up your project that you will be working on for the next several classes.
 
 
-Your first project will be building a website all about YOU. We've come up with a great
-design for you, but don't be afraid to customize it using your favourite colours and fonts.
+Your first project will be building a resume page. We've come up with a great design for you to build from, but don't be afraid to customize the project to reflect your personality! Or, if you don't want to build a resume for yourself, build one for your favourite fictional character!
+
 
 [Download the design here.](https://cl.ly/2u3D2E2f1m08)
 
-Over the next few classes, we'll slowly add to your project, before we deploy it in Week 3!
+Over the next few classes, we'll slowly add to your project. Then in week 3, we'll "deploy" your projects.
 
+"Deploy" is a fancy way of saying we'll put your website on the internet, so the whole world can see your awesome projects.
 
+**Note**: We're SO excited to checkout your websites and learn more about you, but keep in mind that since we're deploying these sites, only include information you're comfortable sharing publicly.
 
-### Exercises
-###### Create your project folder, and open it in Brackets
+## Tasks
 
-- [ ] Create an empty folder on your computer, and give it a name like `personal_site_project`
-- [ ] Open your newly-created empty folder in Brackets
-- [ ] Create an empty file in your folder called `index.html`
-
-
-### Add HTML skeleton code
-
-We learned in today's lecture that every HTML document needs a few tags to get started.
-
-
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/3V18270y4312243S2h3z/Image%202017-08-26%20at%201.04.43%20PM.png?X-CloudApp-Visitor-Id=2818368&v=39584e4d)
-
-
-- [ ] Add this code to your `index.html` file:
+- Create an empty folder on your computer, and give it a name like `resume_site`
+- Open your newly-created empty folder in Brackets
+- Create an empty file in your folder called `index.html`
+- Add this HTML skeleton code to your `index.html` file:
 
 ```html
 <!DOCTYPE html>
@@ -43,3 +32,17 @@ We learned in today's lecture that every HTML document needs a few tags to get s
   </body>
 </html>
 ```
+
+## HTML skeleton code?
+
+There are a few essential HTML tags that every HTML page needs to work properly.
+
+1. `<!DOCTYPE html>`
+  - Tells your browser this is an HTML page.
+2. `<html>`
+  - Wraps around **all** of the HTML elements on your page.
+3. `<head>`
+  - The head is where we put any information that the browser might need to render your page properly (such as styling files, which we'll learn about next week). Most of the content here
+  won't be seen by your user.
+4. `<body>`
+  - The body tag contains **all** of the HTML elements that you want to be displayed to visitors of your page. This is where you will be writing the majority of your HTML code.

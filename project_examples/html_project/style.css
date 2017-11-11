@@ -77,7 +77,7 @@ footer a {
 }
 
 #skills div meter {
-  flex-grow: 2;
+  flex-grow: 1;
   margin: 0px 10px;
 }
 
@@ -138,7 +138,7 @@ footer h4 {
   flex: 2;
 }
 
-
+/*
 footer {
   display: flex;
   justify-content: space-between;
@@ -147,7 +147,7 @@ footer {
 footer ul {
   text-align: right;
 }
-
+*/
 
 /* Transitions */
 
@@ -164,51 +164,15 @@ nav li a:hover {
   color: pink;
 }
 
+
+meter {
+  width: 100%;
+}
+
 meter::-webkit-meter-bar {
   background: #228bdc;
 }
 
 meter::-webkit-meter-optimum-value {
   background: white;
-}
-
-/* Media Queries */
-
-@media (max-width: 600px) {
-  header .name-container {
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  } 
-  .name-container div {
-    text-align: center;
-    padding: 10px;
-  }
-}
-
-/* Animate download button */
-
-/*
-
-  Stretch goal example.
-  Should ask Tsang what is a good thing to animate, ux wise
-*/
-@keyframes shudder {
-  from {
-    transform: rotate(5deg)
-  }
-  to {
-    transform: rotate(-5deg)
-  }
-}
-
-button.download:hover {
-  animation-name: shudder;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0.5s;
-  animation-iteration-count: 5;
-  animation-direction: alternate;
-  animation-fill-mode: forwards;
-  animation-play-state: play;
 }
