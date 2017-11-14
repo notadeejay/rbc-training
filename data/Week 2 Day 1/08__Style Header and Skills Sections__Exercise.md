@@ -6,7 +6,7 @@ When we looked through our design for elements on our page that shared common st
 
 ## Tasks
 
-- Add a class to your `<header>` tag and the `<section>` tag for the Skills section
+- Add a class to your `<header>` tag and the Skills `<section>` tag
 - Style your class to have a blue background colour and white text
 - Add CSS to style the anchor tags in your Nav bar to be white and **not** underlined.
 
