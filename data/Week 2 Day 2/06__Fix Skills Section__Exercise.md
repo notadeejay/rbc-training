@@ -39,12 +39,12 @@ Can be set to:
 ```
 
 
-#### flex-grow
+#### flex
 
 A property applied to a flex item, that dictates the amount of space inside the flex container the item should take up.
 
 ```css
 .child {
-  flex-grow: 3;
+  flex: 3;
 }
 ```
