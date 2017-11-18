@@ -6,6 +6,23 @@ uuid: 8b93e314-dd90-40f5-a059-b1021ff08a47
 
 A CSS property that can help us write some incredible animations is the `transform` property.The transform property applies a 2D or 3D transformation to an element. Using it, we can `skew`, `scale`, and `rotate` our elements.
 
+If we start with this HTML
+
+```html
+  <div class="square">
+  </div>
+```
+
+and this CSS
+```css
+div {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+```
+
+
 #### skew
 
 ```css
@@ -16,7 +33,7 @@ A CSS property that can help us write some incredible animations is the `transfo
 
 ![](https://cl.ly/360F1a3Q1P2D/Image%202017-10-01%20at%206.34.14%20PM.png)
 
-#### scale
+#### rotate
 
 ```css
 .square {
@@ -26,7 +43,7 @@ A CSS property that can help us write some incredible animations is the `transfo
 
 ![](https://cl.ly/3x072d120l2z/Image%202017-10-01%20at%206.34.43%20PM.png)
 
-#### rotate
+#### scale
 
 ```css
 .square {
