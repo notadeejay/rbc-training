@@ -18,7 +18,7 @@ Will apply styles to an element when the mouse cursor hovers over it.
 
 ```css
 p:hover {
-  font-size: green;
+  font-color: green;
 }
 ```
 
