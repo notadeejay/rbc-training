@@ -2,12 +2,8 @@
 uuid: 338a2781-24c9-4277-865f-78d77ede6cec
 ---
 
-<<<<<<< HEAD
-When we learned about Booleans, we also learned about comparison operators and mentioned that often times when we're writing code, we want to know the answers to yes or no questions. Based on the answers
-to these questions, we want our code to be able to respond appropriately. This is where **if statements** come in. They allow us to control which code gets evaluated, and when.
-=======
 When we learned about Booleans we also learned about comparison operators, and mentioned that often times when we're writing code, we want to know the answers to yes or no questions. Based on the answers to these questions, we want our code to be able to respond appropriately. This is where **if statements** come in. They allow us to control which code gets evaluated, and when.
->>>>>>> ac942cd853c51b5e3c227f70a950b64499907c2c
+
 
 If statements rely on a **condition**. A condition is something that can evaluate to true or to false. They work hand in hand with our Boolean data type.
 
@@ -81,3 +77,18 @@ if (weather === "raining") {
 We can also check for more than one condition by using else if clauses. In the above example, JavaScript will check if `weather` is `"raining"`. If it isn't, then it will check if `weather` is `"snowing"`. If it isn't, then it will evaluate the code in the else block. Because in the above example `weather` is equal to `"snowing"`, the code within the else if block will run.
 
 **Tip:** If you're struggling to understand some code, go through it slowly and read it out loud. When you were first learning to read, you probably had to sound out the words, letter by letter. This technique works for code too!
+
+
+## Exercises
+
+### Age Exercise
+
+- Declare a variable called `age` and assign it to an integer
+- Write an `if statement` that will output "Over 21!" if `age` is greater than or equal to 21, and "Under 21" if the it's under 21.
+
+### Weather Exercise
+
+- Declare a variable called `weather`, and assign it to a string
+- Write some code to check if the `weather` variable is equal to "raining", and output a reminder to bring an umbrella
+- Add an `else if` statement that checks if the weather is equal to "sunny", and output a reminder to bring a hat
+- Add an `else` statement that just says "I'm not sure what you should bring!"

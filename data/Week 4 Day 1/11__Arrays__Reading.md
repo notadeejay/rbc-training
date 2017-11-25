@@ -53,3 +53,10 @@ var fruits = ["apples", "oranges", "bananas"]
 fruits[0] = "mangoes"
 // now the fruits array would be ["mangoes", "oranges", "bananas"]
 ```
+
+
+## Exercises
+
+- Make a list of your top five favourite foods, and put them into an array
+- Log each of your five favourite foods by their index values
+- Add another food to your favourite foods array using the `.push` function

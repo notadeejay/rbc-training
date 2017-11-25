@@ -60,3 +60,10 @@ var pet = {
 pet.age = 6
 // Would make Sherman 6 years old
 ```
+
+## Exercises
+
+- Create an object that keeps track of your personal information. Include your first name, last name, occupation and quirky fact
+- Practice using both methods of accessing values in your object
+- Change a value in your object after you've declared it
+- Add a value for your home town to your object, after you've declared it

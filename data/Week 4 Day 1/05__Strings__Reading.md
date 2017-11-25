@@ -32,3 +32,11 @@ Another thing to note, is that the following is a string, not a number:
 ```
 
 Computers need to keep track not just of values (like 3) but also their data types (like strings). This is important because the operations you can perform on a value (like addition or concatenation) depend on what kind of data type you're working with.
+
+
+### Exercises
+
+- Create a string containing your first name
+- Log your string to the panel on the right
+- Add some words together to make a sentence that greets your instructor
+- What happens when you add a string and an integer together?

@@ -51,3 +51,12 @@ This code evaluates to 10, which is the number of characters in the string `"Lig
 ```
 
 Would give us a new string in all caps: `"HELLO, THERE"`.
+
+## Exercise
+
+- Write a function that outputs "Good morning" when you call it
+- Write a function that takes a person's name as a parameter and says good morning to this person
+- Write a function that takes the weather information as a parameter (that is, "raining", "sunny" or nothing), and outputs whether you should take an umbrella or hat along, or whether the computer doesn't know what you should bring along with you
+- Write a function that divides two numbers and returns the result
+- Write a function that takes two numbers and returns the largest one
+- Write a function that checks if two strings are the same, and returns true or false

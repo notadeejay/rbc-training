@@ -89,3 +89,16 @@ Returns true if the two values **do not** equal each other.
 console.log("Hello" !== "Good Bye")
 // would log true to the console
 ```
+
+
+### Exercises
+
+## Booleans
+
+**Note:** For each of these tasks, use `console.log` to print the result of your comparison operations.
+
+- Create two strings and check if they are equal
+- Capitalize one of your strings, are they still equal?
+- Check if two integers are equal
+- Wrap one integer in quotes, and compare them again, are they still equal?
+- Create two strings and check if they are **not** equal to each other

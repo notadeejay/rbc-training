@@ -17,3 +17,11 @@ console.log(12 / 4)
 console.log(3 * 4)
 // would log 12 to the console
 ```
+
+## Exercise
+
+- If you haven't already, open up [repl.it](https://repl.it/languages/javascript)
+- Use `console.log` to print a number to the screen on the right
+- Add two numbers and log the output
+- Multiply two numbers and log the output
+- Divide two numbers and log the output

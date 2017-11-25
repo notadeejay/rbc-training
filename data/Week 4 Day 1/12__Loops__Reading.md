@@ -73,3 +73,10 @@ Or we could shorten it to:
 ```javascript
 counter += 1
 ```
+
+## Exercises
+
+- Create an array of your favourite movies (or books, or anything else you like)
+- Loop over each movie and print its title to the console
+- Add some code to your loop that will print the movie title in all caps
+- Write a loop that will count from 20 down to 1
