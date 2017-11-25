@@ -1,0 +1,87 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+html { height: 100%; }
+body, .container { min-height: 90%; }
+
+body {
+  margin:0 auto;
+  max-width: 960px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+#search {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+button {
+  padding: 10px;
+  background: white;
+  border: none;
+  outline: 1px solid black;
+}
+
+#results {
+  display: none;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+
+.results-temperatures, .results-wind {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.results-temperatures li, .results-wind li {
+  margin: 10px;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  padding-left: 0px;
+  flex-grow: 1;
+}
+
+li:not(:last-child) {
+  border-right: 1px solid #777;
+  padding-right: 20px;
+}
+
+footer {
+  text-align: center;
+  color: #aaa;
+}
+
+footer a {
+  color: inherit;
+}

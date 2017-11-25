@@ -1,0 +1,95 @@
+body {
+  font-family: 'Raleway', serif;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+main input {
+  outline: none;
+  padding: 10px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 1px solid green;
+}
+
+
+button {
+  border: 1px solid black;
+  padding: 10px;
+  background: white;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3, p {
+  font-size: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+#results h2 {
+  text-align: center;
+}
+
+.meta, .links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meta div {
+  text-align: center;
+}
+
+.image-results {
+  flex-grow: 1;
+}
+
+.details-results {
+  flex-grow: 2;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.options h2 {
+  text-align: center;
+  padding-right: 30px;
+  cursor: pointer;
+  flex-grow: 1;
+
+}
+
+.options h2:first-letter {
+  text-transform: uppercase;
+}
+
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+}
+
+.hide {
+  visibility: hidden;
+}

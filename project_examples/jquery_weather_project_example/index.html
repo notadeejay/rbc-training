@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Weather App</h1>
+      <h4>Search by City for Weather</h4>
+      <a class="search-again">Search Again</a>
+    </header>
+    <div class="container">
+      <main>
+        <div id="search">
+          <form id="search-form">
+            <input type="text" name="search-keywords" id="search-keywords" placeholder="City Name">
+            <button>Search</button>
+          </form>
+        </div>
+
+        <div id="results">
+
+          <h2 class="results-title">Title</h2>
+
+          <img src="" alt="" class="result-image">
+
+          <div class="current-weather">
+            <h2 class="results-weather"></h2>
+            <p class="results-description"></p>
+          </div>
+
+          <h2>Temperatures</h2>
+          <ul class="results-temperatures">
+          </ul>
+
+          <h2>Wind</h2>
+          <ul class="results-wind"></ul>
+
+          <h2>Sunrise and Sunset</h2>
+          <ul class="results-sunrise"></ul>
+        </div>
+      </main>
+    </div>
+    <footer>
+        Weather data provided by <a href="https://home.openweathermap.org/">Open Weather Map</a>
+    </footer>
+  </body>
+</html>

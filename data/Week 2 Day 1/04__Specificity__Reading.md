@@ -46,7 +46,7 @@ Each of these methods of selecting an element has a different **specificity**. S
 
 When there are conflicting styles, CSS uses specificity to figure out which style should be applied to the page.
 
-### Calculating CSS Specificity
+### Calculating CSS specificity
 
 To calculate the specificity of a CSS rule we can essentially count the different types of selectors that are used.
 
@@ -121,34 +121,34 @@ Let's bring in **IDs**. They are more specific than classes or tag names. Let's 
 /*
   0, 1, 0, 0
 */
-  #highlight {
-    color: yellow;
-  }
+#highlight {
+  color: yellow;
+}
 
-  /*
-    0, 0, 1, 0
-  */
-  .blog-post p {
-    color: orange;
-  }
+/*
+  0, 0, 1, 0
+*/
+.blog-post p {
+  color: orange;
+}
 
-  /*
-    0, 0, 0, 2
-  */
-  article p {
-    color: red;
-  }
+/*
+  0, 0, 0, 2
+*/
+article p {
+  color: red;
+}
 
-  /*
-    0, 0, 0, 1
-  */  p {
-    color: blue;
-  }
+/*
+  0, 0, 0, 1
+*/  p {
+  color: blue;
+}
 ```
 
 The text in our paragraph element will appear yellow because the `#highlight` selector is the most specific.
 
-### Specificity Rule Recap
+### Specificity rule recap
 
 Let's go back to the rule we declared earlier:
 
@@ -156,7 +156,7 @@ Let's go back to the rule we declared earlier:
 
 Specificity helps determine which styles should be applied to particular elements. If you find yourself adding CSS styles that don't seem to be having any affect on your HTML, double check there is not a more specific style somewhere else in your code.
 
-### Extra Resources
+### Extra resources
 
 - Video Explanation of Specificity: https://www.youtube.com/watch?v=fy07HYm-geM
 - Specificity Calculator: https://specificity.keegan.st/
