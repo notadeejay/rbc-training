@@ -18,7 +18,7 @@ console.log(3 * 4)
 // would log 12 to the console
 ```
 
-## Exercise
+## Exercises
 
 - If you haven't already, open up [repl.it](https://repl.it/languages/javascript)
 - Use `console.log` to print a number to the screen on the right

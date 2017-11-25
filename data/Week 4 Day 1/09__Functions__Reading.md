@@ -52,7 +52,7 @@ This code evaluates to 10, which is the number of characters in the string `"Lig
 
 Would give us a new string in all caps: `"HELLO, THERE"`.
 
-## Exercise
+## Exercises
 
 - Write a function that outputs "Good morning" when you call it
 - Write a function that takes a person's name as a parameter and says good morning to this person

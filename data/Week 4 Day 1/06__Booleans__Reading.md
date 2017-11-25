@@ -93,8 +93,6 @@ console.log("Hello" !== "Good Bye")
 
 ### Exercises
 
-## Booleans
-
 **Note:** For each of these tasks, use `console.log` to print the result of your comparison operations.
 
 - Create two strings and check if they are equal
