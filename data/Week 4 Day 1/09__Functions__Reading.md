@@ -54,9 +54,42 @@ Would give us a new string in all caps: `"HELLO, THERE"`.
 
 ## Exercises
 
-- Write a function that outputs "Good morning" when you call it
-- Write a function that takes a person's name as a parameter and says good morning to this person
-- Write a function that takes the weather information as a parameter (that is, "raining", "sunny" or nothing), and outputs whether you should take an umbrella or hat along, or whether the computer doesn't know what you should bring along with you
+### Exercise 1
+- Write a function that console.logs "Good Morning" when you call it.
+
+### Exercise 2
+- Write a function that takes a persons name as a parameter, and console.logs "Good morning" to this person
+
+**Input**: 'Maggie'
+**Output**: 'Good Morning, Maggie'
+
+### Exercise 3
+- Write a function that takes a parameter, and console.logs out advice about the weather
+
+**Input**: 'raining'
+**Output**: 'Bring an umbrella!'
+
+**Input**: 'sunny'
+**Output**: 'Wear sunglasses'
+
+### Exercise 4
 - Write a function that divides two numbers and returns the result
+
+**Input**: 10
+**Output**: 5
+
+
+### Exercise 5
 - Write a function that takes two numbers and returns the largest one
+
+**Input**: 3, 8
+**Output**: 8
+
+### Exercise  6
 - Write a function that checks if two strings are the same, and returns true or false
+
+**Input**: 'sunshine', 'sunshine'
+**Output**: true
+
+**Input**: 'sunshine', 'pizza'
+**Output**: false

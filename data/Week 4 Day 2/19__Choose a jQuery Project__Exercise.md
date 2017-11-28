@@ -2,7 +2,7 @@
 uuid: dc7aeb60-61c4-44a7-920c-bf6478c4cab3
 ---
 
-Okay, it's time to put all of those JavaScript and jQuery skills to use. Over the next couple of weeks you will be building out your own web app! We'll be giving you some tasks and guidelines, but you are free to be as creative as you want with your app's design and functionality.
+Okay, it's time to put all of those JavaScript skills to use. Over the next couple of weeks you will be building out your own web app! We'll be giving you some tasks and guidelines, but you are free to be as creative as you want with your app's design and functionality.
 
 You have three choices for your jQuery project.
 

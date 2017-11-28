@@ -1,5 +1,6 @@
 ---
 uuid: f6508784-ccc7-4d8b-b4ab-6a64c516284d
+archived: true
 ---
 
 - Should add more features to their jQuery project

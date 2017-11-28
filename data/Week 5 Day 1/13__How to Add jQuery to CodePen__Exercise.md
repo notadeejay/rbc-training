@@ -1,6 +1,7 @@
 ---
 uuid: fa29529b-8bd3-4673-882f-946d16ad57fd
 stretch: true
+
 ---
 
 CodePen (<http://codepen.io>) is a great place to practice writing HTML, CSS and JavaScript. We can also tell it to include jQuery in our pens.

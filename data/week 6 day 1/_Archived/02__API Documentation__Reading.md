@@ -1,5 +1,6 @@
 ---
 uuid: 01045c1a-e3b8-43bd-b256-5add3505f5c9
+archived: true
 ---
 <!--
  Talk about how each API has documentation

@@ -1,5 +1,6 @@
 ---
 uuid: 2b71211b-5f3d-4569-8f97-70ffccafe37c
+archived: true
 ---
 
 The Open Weather Map API also gives us the option to search for a five day forecast, instead of a daily weather report.

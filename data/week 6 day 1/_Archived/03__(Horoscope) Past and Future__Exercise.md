@@ -1,5 +1,6 @@
 ---
 uuid: 7d45ee5f-a178-48fb-b4fe-059592ca2bb9
+archived: true
 ---
 
 The API we're using to pull horoscopes for our users also lets us search for tomorrow's horoscope,
