@@ -1,5 +1,5 @@
 ---
-uuid: 65e8b521-7517-4f87-8e17-5c92c7dad684
+uuid: 0eb399e6-6920-4d76-866f-8a24013d5780
 ---
 
 Before we start writing JavaScript in our new jQuery project, we need to discuss how to add JavaScript to your HTML.
