@@ -1,6 +1,7 @@
 ---
-uuid: 98f55240-9fe3-4871-9c90-8a463768df62
+uuid: 6f6f3e94-b8a0-4bd3-9f48-c35549563bde
 ---
+
 
 Arrays are a data type that let you store a list or collection of items. In JavaScript, an array can be of any length, and contain any data type.
 

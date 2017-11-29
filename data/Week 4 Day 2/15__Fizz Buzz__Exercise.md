@@ -1,5 +1,5 @@
 ---
-uuid: 21211a1c-6620-4d70-ad9c-6be97ad84fbd
+uuid: 8d8fc135-86e8-4e31-89d6-2806e7f02819
 ---
 
 Fizz Buzz is a famous programming problem. To solve it, write some code that prints all numbers from 1 to 100. But, instead of the numbers, for multiples of 3 print 'Fizz', for multiples of 5 print 'Buzz', and for multiples of both 3 and 5 print 'FizzBuzz'.

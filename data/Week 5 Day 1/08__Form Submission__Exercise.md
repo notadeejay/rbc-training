@@ -1,5 +1,5 @@
 ---
-uuid: cca29fa0-b8e2-47ef-966f-505727e077a8
+uuid: 2ab89a95-b9fc-4eac-a63f-e022be7bda9b
 ---
 
 Right now, when you click "Search" or press the <kbd>Enter</kbd> key on your form, you'll notice that the page refreshes. When we submit a form, our browser will gather up the information that has been inputted, send it to our sever, and the refresh the page. In our case we don't want this to happen, so we're going to override the default behaviour and send the request ourselves using jQuery.

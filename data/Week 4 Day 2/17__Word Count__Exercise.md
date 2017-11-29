@@ -1,5 +1,5 @@
 ---
-uuid: a6770ebe-6f79-435c-b1e0-34a9c7289661
+uuid: 507c3c6d-7d3a-4d8a-a246-dd84c7b46628
 ---
 
 For the word count programming challenge, your job is to write a function that takes as parameters an array of words and another word, and returns how many times this word appears in the array.

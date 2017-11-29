@@ -1,6 +1,7 @@
 ---
-uuid: d321d4d6-853f-46f5-bb83-eacd183ba3ec
+uuid: 7c996092-4ec0-4d50-8ad0-44d771237683
 ---
+
 
 When we get a response from our API, we want to display that information to our user. We've already added code to show our results `div`, but we'll need to make new elements to hold this new information.
 

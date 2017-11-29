@@ -1,6 +1,7 @@
 ---
-uuid: fb13b579-2f3b-48e3-9762-66d6341a4bbb
+uuid: 3980c9f4-6089-4f3c-8aea-5a8094b8ecbd
 ---
+
 <!-- Make sure how you explain that it will be asynchronous -->
 
 Luckily, jQuery has a built in method for sending a get request.

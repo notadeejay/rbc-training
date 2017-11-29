@@ -1,6 +1,7 @@
 ---
-uuid: 98270472-7272-4836-b058-f4a42f9526c0
+uuid: 974d1aa8-470a-4d7b-bb37-6965ebe3162d
 ---
+
 
 When you load your favourite web app on your browser, you are interacting with what we call the front-end of the web application. Anything you, as a user, see and interact with is the front end. When we send out a tweet, or post a photo on Facebook, that data has to go somewhere where everyone else loading that web app has access to it.
 

@@ -1,5 +1,5 @@
 ---
-uuid: 3d6c8074-1da6-4de9-af7f-6cda24f3966d
+uuid: 05c9f4ac-ff28-47b3-af2e-66ad8006a023
 ---
 
 Great. So you've got some elements appearing on your page when you submit your search form. Let's add a **Search Again** button that allows your users to see the search bar again, and find new information.

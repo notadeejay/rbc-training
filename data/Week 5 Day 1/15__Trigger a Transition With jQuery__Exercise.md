@@ -1,7 +1,8 @@
 ---
-uuid: 66c34974-d6c7-4403-8fdf-665e3e26c7fc
 stretch: true
+uuid: 112fc7ce-9e89-4618-84b4-94d3fa27f327
 ---
+
 
 Last week we learned about CSS animations and transitions. We triggered these animations and transitions
 with a hover. We can also trigger transitions and animations with jQuery. One way to do this, is by **adding and removing classes**.

@@ -1,8 +1,8 @@
 ---
-uuid: 0758d35e-4c01-46d8-8865-7a7b4e040a13
 stretch: true
-
+uuid: d4f29a58-ff83-4f74-9561-da05be59d2d4
 ---
+
 
 So far, our page is fairly basic. We have a form and a results div that are shown and hidden.
 Take a moment to start filling out the rest of the page. It's helpful to make a quick sketch of

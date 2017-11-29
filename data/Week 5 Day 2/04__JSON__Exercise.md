@@ -1,6 +1,7 @@
 ---
-uuid: 9f1e7134-082e-47d9-9cce-f806f0a2031a
+uuid: b8a54108-626d-4bc9-be27-671f736731f5
 ---
+
 
 Both of the JQuery app options let users search for some information from an outside source. Next class, we'll learn all about how to implement this in JQuery.
 

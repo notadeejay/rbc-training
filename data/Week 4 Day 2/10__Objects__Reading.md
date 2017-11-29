@@ -1,5 +1,7 @@
 ---
-uuid: b9823aaf-94b6-47b6-a9e2-26dc2e13ede0
+uuid: 0569f48e-7048-46c1-96b0-b397fa03346b
+---
+---
 ---
 
 Objects are a great way to organize sets of related information. Objects are collections of **key-value pairs**. For example, if we were building an app for a vet, we could store all of the information about one pet in an **object**. Here we've declared a variable (`pet`) and assigned it to an object:

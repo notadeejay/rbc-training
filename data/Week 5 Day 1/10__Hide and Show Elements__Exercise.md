@@ -1,6 +1,7 @@
 ---
-uuid: 53440d68-bc85-43a6-a0a6-7273b77042a3
+uuid: 7aac2a91-4509-403d-80a3-dec1a9bda0c0
 ---
+
 
 One of the things you can do with jQuery is hide and show elements on your page.
 

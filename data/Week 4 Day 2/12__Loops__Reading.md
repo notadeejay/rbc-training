@@ -1,6 +1,7 @@
 ---
-uuid: 96fb74d2-4521-4fa3-9a53-5af7228ef523
+uuid: aa2ea570-d7c2-460c-a793-717f5187a15c
 ---
+
 
 Loops are a really powerful feature of JavaScript. They allow us to repeat actions a set number of times or for each element in a collection (like an array).
 

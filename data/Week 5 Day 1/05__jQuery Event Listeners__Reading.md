@@ -1,5 +1,5 @@
 ---
-uuid: ac752519-e649-4f77-9204-8d44352a4b46
+uuid: 3519ddb2-d265-46da-8429-79b52263e032
 ---
 
 Event listeners are what makes a lot of the interaction with jQuery possible. It's a very powerful part of jQuery, and a feature that you will be using as you build out your project. By adding a few lines of JavaScript, we can "listen" for when the user clicks, hovers, presses keys, or even refreshes the page.
