@@ -29,3 +29,15 @@ The string `Helloworld` should output `4355696753`.
 Keep in mind that there are several ways to solve this problem, so if a classmate takes a different approach than you, that's okay.
 
 Pair with another classmate and work through the logic together!
+
+
+### Tips & Tricks
+
+#### .split()
+
+Can be used to split a string into an array of characters.
+
+```javascript
+"hello".split('')
+// ['h', 'e', 'l', 'l', 'o']
+```
