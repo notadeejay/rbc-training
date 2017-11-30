@@ -41,3 +41,17 @@ Can be used to split a string into an array of characters.
 "hello".split('')
 // ['h', 'e', 'l', 'l', 'o']
 ```
+
+#### .toUpperCase()
+
+```javascript
+  "hello".toUpperCase()
+  // HELLO
+```
+
+#### .toLowerCase()
+
+```javascript
+  "HELLO".toLowerCase()
+  // hello
+```
