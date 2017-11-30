@@ -15,7 +15,7 @@ buzz
 fizz
 7
 8
-buzz
+fizz
 buzz
 11
 fizz
