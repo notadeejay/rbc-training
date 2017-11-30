@@ -11,6 +11,7 @@ var foods = ["pizza", "celery", "bananas", "pizza", "lettuce", "cookies", "pizza
 ```
 
 Here is some code to get you started:
+
 ```javascript
 
 function wordCount(searchWord, wordsArray){
