@@ -28,11 +28,9 @@ The string `Helloworld` should output `4355696753`.
 
 Keep in mind that there are several ways to solve this problem, so if a classmate takes a different approach than you, that's okay.
 
-Pair with another classmate and work through the logic together!
+Pair with another classmate and work through the logic together! Remember it's always best to come up with a plan of how you're going to solve this problem BEFORE you start writing code.
 
-
-
-
+You can map out the steps your going to take on a piece of paper, if you find that helpful.
 
 ### Tips & Tricks
 
