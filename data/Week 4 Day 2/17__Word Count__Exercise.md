@@ -21,4 +21,4 @@ function wordCount(searchWord, wordsArray){
 
 Using our foods answer as an example, we would expect the answer to be "3".
 
-Once again, pair up with a partner and work through this problem together.
+Once again, pair up with a partner and work through this problem together. Remember to break the problem down into manageable chunks, and work slowly.
