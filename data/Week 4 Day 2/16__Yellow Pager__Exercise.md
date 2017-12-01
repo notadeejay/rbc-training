@@ -31,6 +31,9 @@ Keep in mind that there are several ways to solve this problem, so if a classmat
 Pair with another classmate and work through the logic together!
 
 
+
+
+
 ### Tips & Tricks
 
 #### .split()
@@ -43,6 +46,7 @@ Can be used to split a string into an array of characters.
 ```
 
 #### .toUpperCase()
+Converts all of the letters in a string to uppercase.
 
 ```javascript
   "hello".toUpperCase()
@@ -50,8 +54,21 @@ Can be used to split a string into an array of characters.
 ```
 
 #### .toLowerCase()
+Converts all of the letters in a string to lowercase.
 
 ```javascript
   "HELLO".toLowerCase()
   // hello
+```
+
+#### for loop
+
+Loops over all of the elements in an array
+
+```javascript
+var cities = ['toronto', 'ottawa', 'london']
+
+for(var i = 0; i < cities.length; i++) {
+  console.log(cities[i])
+}
 ```
