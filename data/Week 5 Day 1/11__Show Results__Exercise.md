@@ -6,7 +6,7 @@ uuid: 4a17bd68-3365-4d23-bc54-623d7a6a8211
 ## Tasks
 
 - Add a div to your HTML that will hold the results of your search
-- Add code to show your new results div when the search button is clicked
+- Add code to show your new results div when your form is submitted
 - Add animations to your elements that are being shown and hidden
 
 

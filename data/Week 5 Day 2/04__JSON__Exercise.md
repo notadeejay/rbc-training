@@ -160,13 +160,13 @@ Go through these two sample responses, and take note of the information provided
             "strMeasure14": "",
             "strMeasure15": "",
             "dateModified": "2015-08-18 14:51:53"
-        }
+        }]
 }
 ```
 
 ## Tasks
 
-- [ ] Copy and paste the object for your respective project into the **top** of your `index.js` file
+- [ ] Copy and paste the object for your respective project to the **top** of your `index.js` file
 
 
 Then, you can use the information found in the hash for today's exercises.

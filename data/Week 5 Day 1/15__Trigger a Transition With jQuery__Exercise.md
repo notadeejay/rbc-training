@@ -4,8 +4,8 @@ uuid: 112fc7ce-9e89-4618-84b4-94d3fa27f327
 ---
 
 
-Last week we learned about CSS animations and transitions. We triggered these animations and transitions
-with a hover. We can also trigger transitions and animations with jQuery. One way to do this, is by **adding and removing classes**.
+We've learned about CSS animations and transitions. We triggered these animations and transitions
+with a hover. We can also trigger transitions and animations with jQuery. One way to do this, is by **adding and removing classes** from our HTML elements.
 
 
 ### addClass

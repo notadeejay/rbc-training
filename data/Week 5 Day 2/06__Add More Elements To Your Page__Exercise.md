@@ -1,30 +1,24 @@
 ---
-uuid: 7c996092-4ec0-4d50-8ad0-44d771237683
+uuid: c579f98a-3dc9-47fc-a972-0965d6e91233
 ---
 
-When we get a response from our API, we want to display that information to our user. We've already added code to show our results `div`, but we'll need to make new elements to hold this new information.
+Now that we've gotten started using our example JSON response. Take a look at the object, and decide
+what information you would like to display to your user.
 
-## Tasks
+If you need to, stop now and figure out how you can extract those pieces of information from your JSON object. If you're unsure, ask a mentor for help.
 
-### Weather
-- Write a function that takes the response object as an argument, and appends an HTML element containing the value of the **name** key to your page.
+### Task
+- Decide on which piece of information you would like to display to your user
+- Write a function that takes the response object as an argument, and appends an HTML element containing a value from the JSON example to your page.
 - Add code so this function is called when a user submits the search form
+- Repeat until you have displayed all of the information you think your user would want to see
 
-**Tip**: When you add your new HTML element to your page, make sure it goes _inside_ your results div.
 
-### Horoscope
-- Write a function that takes the response object as an argument, and appends an HTML element containing the value of the **sunsign** key to your page.
-- Add code so this function is called when a user submits the search form.
 
-**Tip**: When you add your new HTML element to your page, make sure it goes _inside_ your results div.
-
-### Drinks
-- Write a function that takes the response object as an argument, and loops over the drinks in the **drinks** array.
-- For each element in your drinks array, append and HTML element that contains the drink name (it has they key **strDrink**)
-
-**Tip**: When you add your new HTML element to your page, make sure it goes _inside_ your results div.
-
-## Tips & Tricks
+### Tips & Tricks
+- Keep your console open as you code
+- Go slowly, break the task down into small pieces
+- Write a little bit of code, test it, and repeat
 
 ### append
 

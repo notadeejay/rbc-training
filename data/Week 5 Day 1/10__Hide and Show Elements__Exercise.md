@@ -6,9 +6,10 @@ uuid: 7aac2a91-4509-403d-80a3-dec1a9bda0c0
 One of the things you can do with jQuery is hide and show elements on your page.
 
 ## Tasks
+- Add a jQuery event listener that will fire when the form on your page has been submitted
 - Add code to hide your search input and button after the form has been submitted
-- Add an attribute to the text input so there's appropriate placeholder text by default
-- Add an animation to the elements as they are hidden
+- Add a placeholder attribute to your text input by default
+- Add a jQuery animation to the elements as they are hidden
 - Add some custom CSS and personalize your project
 
 ## jQuery reference

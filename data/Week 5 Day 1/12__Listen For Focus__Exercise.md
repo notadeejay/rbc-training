@@ -2,12 +2,10 @@
 uuid: bd64e7c8-10c5-44b5-82bc-64b83268a95d
 ---
 
-
-
 ## Tasks
 
-- Add code so that when a user focuses inside an input element, the border of this input element changes colour
-- Use CSS to style your inputs and submit buttons
+- Add code so that when a user clicks on an input element, the border of this input element changes colour
+- Use CSS to style the text input and submit button of your form
 
 ## jQuery reference
 

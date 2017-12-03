@@ -59,6 +59,7 @@ date.getMonth()
 
 ### getFullYear
 Returns the year.
+
 ```javascript
 date.getFullYear()
 ```
@@ -116,7 +117,7 @@ This would output
 Let's say you have an object in JavaScript
 
 ```javascript
-pet = {
+var pet = {
   name: 'Hogan',
   age: 5,
   breed: 'Mini Aussie',
@@ -135,6 +136,25 @@ function createListItems(object) {
 }
 ```
 
+Then, we could call our function `createListItems` with our `pet` variable as an **argument**.
+
+```javascript
+var pet = {
+  name: 'Hogan',
+  age: 5,
+  breed: 'Mini Aussie',
+}
+
+function createListItems(object) {
+  var listItems = ''
+  for (prop in object) {
+    listItems += '<li>' + prop + ':' + object[prop] + '</li>'
+  }
+  return listItems
+}
+
+createListItems(pet)
+```
 
 ### Replace
 
@@ -142,4 +162,28 @@ Allows you to manipulate strings in JavaScript. The first argument is the string
 
 ```javascript
   "Hello there".replace('there', 'you')
+  // would return "Hello you"
+```
+
+## JSON.parse
+
+This is useful for converting a string to an object.
+
+```javascript
+var obj = JSON.parse(string)
+```
+
+For example, we can turn the `companyString` string into a `companyObject` object:
+
+```javascript
+var companyString = '{"name":"Lighthouse Labs","office_pet":"Sherman"}'
+var companyObject = JSON.parse(string)
+// companyObject would be { name: 'Lighthouse Labs', office_pet: 'Sherman' }
+```
+
+The string `companyString` was parsed into an object, letting us do something like this:
+
+```javascript
+companyObject.name
+// would be 'Lighthouse Labs'
 ```
