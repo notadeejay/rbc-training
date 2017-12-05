@@ -24,7 +24,7 @@ We're going to add jQuery to the bottom of the body. In other, words, the `<scri
 Alternatively, you can you a CDN (Content Delivery Network). This means that when a user visits your website, the browser will load jQuery from a source other than your computer or the server hosting your website.
 
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jQuery/3.2.1/jQuery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 ```
 
 We're going to add jQuery to the bottom of the body. In other, words, the `<script>` tag in the previous example should go just **above** the `</body>` tag.

@@ -90,4 +90,4 @@ var cityName = class.location.city
 
 ### Tips
 
-We'll be working with objects quite heavily today, so if you don't feel completely comfortable with them, take a few minutes now and play around with them. 
+We'll be working with objects quite heavily today, so if you don't feel completely comfortable with them, take a few minutes now and play around with them.
