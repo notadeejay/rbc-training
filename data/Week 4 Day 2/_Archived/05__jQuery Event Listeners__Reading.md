@@ -53,15 +53,6 @@ $('.box').on('mouseleave', function() {
 })
 ```
 
-## hover
-
-This event will fire when an element is *being* hovered over. The element that is being hovered over will have some styles added using the `css` function, which will change its background colour (to orange).
-
-```javascript
-$('.box').on('hover', function() {
-  $(this).css('background-color', 'orange')
-})
-```
 
 ## Tips & Tricks
 
