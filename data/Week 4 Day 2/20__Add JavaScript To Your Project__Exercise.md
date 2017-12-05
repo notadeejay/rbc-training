@@ -34,7 +34,7 @@ We're going to add jQuery to the bottom of the body. In other, words, the `<scri
 Once you have jQuery loading, you will then need to add a link to your JavaScript file in your HTML document:
 
 ```html
-<script type="text/javascript" src="./app.js"></script>
+<script type="text/javascript" src="./index.js"></script>
 ```
 
 We're going to add our JavaScript to the bottom of the body, but after jQuery. In other, the `<script>` tag in the previous example should go just **below** the `<script>` that loads jQuery, and **above** the `</body>` tag.
