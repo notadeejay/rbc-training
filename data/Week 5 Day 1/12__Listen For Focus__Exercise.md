@@ -34,7 +34,7 @@ $('form input').on('blur', function() {
 The change event is triggered when the user changes the value of the input element. In other words, when they start typing.
 
 ```javascript
-$('form input').on('blur', function() {
+$('form input').on('change', function() {
   // add code here
 })
 ```
