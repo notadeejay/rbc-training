@@ -2,168 +2,160 @@
 uuid: 21777904-61cf-44e5-9fcc-07cf539288b3
 ---
 
+JavaScript has many built in functions that you can use. Here are a few that you might find helpful as you move through building your project.
 
-As you move through your project you might find some JavaScript methods and examples will come in handy.
-
-
-<!-- This is here because students using the Weather API might want to parse the times of sunset and sunrise -->
 ## Date
 
-Some of your API's might return the date as a **unix timestamp**. What this is is the number of
-seconds that have passed since January 1, 1970 UTC. It's a common way to store time when we're building
-web applications.
+As you build your app, you might run into a **timestamp**, a common way for computers to keep track of time. The Unix timestamp is the number of milliseconds that have passed since January 1, 1970 <abbr title="Coordinated Universal Time">UTC</abbr>.
 
-The `Date` function in JavaScript let's us use unix timestamps, and has some built in methods that allow us to parse our unix timestamp into something more readable.
+The `Date` function in JavaScript lets us work with Unix timestamps using some built in functions that can parse Unix timestamps into something more human readable.
 
 ```javascript
-  var date = new Date(timestamp);
+var date = new Date(1508887542971);
+// Tue Oct 24 2017 19:25:42 GMT-0400 (EDT)
 ```
 
-Note that a Date expects a timestamp to be in milliseconds, if you have one that in seconds, you can multiply it by a thousand, and then create a new date.
+Note that a Date expects a timestamp to be in milliseconds. If your timestamp is in seconds, you can multiply it by a thousand to get convert it to milliseconds before creating a new date.
 
 ```javascript
-  var date = new Date(timestamp * 1000)
+var date = new Date(timestamp * 1000)
 ```
 
-### getHours
+#### getHours
 
-Returns the hour (0-23)
+Returns the hour (0-23).
 
 ```javascript
 date.getHours()
+// 19
 ```
 
-### getMinutes
+#### getMinutes
 
-Returns the minutes (0-59)
+Returns the minutes (0-59).
 
 ```javascript
 date.getMinutes()
+// 25
 ```
 
-### getDate
+#### getDate
 
-Returns the day of the month (1-31)
+Returns the day of the month (1-31).
 
 ```javascript
 date.getDate()
+// 24
 ```
 
-### getMonth
+#### getMonth
 
-Returns a month from (0-11)
+Returns a month (0-11).
 
 ```javascript
 date.getMonth()
+// 10
 ```
 
-### getFullYear
+#### getFullYear
+
 Returns the year.
 
 ```javascript
 date.getFullYear()
+// 2017
 ```
 
+#### toLocaleString
 
-### toLocaleString
-
-Converts a date object to a string, using local conventions. For example,
+Converts a date object to a string, using local conventions. For example:
 
 ```javascript
 date.toLocaleString()
-// "10/9/2017, 12:57:55 PM"
-````
+// '10/24/2017, 7:25:42 PM'
+```
 
+## Looping over objects
 
-## Looping Over Objects
-
-If we have this object:
+If we have the following object:
 
 ```javascript
 var person = {
   firstName: 'Larry',
   lastName: 'Duckworth'
 }
+```
 
-for (key in person) {
+Then the following code would loop over every key in the object and log it to the console:
+
+```javascript
+for (var key in person) {
   console.log(key)
 }
+
+// The above would log:
+// firstName
+// lastName
 ```
 
-This code would log out
+We can also use each key that we're looping over to access its associated value:
 
 ```javascript
-"firstName"
-"lastName"
-```
-
-We can use the name of our keys, to access the values:
-
-```javascript
-for (key in person) {
+for (var key in person) {
   console.log(person[key])
 }
+
+// The above would log:
+// Larry
+// Duckworth
 ```
 
-This would output
-
-```javascript
-  "Larry"
-  "Ducksworth"
-```
-
-### Creating List Items
-
-Let's say you have an object in JavaScript
+Let's take a look at another example. Let's imagine we had the following object in JavaScript:
 
 ```javascript
 var pet = {
   name: 'Hogan',
   age: 5,
-  breed: 'Mini Aussie',
+  breed: 'Mini Aussie'
 }
 ```
 
-And you want to create HTML elements based on this information, we could create a function that loops over our hash, and formats each key value pair as a list item:
+If you wanted to create HTML elements based on this information, you could create a function that loops over the object and formats each key value pair as a list item:
 
 ```javascript
 function createListItems(object) {
   var listItems = ''
-  for (prop in object) {
-    listItems += '<li>' + prop + ':' + object[prop] + '</li>'
+  for (var key in object) {
+    listItems += '<li>' + key + ':' + object[key] + '</li>'
   }
   return listItems
 }
 ```
 
-Then, we could call our function `createListItems` with our `pet` variable as an **argument**.
+Then we could call the `createListItems` function, passing in the `pet` object:
 
 ```javascript
-var pet = {
-  name: 'Hogan',
-  age: 5,
-  breed: 'Mini Aussie',
-}
-
-function createListItems(object) {
-  var listItems = ''
-  for (prop in object) {
-    listItems += '<li>' + prop + ':' + object[prop] + '</li>'
-  }
-  return listItems
-}
-
 createListItems(pet)
 ```
 
-### Replace
+This would return the following HTML:
 
-Allows you to manipulate strings in JavaScript. The first argument is the string it should replace, and the second is the string that it should be replaced *with*.
+```html
+<li>name: Hogan</li>
+<li>age: 5</li>
+<li>breed: Mini Aussie</li>
+```
+
+
+## String `replace` function
+
+The string `replace` function allows you to manipulate strings in JavaScript. The first argument to the function is the substring it should replace, and the second is the substring that it should be replaced *with*.
 
 ```javascript
-  "Hello there".replace('there', 'you')
-  // would return "Hello you"
+"Hello there".replace('there', 'you')
 ```
+
+The above code would change "Hello there" into "Hello you".
 
 ## JSON.parse
 
