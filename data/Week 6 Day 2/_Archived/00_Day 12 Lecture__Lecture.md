@@ -1,5 +1,6 @@
 ---
 uuid: 5f97e511-6d09-4fec-b52d-8c2d22164caa
+archived: true
 ---
 
 Do a quick review of everything we've learned throughout the course.

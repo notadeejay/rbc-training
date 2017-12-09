@@ -3,6 +3,20 @@ uuid: 2b71211b-5f3d-4569-8f97-70ffccafe37c
 archived: true
 ---
 
+<<<<<<< HEAD
+The Open Weather Map API also gives us the option to search for a five day forecast, in addition to a daily weather report.
+
+
+### Forecast URL
+
+```javascript
+api.openweathermap.org/data/2.5/forecast
+```
+
+### Example response
+
+```javascript
+=======
 The Open Weather Map API also gives us the option to search for a five day forecast, instead of a daily weather report.
 
 
@@ -14,6 +28,7 @@ The Open Weather Map API also gives us the option to search for a five day forec
 
 ```javascript
 
+>>>>>>> f19f091d24819b7d9631c572bbb57c3848495adf
 {
     "cod": "200",
     "message": 0.0064,
@@ -103,8 +118,15 @@ Note that some of the fields in this response look similar to the ones you saw i
 
 ## Tasks
 
+<<<<<<< HEAD
+- Add a button that allows the user to search for either the daily weather or a five day forecast
+- Create a function that sends a GET request to the forecast URL
+- Log the API response to your console, look through the information, and decide which pieces of it you would like to display to the user
+- Display a five day forecast to your users when they request it
+=======
 - [ ] Add a button that allows the user to search for daily weather or a five day forecast
 - [ ] Create a function that sends a GET request to the forecast url
 - [ ] Log out the response to your console, and look through the information
 - [ ] Decide which pieces of information you would like to display to the user
 - [ ] Display a five day forecast to your users when they request it.
+>>>>>>> f19f091d24819b7d9631c572bbb57c3848495adf

@@ -3,6 +3,32 @@ uuid: 98270472-7272-4836-b058-f4a42f9526c0
 archived: true
 ---
 
+<<<<<<< HEAD
+When you load your favourite web app on your browser, you are interacting with what we call the front-end or the client of the web app. Anything you, as a user, see and interact with is the front end. However, there's much more to a web app behind the scenes.
+
+If we pull apart a web app to look at its components, we would find three main pieces.
+
+### Database
+
+The database is where all of the information you input into a web app is stored. It's where your username and password would be kept, along with, for example, all the photos or videos you create.
+
+### Server (Back End)
+
+The server communicates with both the database and the client. When the client requests some information, the server responds with the appropriate information, which in many cases requires it to connect to the database to pull out that information.
+
+### Client (Front End)
+
+The client is the part of the web app that the user sees and interacts with. In this course, the client you've been using has been your web browser. For the most part, in this course we've been focusing on the front end. We've learned how to build web pages and use JavaScript to make them interactive. To add another piece to our web pages, we're going to be sending a request to a server, which will respond with some information for us to display to the user.
+
+![](https://cl.ly/0R290h1F0m2Q/Image%202017-11-01%20at%207.52.05%20PM.png)
+
+Generally, the client and server communicate in a few key steps:
+
+1. Requests information from server
+2. Requests information from database
+3. Responds with information, to server
+4. Responds with information, to client
+=======
 When you load your favourite web app on your browser, you are interacting with what we call the front-end of the web application. Anything you, as a user, see and interact with is the front end. When we send out a tweet, or post a photo on Facebook, that data has to go somewhere where everyone else loading that web app has access to it.
 
 If we pull apart a web app and look at it’s components, there will be three main pieces.
@@ -87,3 +113,4 @@ It looks like a normal JavaScript Object.
 When we send a GET request, and we need to include extra information (like a city name, or the name of a Pokemon), we can send that information in the url itself.
 
 We can do this using a query parameter.
+>>>>>>> f19f091d24819b7d9631c572bbb57c3848495adf

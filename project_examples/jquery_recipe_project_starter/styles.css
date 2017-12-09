@@ -1,5 +1,75 @@
+<<<<<<< HEAD
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+ main #search, .results-drink {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.results-drink:not(:last-child) {
+  border-bottom: 2px solid #aaa;
+  padding-bottom: 20px;
+}
+
+.title-and-image {
+  flex: 1;
+  text-align: center;
+}
+
+.title-and-image img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.instructions {
+  flex: 2;
+}
+
+main h4 {
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+main h4:hover {
+  color: #555;
+  border-color: #555;
+}
+
+main input {
+  outline: none;
+  padding: 10px;
+  width: 300px;
+}
+
+main div {
+  margin: 10px;
+}
+
+
+button {
+  border: 1px solid black;
+  padding: 10px;
+  background: white;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+=======
 /*
 
   ADD YOUR STYLES HERE
 
 */
+>>>>>>> f19f091d24819b7d9631c572bbb57c3848495adf
