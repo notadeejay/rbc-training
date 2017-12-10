@@ -1,8 +1,6 @@
 ---
 uuid: 97a13ca7-17d7-4d9a-a6ba-688638bf8160
 ---
----
----
 
 Variables allow us to save a value and use it over and over again in our code. To declare a variable in our code, we first need to use the keyword `var`. Then we give our variable a name, and finally we assign it a value.
 

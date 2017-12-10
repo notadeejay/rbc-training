@@ -1,8 +1,6 @@
 ---
 uuid: 1a146e83-7ffc-4f0b-9b21-795607a5d585
 ---
----
----
 
 When we learned about Booleans we also learned about comparison operators, and mentioned that often times when we're writing code, we want to know the answers to yes or no questions. Based on the answers to these questions, we want our code to be able to respond appropriately. This is where **if statements** come in. They allow us to control which code gets evaluated, and when.
 
