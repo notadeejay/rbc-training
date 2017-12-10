@@ -1,8 +1,6 @@
 ---
 uuid: 1f0a5ef3-f450-456e-ad0b-57fa65084f0d
 ---
----
----
 
 Sometimes we find ourselves using a piece of code over and over again. To prevent having to rewrite this code in several different places, we can use a **function**. A function is a named block of code that performs a particular task.
 
