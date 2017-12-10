@@ -166,7 +166,7 @@ Go through these two sample responses, and take note of the information provided
 
 ## Tasks
 
-- [ ] Copy and paste the object for your respective project to the **top** of your `index.js` file
+- Copy and paste the object for your respective project to the **top** of your `index.js` file
 
 
 Then, you can use the information found in the hash for today's exercises.

@@ -7,7 +7,7 @@ we're going to start by logging out the user input to our console.
 
 ## Tasks
 
-- [ ] Add code so when the user clicks 'search' the content of the input is logged to the console
+- Add code so when the user clicks 'search' the content of the input is logged to the console
 
 
 ## Tips and Tricks

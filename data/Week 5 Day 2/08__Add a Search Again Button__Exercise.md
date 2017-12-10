@@ -7,10 +7,10 @@ Great. So you've got some elements appearing on your page when you submit your s
 
 ## Tasks
 
-- [ ] Add a Search Again button to your header
-- [ ] when the **Search Again** button is clicked, hide the previous results and show the search bar
-- [ ] Allow users to search again and see the correct results
-- [ ] Animate elements as they are shown and hidden
+- Add a Search Again button to your header
+- When the **Search Again** button is clicked, hide the previous results and show the search bar
+- Allow users to search again and see the correct results
+- Animate elements as they are shown and hidden
 
 **Note**
 You might notice when you 'search again', that you suddenly have twice the amount of information than you expected in your results div. If this is the case, try to remove the old search results before you append the new ones.
