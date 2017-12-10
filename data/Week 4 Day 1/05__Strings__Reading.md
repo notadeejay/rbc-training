@@ -1,5 +1,7 @@
 ---
-uuid: 3b7c091d-66bc-470a-9bef-a09a807e05fe
+uuid: 9031fe1a-118d-47e5-8110-499008b47b19
+---
+---
 ---
 
 Strings are any collection of characters wrapped in quotes. They can be one word:
