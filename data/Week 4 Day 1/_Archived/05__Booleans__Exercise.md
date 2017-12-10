@@ -1,5 +1,4 @@
 ---
-uuid: 4e7212d8-a078-4873-83a6-8ae6cfc33ca3
 ---
 
 Booleans are either true or false.
