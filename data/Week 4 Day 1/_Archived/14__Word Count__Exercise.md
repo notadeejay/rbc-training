@@ -1,5 +1,6 @@
 ---
 uuid: a6770ebe-6f79-435c-b1e0-34a9c7289661
+archived: true
 ---
 
 For the word count programming challenge, your job is to count how many times a word appears in an array.

@@ -1,5 +1,6 @@
 ---
 uuid: 338a2781-24c9-4277-865f-78d77ede6cec
+archived: true
 ---
 
 ## If statements

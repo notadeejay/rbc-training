@@ -1,5 +1,6 @@
 ---
 uuid: b9823aaf-94b6-47b6-a9e2-26dc2e13ede0
+archived: true
 ---
 
 ## Objects
