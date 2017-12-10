@@ -1,5 +1,5 @@
 ---
-uuid: fa49cb71-2fc2-44ec-b00f-3769cfc2346a
+uuid: 8f9fd529-24f9-49d7-ab1b-2aff02540736
 ---
 
 Computers compute, so as you probably expected, JavaScript can be used to add, subtract, divide, and multiply numbers.
