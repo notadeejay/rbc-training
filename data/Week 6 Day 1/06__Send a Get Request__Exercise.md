@@ -20,10 +20,10 @@ It's important to note here that the request does not happen instantly. It is **
 https://api.openweathermap.org/data/2.5/weather?units=metric&q=London
 ```
 
-**Note**: To use this API you will have to add your API key as a query param. (If you don't have an API key yet, see the [previous activity](/74fbd7e1-3c97-41a9-a6cf-a441e07958b1)). To do this, we'll add `&APPID=1234` to the end of the URL.
+**Note**: To use this API you will have to add your API key as a query param. (If you don't have an API key yet, see the [previous activity](/74fbd7e1-3c97-41a9-a6cf-a441e07958b1)). To do this, we'll add `&appid=1234` to the end of the URL.
 
 ```javascript
-https://api.openweathermap.org/data/2.5/weather?units=metric&q=London&APPID=1234
+https://api.openweathermap.org/data/2.5/weather?units=metric&q=London&appid=1234
 ```
 
 ### Horoscope app
