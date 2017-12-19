@@ -34,7 +34,7 @@ console.log(dogName)
 ### Exercise 1
 - Write a function that console.logs "Good Morning" when you call it.
 
-```
+```javascript
 // declare the function
 function greet() {
 
@@ -50,7 +50,7 @@ greet()
 **Input**: 'Maggie'
 **Output**: 'Good Morning, Maggie'
 
-```
+```javascript
 // declare the function
 function greet() {
 
@@ -69,7 +69,7 @@ greet('Maggie')
 **Input**: 'sunny'
 **Output**: 'Wear sunglasses'
 
-```
+```javascript
 // declare the function
 function getWeatherAdvice(weather) {
 
@@ -89,7 +89,7 @@ getWeatherAdvice('sunny')
 **Input**: 10
 **Output**: 5
 
-```
+```javascript
 // declare the function
 function divide(numberOne, numberTwo) {
 
@@ -108,7 +108,7 @@ divide(10, 2)
 **Input**: 3, 8
 **Output**: 8
 
-```
+```javascript
 // declare the function
 function largestNum() {
 
@@ -128,7 +128,7 @@ largestNum(10, 2)
 **Input**: 'sunshine', 'pizza'
 **Output**: false
 
-```
+```javascript
 // declare the function
 function areStringsEqual() {
 
