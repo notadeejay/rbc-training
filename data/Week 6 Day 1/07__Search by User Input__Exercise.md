@@ -24,7 +24,7 @@ For example, when the form is submitted, we need to take the text that the user 
 We can concatenate strings together using the `+` operator:
 
 ```javascript
-"http://example.com?search_term=" + "search_value"
+"http://example.com?search_term=" + "margarita"
 ```
 
 - .val()
