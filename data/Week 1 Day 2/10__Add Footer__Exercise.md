@@ -24,6 +24,10 @@ When we break down the main components of our **Footer**, we find:
 - Add a link to your email
 - Add a link to your telephone number
 
+When you're done, your footer should look something like this:
+
+![](https://cl.ly/0v171Z1D0c0f/Image%202017-12-19%20at%201.35.13%20PM.png)
+
 **Note**: If you don't use any of these social media apps, feel free to add a link to your favourite website, or any other online profile you might have.
 
 **Note**: We'll add the "Download CV" buttons to our project later.
@@ -63,7 +67,7 @@ Useful options available for the `target` attribute are `self`, `_blank`, `mailt
 ```
 
 - `_blank`: opens the link in a new browser tab
-    
+
 ```html
 <a href="https://www.lighthouselabs.ca" target="_blank">Go to Lighthouse Labs</a>
 ```

@@ -15,6 +15,9 @@ The main components for our **Skills** section are:
   - A visual indicator of skill level
   - A percentage that matches skill level
 
+When you're done, your skills section should look something like this:
+
+![](https://cl.ly/2D2c2R0C2o0I/Image%202017-12-19%20at%201.34.43%20PM.png)
 
 ## Tasks
 

@@ -13,6 +13,10 @@ We can break it down into four main pieces:
 - A subtitle
 - A few paragraphs
 
+When you're done, the about section should look something like this:
+
+![](https://cl.ly/1a3y2a3A303q/Image%202017-12-19%20at%201.33.45%20PM.png)
+
 ## Tasks
 
 - Add a container element for your **About** section
