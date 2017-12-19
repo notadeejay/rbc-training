@@ -22,7 +22,7 @@ Day 1 Lecture
 
 
 ## Out of Scope
-- We'll leave the introduction to HTML for the next class, this is mainly high level
+- We'll leave the introduction to HTML for the next class, this is mainly a high level introduction into what they can expect over the next couple of weeks.
 
 ## Slides
 https://docs.google.com/presentation/d/1Le1bHoPm8UXfs1HzV7BtPOoNWo8ZwIbpkKhXjJXB_0U/edit?usp=sharing
