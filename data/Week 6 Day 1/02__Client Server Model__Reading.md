@@ -86,11 +86,11 @@ If the server errors out while trying to respond to your request - it sends back
 
 https://http.cat/
 
-## Sending Get Requests using JQuery
+## Sending Get Requests using jQuery
 
 Since we want to just **read** information from the API's we're using, we want to send a **GET** request to our API.
 
-JQuery has a built in method for this:
+jQuery has a built in method for this:
 
 ```javascript
 $.get('url', function(data) {

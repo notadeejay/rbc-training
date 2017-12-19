@@ -3,7 +3,7 @@ uuid: b8a54108-626d-4bc9-be27-671f736731f5
 ---
 
 
-Both of the JQuery app options let users search for some information from an outside source. Next class, we'll learn all about how to implement this in JQuery.
+Both of the jQuery app options let users search for some information from an outside source. Next class, we'll learn all about how to implement this in jQuery.
 
 For today, we've created two JavaScript objects that mimic the responses you will get from the APIs.
 

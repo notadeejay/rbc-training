@@ -2,19 +2,9 @@
 uuid: f4885bec-0035-43e7-a2ae-32a3f0ee64ed
 ---
 
-<!--  
-  - move hashes to previous week?
--->
-
-Going to make this day a bit lighter, so we can thoroughly review JavaScript, and
-give them some time to plan their projects.
-
-- Include a refresher on JavaScript (Review almost all of it.)
-
-- Be sure to also include an introduction to forms.
-
-## More JavaScript
-
+## Teacher Notes
+- Make sure you start this day with a heavy review of the JavaScript concepts they learned last week.
+- Ask them to list the data types they can remember
 
 Start the lecture with a review of everything you did on Monday. Again, go slowly and
 answer their questions. It's likely that after playing around with the language on
@@ -22,4 +12,14 @@ Monday they will have some questions, or have forgotten some data types. It's ok
 
 Focus on reviewing if statements and functions. Those are usually the trickiest concepts to grasp.
 
-**Add code examples here**
+## Things to Cover
+
+- Objects
+- Arrays
+- Loops
+- How to break down a programming problem into simple steps
+
+## Out of Scope
+
+## Slides
+- https://docs.google.com/presentation/d/1cDIYDnwMRa3I47dzTAw9DklCSC0oQcvGr2mWlngU4cA/edit?usp=sharing

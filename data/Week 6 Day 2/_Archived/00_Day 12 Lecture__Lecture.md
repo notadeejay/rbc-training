@@ -9,7 +9,7 @@ Discuss next steps and other resources where they can learn to code.
 
 Ask students what they would like to learn in the earlier weeks, and do a specialized lecture?
 
-- Deploy JQuery Projects
+- Deploy jQuery Projects
 - Do a small demo day
 - Cover any extra questions or things they wanted to know
 
