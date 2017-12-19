@@ -8,9 +8,6 @@ For example, when the form is submitted, we need to take the text that the user 
 
 ![](https://cl.ly/041o0o3r2D0M/Image%202017-12-19%20at%204.46.47%20PM.png)
 
-
-
-
 ## Tasks
 
 - Collect the user input (or user selection), and save it to a variable
