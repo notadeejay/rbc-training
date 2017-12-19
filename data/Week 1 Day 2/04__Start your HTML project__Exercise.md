@@ -18,9 +18,6 @@ Over the next few classes, we'll slowly add to your project. Then in week 3, we'
 
 ## Tasks
 
-- Create an empty folder on your computer, and give it a name like `resume_site`
-- Open your newly-created empty folder in Brackets
-- Create an empty file in your folder called `index.html`
 - Add this HTML skeleton code to your `index.html` file:
 
 ```html
