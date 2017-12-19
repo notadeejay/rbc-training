@@ -1,5 +1,6 @@
 ---
 uuid: b76d4f62-ade8-4bdc-a7a1-4cd9d24a0d25
+archived: true
 ---
 
 Meet IFTTT.

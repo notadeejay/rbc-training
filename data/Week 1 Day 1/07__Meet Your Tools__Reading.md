@@ -4,11 +4,11 @@ uuid: 8b0cb7f4-4d5c-4f4b-983a-a5ea8cb14965
 
 In order to build your projects in this course, you'll need some tools. Here's a quick list of the tools we'll be using to build our projects, find our assignments, and communicate with each other throughout the course.
 
-## Brackets
+## Atom
 
-Your code editor is where you'll be writing all of your awesome code. Just like Word and Google Docs have features like a spell checker to help you be a better writer. Your code editor will help you write better code, for example by highlighting syntax errors and letting you easily preview your projects.
+Your code editor is where you'll be writing all of your awesome code. Just like Word and Google Docs have features like a spell checker to help you be a better writer. Your code editor will help you write better code.
 
-In this course we're going to be using Brackets. More on this next class!
+In this course we're going to be using Atom. More on this next class!
 
 ## Chrome Developer Tools
 
