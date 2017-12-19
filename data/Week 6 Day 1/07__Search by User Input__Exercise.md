@@ -15,7 +15,7 @@ For example, when the form is submitted, we need to take the text that the user 
 
 - Collect the user input (or user selection), and save it to a variable
 - Edit your code so your saved user input is added to the url you're using in your GET request.
-- `console.log` the result, and make sure it matches the values you're inputting into the search bar
+- `console.log` the response and using your chrome developer tools and double check that the response matches the values you're inputting into the search bar
 
 ## Tips & Tricks
 
