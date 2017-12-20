@@ -41,7 +41,7 @@ http://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
 ## Tasks
 
 - Create a function that sends a GET request to your API and `console.log`s the response.
-- Add code so that the GET request is sent when the user submits the search form
+- Add code so that the GET request is only sent when the user submits the search form
 
 ## Tips & Tricks
 

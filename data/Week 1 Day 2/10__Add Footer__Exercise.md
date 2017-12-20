@@ -24,7 +24,7 @@ When we break down the main components of our **Footer**, we find:
 - Add a link to your email
 - Add a link to your telephone number
 
-When you're done, your footer should look something like this:
+When you're done, your **Footer** should look something like this:
 
 ![](https://cl.ly/0v171Z1D0c0f/Image%202017-12-19%20at%201.35.13%20PM.png)
 

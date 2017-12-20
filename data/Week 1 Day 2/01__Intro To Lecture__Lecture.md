@@ -2,6 +2,7 @@
 uuid: 1f621076-76cf-11e7-b5a5-be2e44b06b34
 start_time: 900
 duration: 90
+name: Intro to HTML
 ---
 
 ## Goal

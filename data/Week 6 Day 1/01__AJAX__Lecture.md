@@ -14,6 +14,7 @@ Creating, Removing, and editing Elements in jQuery
 - How to best refactor their existing code to pull from the API instead
 
 ## Out of Scope
+- Not much, today's the day to answer their lingering questions about jQuery and JavaScript.
 
 ## Slides
 
