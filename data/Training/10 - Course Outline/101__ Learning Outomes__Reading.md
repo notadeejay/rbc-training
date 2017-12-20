@@ -1,3 +1,10 @@
+---
+uuid: 599a5fc3-064e-4911-ba40-227173193ef6
+section: 106053ce-e599-11e7-80c1-9a214cf093ae
+duration: 30
+for_teachers: true
+---
+
 # Learning Outcomes
 
 ## Overall Learning Outcomes
