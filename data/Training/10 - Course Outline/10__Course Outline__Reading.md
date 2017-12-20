@@ -5,8 +5,6 @@ duration: 30
 for_teachers: true
 ---
 
-# Course Outline
-
 # Front End Fundamentals with JavaScript Course Outline
 HTML, CSS, JavaScript, jQuery
 
