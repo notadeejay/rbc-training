@@ -1,0 +1,7 @@
+sections:
+  -
+    uuid: 106053ce-e599-11e7-80c1-9a214cf093ae
+    name: Curriculum 
+    slug: curriculum
+    order: 10
+  -
