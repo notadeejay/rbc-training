@@ -1,5 +1,6 @@
 ---
 uuid: f4885bec-0035-43e7-a2ae-32a3f0ee64ed
+name: Intro to JavaScript Part 2
 ---
 
 ## Teacher Notes
