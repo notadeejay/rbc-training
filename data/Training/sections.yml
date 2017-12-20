@@ -5,3 +5,13 @@ sections:
     slug: curriculum
     order: 10
   -
+    uuid: 80978ec0-dea6-41fe-ae3d-d4d125bd4631
+    name: Mentoring
+    slug: mentoring
+    order: 20
+  -
+    uuid: 9fc9893c-a773-4ce4-afb5-03152a804cd8
+    name: The Lighthouse 411
+    slug: lhl-411
+    order: 30
+  -
