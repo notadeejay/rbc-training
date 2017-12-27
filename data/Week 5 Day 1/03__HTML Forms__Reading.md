@@ -2,10 +2,9 @@
 uuid: 496219d0-5d1f-4abc-940c-874e27371eee
 ---
 
-
 ## Forms
 
-When we want to submit information on a webpage, we use a `<form>` element. A `<form>` element usually contains elements that allows the user to enter some information. For example, that might mean text inputs, checkboxes, radio buttons, or select boxes, as well as a submit button.
+HTML `<form>` elements are used to collect user input. Form elements usually contain various other elements that allow the user to enter information, such as their name (text), whether they'd like to subscribe to a newsletter (checkbox), or their home province (select menu). Forms also contain a submit button that sends the information for processing.
 
 You probably use forms to log in to your favourite apps, or to create blog posts or tweets.
 
@@ -26,7 +25,7 @@ to help our users have a better experience.
 
 #### text
 
-The text input is a common one, it allows the user to enter text.
+The text input allows the user to enter text.
 
 ```html
 <input type="text" />
@@ -44,7 +43,6 @@ The search input type acts much like the `text` type. However, when a user types
 
 ![](https://cl.ly/1I1U0D2h2T3E/Screen%20Recording%202017-10-10%20at%2006.35%20PM.gif)
 
-
 #### email
 
 The email type is useful for sign up and login forms. In most browsers, using the email input means that if users enter an invalid email address into the search bar, it will prevent the form from being submitted.
@@ -57,7 +55,7 @@ The email type is useful for sign up and login forms. In most browsers, using th
 
 ### placeholder
 
-The placeholder attribute adds some text to the input that will be shown when it is empty. You'll usually see it with a prompt or example.
+The placeholder attribute adds some text to the input that will be shown when it is empty. You'll usually see it with a prompt or example to help the user fill out the form.
 
 ```html
   <input type="text" placeholder="I'm a placeholder..."/>
@@ -78,7 +76,7 @@ The value attribute is set to the value of the text in the input. You can use it
 
 ## Labels
 
-Labels let users know what information they should be inputting into what field.
+Labels let users know what information they should be inputting into which field.
 
 ```html
 <label>Search Here</label>

@@ -2,8 +2,7 @@
 uuid: 6f6f3e94-b8a0-4bd3-9f48-c35549563bde
 ---
 
-
-Arrays are a data type that let you store a list or collection of items. In JavaScript, an array can be of any length, and contain any data type.
+Arrays are a data type that let you store a list or collection of items. In JavaScript, an array can be of any length and contain any data type.
 
 Both arrays and objects can be used to store related pieces of data. Both data types have their own use cases. With experience it will become second nature which one is better suited for the problem you are trying to solve.
 
@@ -32,7 +31,6 @@ console.log(foods[2])
 
 `'cupcakes'` is at index 2, because we start counting from 0. So, `'pizza'` is at index 0, `'celery'` is at index 1, `'cupcakes'` is at index 2, and `'oranges'` is at index 3.
 
-
 ## Adding elements to an array
 
 If we want to add an element to the end of an array, we can use the `.push` function.
@@ -55,9 +53,8 @@ fruits[0] = "mangoes"
 // now the fruits array would be ["mangoes", "oranges", "bananas"]
 ```
 
-
 ## Exercises
 
 - Make a list of your top five favourite foods, and put them into an array
-- Log each of your five favourite foods by their index values
+- Log to the console each of your five favourite foods using their index values
 - Add another food to your favourite foods array using the `.push` function

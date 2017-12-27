@@ -10,15 +10,14 @@ For example, we may want to know how many times the word "pizza" appears in the 
 var foods = ["pizza", "celery", "bananas", "pizza", "lettuce", "cookies", "pizza"]
 ```
 
-Here is some code to get you started:
+In this case, the answer is `3`.
+
+Once again, pair up with a partner and work through this problem together. Remember to break the problem down into manageable chunks, and work slowly.
+
+You may use the following code to get you started:
 
 ```javascript
-
-function wordCount(searchWord, wordsArray){
+function wordCount(wordsArray, searchWord) {
   // Add your code here
 }
 ```
-
-Using our foods answer as an example, we would expect the answer to be "3".
-
-Once again, pair up with a partner and work through this problem together. Remember to break the problem down into manageable chunks, and work slowly.

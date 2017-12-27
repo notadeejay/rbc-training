@@ -2,13 +2,13 @@
 uuid: 21777904-61cf-44e5-9fcc-07cf539288b3
 ---
 
-JavaScript has many built in functions that you can use. Here are a few that you might find helpful as you move through building your project.
+JavaScript has many built-in functions that you can use. Here are a few that you might find helpful as you build your app.
 
-## Date
+## Working with dates
 
 As you build your app, you might run into a **timestamp**, a common way for computers to keep track of time. The Unix timestamp is the number of milliseconds that have passed since January 1, 1970 <abbr title="Coordinated Universal Time">UTC</abbr>.
 
-The `Date` function in JavaScript lets us work with Unix timestamps using some built in functions that can parse Unix timestamps into something more human readable.
+The `Date` function in JavaScript lets us work with Unix timestamps using some built-in functions. These functions can parse Unix timestamps into something more human readable.
 
 ```javascript
 var date = new Date(1508887542971);
@@ -50,7 +50,7 @@ date.getDate()
 
 #### getMonth
 
-Returns a month (0-11).
+Returns the month (0-11).
 
 ```javascript
 date.getMonth()
@@ -146,7 +146,6 @@ This would return the following HTML:
 <li>breed: Mini Aussie</li>
 ```
 
-
 ## String `replace` function
 
 The string `replace` function allows you to manipulate strings in JavaScript. The first argument to the function is the substring it should replace, and the second is the substring that it should be replaced *with*.
@@ -155,7 +154,7 @@ The string `replace` function allows you to manipulate strings in JavaScript. Th
 "Hello there".replace('there', 'you')
 ```
 
-The above code would change "Hello there" into "Hello you".
+The above code would return a new string, `Hello you`.
 
 ## JSON.parse
 
@@ -170,6 +169,7 @@ For example, we can turn the `companyString` string into a `companyObject` objec
 ```javascript
 var companyString = '{"name":"Lighthouse Labs","office_pet":"Sherman"}'
 var companyObject = JSON.parse(string)
+
 // companyObject would be { name: 'Lighthouse Labs', office_pet: 'Sherman' }
 ```
 
@@ -177,5 +177,5 @@ The string `companyString` was parsed into an object, letting us do something li
 
 ```javascript
 companyObject.name
-// would be 'Lighthouse Labs'
+// 'Lighthouse Labs'
 ```

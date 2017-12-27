@@ -4,12 +4,11 @@ name: Intro to JavaScript Part 2
 ---
 
 ## Teacher Notes
+
 - Make sure you start this day with a heavy review of the JavaScript concepts they learned last week.
 - Ask them to list the data types they can remember
 
-Start the lecture with a review of everything you did on Monday. Again, go slowly and
-answer their questions. It's likely that after playing around with the language on
-Monday they will have some questions, or have forgotten some data types. It's okay to take a chunk of this lecture to review.
+Start the lecture with a review of everything you did on Monday. Again, go slowly and answer their questions. It's likely that after playing around with the language the previous class they will have some questions, or have forgotten some data types. It's okay to take a chunk of this lecture to review.
 
 Focus on reviewing if statements and functions. Those are usually the trickiest concepts to grasp.
 

@@ -2,9 +2,7 @@
 uuid: 34df1a8b-d264-49d9-a61d-353b62c82c1b
 ---
 
-## Goals
-- Deploy and Demo jQuery projects
-
+Deploy and demo jQuery projects!
 
 ## Teacher Notes
 

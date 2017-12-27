@@ -11,10 +11,10 @@ For example, when the form is submitted, we need to take the text that the user 
 ## Tasks
 
 - Collect the user input (or user selection), and save it to a variable
-- Edit your code so your saved user input is added to the url you're using in your GET request.
-- `console.log` the response and using your chrome developer tools and double check that the response matches the values you're inputting into the search bar
+- Edit your code so your saved user input is added to the URL you're using in your GET request
+- `console.log` the response and, using the Chrome Developer Tools, double check that the response matches the values you're inputting into the search bar
 
-## Tips & Tricks
+## jQuery and JavaScript reference
 
 #### Concatenating strings
 
@@ -24,7 +24,7 @@ We can concatenate strings together using the `+` operator:
 "http://example.com?search_term=" + "margarita"
 ```
 
-- .val()
+#### val
 
 The `.val()` jQuery method is used to get or set the value of a form input element.
 

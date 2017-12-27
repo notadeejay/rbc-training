@@ -2,10 +2,9 @@
 uuid: aa2ea570-d7c2-460c-a793-717f5187a15c
 ---
 
-
 Loops are a really powerful feature of JavaScript. They allow us to repeat actions a set number of times or for each element in a collection (like an array).
 
-Let's say you want to print out every single element of an array to your console. You _could_ use the index to do this:
+Let's say you want to print out every single element of an array to your console. You _could_ use their indexes to do this:
 
 ```javascript
 var cities = ['Toronto', 'Vancouver', 'Halifax', 'Ottawa', 'London']
@@ -44,7 +43,7 @@ for (var i = 0; i < cities.length; i++) {
 
 ### While loops
 
-We could also use `while` loops. A while loop continues until its condition is no longer true. To write a while` loop in JavaScript, we start with the `while` keyword, followed by **condition**, and then inside curly brackets, we write the code that we want to repeat.
+We could also use `while` loops. A while loop continues until its condition is no longer `true`. To write a while loop in JavaScript, we start with the `while` keyword, followed by a **condition**. Then, inside curly brackets, we write the code that we want to repeat.
 
 ```javascript
 while (condition) {
@@ -52,7 +51,7 @@ while (condition) {
 }
 ```
 
-In this example, we're looping until our counter is equal to or greater than 10:
+In this example, we're looping until our counter reacher `10`:
 
 ```javascript
 var counter = 0
@@ -79,5 +78,5 @@ counter += 1
 
 - Create an array of your favourite movies (or books, or anything else you like)
 - Loop over each movie and print its title to the console
-- Add some code to your loop that will print the movie title in all caps
+- Add some code to your loop that will print each movie title in all caps
 - Write a loop that will count from 20 down to 1
