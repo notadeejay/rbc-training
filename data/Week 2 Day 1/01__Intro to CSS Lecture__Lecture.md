@@ -27,6 +27,7 @@ Then, for the live coding portion add styles to the HTML page you've just create
 
 ## Slides
 
+- https://docs.google.com/presentation/d/17ouk5W4-oh_IjHK9vIZpUZ3FZNZzIsByK46iL3v7wzA/edit?usp=sharing
 
 
 ## Exercises
