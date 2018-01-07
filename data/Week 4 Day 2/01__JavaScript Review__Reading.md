@@ -62,6 +62,7 @@ false
 We use if statements to control the flow of our program. Often we want to do one thing if something is true, and another if it's false. If statements are built for this purpose.
 
 ```javascript
+var raining = true
 if (raining) {
   console.log("Bring an umbrella")
 }
@@ -70,6 +71,7 @@ if (raining) {
 We can also add an else to our if statements
 
 ```javascript
+var raining = false
 if (raining) {
   console.log("Bring an umbrella")
 } else {
