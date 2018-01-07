@@ -19,6 +19,7 @@ or double quotes
 ```
 
 ### Numbers
+
 We can add, subtract, divide and multiply numbers in JavaScript.
 
 Addition:
@@ -85,6 +86,7 @@ We write functions so we can reuse pieces of code. They are a tricky concept to 
 feeling shaky on functions, ask a mentor or your instructor to review them with you.
 
 ```javascript
+// declare the function
 function getWeatherRecommendation(weather) {
   if (weather === 'raining') {
     console.log("Bring an umbrella")
@@ -92,6 +94,6 @@ function getWeatherRecommendation(weather) {
     console.log("Wear sunglasses")
   }
 }
-// make sure to call the function
+// call the function
 getWeatherRecommendeation('raining')
 ```
