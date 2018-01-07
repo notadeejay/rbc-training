@@ -9,13 +9,13 @@ Strings are any collection of characters wrapped in quotes.
 We can use single quotes:
 
 ```javascript
-  'Hello'
+'Hello'
 ```
 
 or double quotes
 
 ```javascript
-  "Hello"
+"Hello"
 ```
 
 ### Numbers
@@ -36,18 +36,18 @@ Subtraction:
 Multiplication:
 
 ```javascript
-  190 * 2
+190 * 2
 ```
 
 Division:
 
 ```javascript
-  100 / 3
+100 / 3
 ```
 
 ### Booleans
 
-Booleans are either **true** or **false**.
+Booleans are either `true` or `false`.
 
 ```javascript
 true
@@ -62,20 +62,19 @@ false
 We use if statements to control the flow of our program. Often we want to do one thing if something is true, and another if it's false. If statements are built for this purpose.
 
 ```javascript
-  if (raining) {
-    console.log("Bring an umbrella")
-  }
+if (raining) {
+  console.log("Bring an umbrella")
+}
 ```
 
 We can also add an else to our if statements
 
 ```javascript
-
-  if (raining) {
-    console.log("Bring an umbrella")
-  } else {
-    console.log("Wear sunglasses")
-  }
+if (raining) {
+  console.log("Bring an umbrella")
+} else {
+  console.log("Wear sunglasses")
+}
 ```
 
 ### Functions
@@ -84,13 +83,13 @@ We write functions so we can reuse pieces of code. They are a tricky concept to 
 feeling shaky on functions, ask a mentor or your instructor to review them with you.
 
 ```javascript
-  function getWeatherRecommendation(weather) {
-    if (weather === 'raining') {
-      console.log("Bring an umbrella")
-    } else {
-      console.log("Wear sunglasses")
-    }
+function getWeatherRecommendation(weather) {
+  if (weather === 'raining') {
+    console.log("Bring an umbrella")
+  } else {
+    console.log("Wear sunglasses")
   }
-  // make sure to call the function
-  getWeatherRecommendeation('raining')
+}
+// make sure to call the function
+getWeatherRecommendeation('raining')
 ```
