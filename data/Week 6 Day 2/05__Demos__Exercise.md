@@ -6,4 +6,4 @@ We're so proud of the work you've done on your project, and we'd LOVE for you to
 
 Congrats!
 
-![](https://media.giphy.com/media/TEFplLVRDMWBi/giphy.gif)
+![](https://media.giphy.com/media/l2YWCPLrCIaNc9QT6/giphy.gif)
