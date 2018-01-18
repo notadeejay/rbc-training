@@ -6,6 +6,8 @@ CSS not only lets us change fonts and colors, but also allows us to change the l
 
 We know that our browser applies default styles to our HTML elements. One of these default styles is `display`.
 
+## display
+
 ### display: block
 
 A block level element will take up the **entire** space of its parent element.
@@ -24,7 +26,7 @@ The paragraph element will stretch all the way across its parent:
 
 ![block element example](https://cl.ly/3o1D32200U0j/Image%202017-10-01%20at%2012.30.59%20PM.png)
 
-#### Block Elements
+##### Block Elements
 
 - headings (`<h1>`, `<h2>`, `<h3>`,`<h4>`,`<h5>`,`<h6>`)
 - div (`<div>`)
@@ -55,7 +57,7 @@ Inline elements contain only data and other inline elements.
 Unlike block elements, we can't add a width, height, padding or margin to inline elements.
 They simply take up as much room as they need to display their content. No more, and no less.
 
-#### Inline Elements
+##### Inline Elements
 
 - anchor (`<a>`)
 - em (`<em>`)

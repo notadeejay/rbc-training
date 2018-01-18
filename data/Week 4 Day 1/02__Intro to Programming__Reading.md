@@ -4,9 +4,7 @@ uuid: 4b1ef6b8-b337-4afb-8ea4-e597af23de0c
 
 ## What is programming?
 
-When you're writing code, you're writing instructions for your computer to follow. Earlier in the course you created an applet on IFTTT. Code often follows the same logic: if this happens, then do that.
-
-When we communicate with each other, we rely on a lot of context. Imagine someone sent you this text message:
+When you're writing code, you're writing instructions for your computer to follow, similar to what you might do when writing a recipe for a friend or asking for a favour. When we communicate with each other, however, we rely on a lot of context. Imagine someone sent you this text message:
 
 > Can you make me a cup of tee?
 
@@ -16,7 +14,7 @@ Assuming we could send this message to a computer, in its logic it might respond
 
 ## Writing Code
 
-For today's exercises we're going to be writing our code in the browser. To start, go to repl.it (https://repl.it/languages/javascript). You can sign up using a GitHub or Google account if you would like to save your work from day to day. Since we're only going to be using this app this week, you can also choose not to save your work by closing the pop up.
+For today's exercises we're going to be writing our code in the browser. To start, go to repl.it (<https://repl.it/languages/javascript>). You can sign up using a GitHub or Google account if you would like to save your work from day to day. Since we're only going to be using this app this week, you can also choose not to save your work by closing the pop up.
 
 ![repl video](https://d3vv6lp55qjaqc.cloudfront.net/items/1y2J3Y2A0H33112x1H0d/Screen%20Recording%202017-09-04%20at%2011.19%20AM.gif?X-CloudApp-Visitor-Id=2818368&v=e0f9521c)
 
@@ -26,7 +24,7 @@ As you can see, you can write your code in the white panel on the left. Click th
 
 #### console.log
 
-If we want to print something to the screen (also known as the console) on the right, in JavaScript we use the `console.log` function. For example, if you want to see your name printed on the right, you would do something like:
+In JavaScript, if we want to print something to the screen (also known as the console) we use the `console.log` function. For example, if Maggie wants to see her name printed to the screen, she could do the following:
 
 ```javascript
 console.log("Maggie")
@@ -42,7 +40,7 @@ One of the hardest parts of learning a programming language is deciphering the e
 
 #### Comments
 
-In JavaScript, anything after two slashes (`//`) is a comment. This means that the computer will just skip right over them. Comments are for *you*, the developer, not your computer. They're a handy way to add notes in your code, for your future self or for another developer.
+In JavaScript, anything after two slashes (`//`) is a comment. This means that the computer will just skip right over them. Comments are for *you*, the developer, not your computer. They're a handy way to add notes in your code, for your future self or for other developers.
 
 #### Bugs
 

@@ -1,15 +1,15 @@
 ---
 uuid: b8a54108-626d-4bc9-be27-671f736731f5
+name: Getting Started with JSON
 ---
 
-
-Both of the jQuery app options let users search for some information from an outside source. Next class, we'll learn all about how to implement this in jQuery.
+All three of the jQuery app options let users search for some information from an outside source. Next class, we'll learn all about how to implement this in jQuery.
 
 For today, we've created two JavaScript objects that mimic the responses you will get from the APIs.
 
 Go through these two sample responses, and take note of the information provided. What information would you like to display to your users?
 
-### Horoscope Response
+## Horoscope app response
 
 ```javascript
 {
@@ -25,7 +25,7 @@ Go through these two sample responses, and take note of the information provided
 }
 ```
 
-### Weather Response
+## Weather app response
 ```javascript
  {
   base: "stations",
@@ -72,7 +72,7 @@ Go through these two sample responses, and take note of the information provided
 }
 ```
 
-## Drinks Response
+## Drinks app response
 
 ```javascript
 {
@@ -168,57 +168,54 @@ Go through these two sample responses, and take note of the information provided
 
 - Copy and paste the object for your respective project to the **top** of your `index.js` file
 
-
-Then, you can use the information found in the hash for today's exercises.
+You will use this data in today's exercises.
 
 ## Tips & Tricks
 
-### Objects Review
+## Objects Review
 
 Objects are made up of key value pairs. The values can be set to any data type, even other objects.
 
 ```javascript
-  var order = {
-    items: [
-      {
-        name: 't-shirt',
-        price: 10
-      },
-      {
-        name: 'shoes',
-        price: 30
-      }
-    ],
-    orderId: 12345,
-    shipping: {
-      address: '46 Spadina Road',
-      name: 'Larry Ducksworth',
-      city: 'Toronto',
-      province: 'ON'
+var order = {
+  items: [
+    {
+      name: 't-shirt',
+      price: 10
+    },
+    {
+      name: 'shoes',
+      price: 30
     }
+  ],
+  orderId: 12345,
+  shipping: {
+    address: '46 Spadina Road',
+    name: 'Larry Ducksworth',
+    city: 'Toronto',
+    province: 'ON'
   }
+}
 ```
 
-If we wanted to access the **items** in this object we could write:
+If we wanted to access the items in this object we could write:
 
 ```javascript
-  order.items
+order.items
 ```
 
 If we wanted to get the **second** item, we could write:
 
 ```javascript
-  order.items[1]
+order.items[1]
 ```
 
-We can also access elements using square brackets:
+We can also access object values using square brackets notation:
 
 ```javascript
-  order['items'][0]
+order['items'][0]
 ```
 
+It may be helpful to play around with accessing different elements in your sample response object before you start adding the information to your page.
 
-It may be helpful to play around with accessing different elements in your sample response object before
-you start adding the information to your page.
-
-Remember that the `debugger` keyword can be used to create a breakpoint, and allow you to stop code as it's running, and investigate what's happening at that moment in the program.
+Remember that the `debugger` keyword can be used to create a breakpoint, and allow you to stop code as it's running, and investigate what's happening at that moment in the program's execution.

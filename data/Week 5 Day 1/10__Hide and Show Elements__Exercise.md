@@ -2,14 +2,13 @@
 uuid: 7aac2a91-4509-403d-80a3-dec1a9bda0c0
 ---
 
-
 One of the things you can do with jQuery is hide and show elements on your page.
 
 ## Tasks
-- Add a jQuery event listener that will fire when the form on your page has been submitted
+
 - Add code to hide your search input and button after the form has been submitted
 - Add a placeholder attribute to your text input by default
-- Add a jQuery animation to the elements as they are hidden
+- Add a jQuery animation to the elements as they are hidden and shown on your page
 - Add some custom CSS and personalize your project
 
 ## jQuery reference
@@ -20,13 +19,14 @@ Listens/waits for clicks on the selected elements.
 
 ```javascript
 $('p').on('click', function() {
-  console.log("I was clicked!")
+  console.log("A paragraph was clicked!")
 })
 ```
 
 #### fadeOut
 
 Will cause an element to slowly fade away.
+
 ```javascript
 $('.box').fadeOut(2000)
 ```
@@ -41,7 +41,7 @@ $('.box').slideDown(3000)
 
 #### slideUp
 
-Will cause the element to slide up and out of view.
+Will cause an element to slide up and out of view.
 
 ```javascript
 $('.box').slideUp(5000)
@@ -49,7 +49,7 @@ $('.box').slideUp(5000)
 
 #### addClass
 
-Will add a class to an HTML element.
+Will add a class to the selected HTML element(s).
 
 ```javascript
 $('p').addClass('highlight')
@@ -57,7 +57,7 @@ $('p').addClass('highlight')
 
 #### removeClass
 
-Will remove a class from an HTML element.
+Will remove a class from the selected HTML element(s).
 
 ```javascript
 $('p').removeClass('highlight')
@@ -65,7 +65,7 @@ $('p').removeClass('highlight')
 
 #### toggleClass
 
-This works kind of like a light switch. If the element has the class, it will remove it. If the element doesn't have the class, it will add it!
+This works kind of like a light switch. If the selected element(s) has the class, it will remove it. If the element(s) doesn't have the class, it will add it!
 
 ```javascript
 $('p').toggleClass('highlight')

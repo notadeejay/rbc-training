@@ -13,7 +13,7 @@ Now that you've got jQuery sending requests to your API, you could style your pa
 
 #### addClass
 
-Will add a class to an HTMl element.
+Will add a class to an HTML element.
 
 ```javascript
 $('p').addClass('highlight')

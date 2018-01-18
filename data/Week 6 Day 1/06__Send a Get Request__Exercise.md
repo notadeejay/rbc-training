@@ -1,5 +1,6 @@
 ---
 uuid: e4357370-f55f-48c0-9422-480e9bff20bd
+name: Send a GET Request
 ---
 
 ## Sending AJAX GET requests using jQuery
@@ -41,18 +42,14 @@ http://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
 ## Tasks
 
 - Create a function that sends a GET request to your API and `console.log`s the response.
-- Add code so that the GET request is sent when the user submits the search form
+- Add code so that the GET request is only sent when the user submits the search form
 
 ## Tips & Tricks
 
-### Query Params
+#### Query Params
 
 Query params are pieces of information we can send through the URL to an API. To separate the query params from the rest of the URL we use `?` and to separate the query params themselves, we use `&`s.
 
 ```javascript
 https://example.com?query_key=query_value&another_key=1234
 ```
-
-### console.log
-
-This is useful for debugging purposes. Log the response from your API so you can see what information you get back.

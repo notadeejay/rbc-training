@@ -9,19 +9,19 @@ For example, if I was solving FizzBuzz for the numbers 1-15, this would be my ex
 ```
 1
 2
-fizz
+Fizz
 4
-buzz
-fizz
+Buzz
+Fizz
 7
 8
-fizz
-buzz
+Fizz
+Buzz
 11
-fizz
+Fizz
 13
 14
-fizzbuzz
+FizzBuzz
 ```
 
 To tackle this problem, grab a classmate and "pair program". Pair programming is a common practice. It's when two developers sit down to work on a problem together. One will usually "drive" (that is write the code), while the other helps solve the problem. It's common to take turns writing the code.

@@ -2,7 +2,7 @@
 uuid: 3519ddb2-d265-46da-8429-79b52263e032
 ---
 
-Event listeners are what makes a lot of the interaction with jQuery possible. It's a very powerful part of jQuery, and a feature that you will be using as you build out your project. By adding a few lines of JavaScript, we can "listen" for when the user clicks, hovers, presses keys, or even refreshes the page.
+Event listeners are what makes a lot of the interaction with jQuery possible. It's a very powerful part of jQuery, and a feature that you will be using as you build your project. By adding a few lines of JavaScript, we can "listen" for when the user clicks, hovers, presses keys, or even refreshes the page.
 
 Adding an event listener requires a few steps.
 
@@ -10,7 +10,7 @@ Adding an event listener requires a few steps.
 2. Decide which type of event you would like to listen for.
 3. Add code to dictate what happens when that event occurs.
 
-## This
+## The `this` keyword
 
 The keyword `this` is something you'll probably see a lot once you start writing jQuery. For the most part, `this` is going to refer to the element to which you "bound" an event listener.
 
@@ -25,8 +25,6 @@ $('p').on('click', function() {
   $(this).css('color', 'blue')
 })  
 ```
-
-Result:
 
 ![](https://cl.ly/2T1M1u0B0v0A/Screen%20Recording%202017-10-02%20at%2005.29%20PM.gif)
 
@@ -56,7 +54,7 @@ $('.box').on('mouseleave', function() {
 
 #### Keep your code DRY (Don't Repeat Yourself)
 
-I might sound like a broken record with this, but web developers are *lazy*. We don't want to write more code than we have to. When we write jQuery we can reuse pieces of our code. If you start to feel like you're writing the same code over and over again, it's probably a good sign you can make some changes and reuse a function or two.
+I might sound like a broken record with this, but it's important that web developers don't write more code than necessary. If you start to feel like you're writing the same code over and over again, it's probably a good sign you can make some changes and reuse a function or two.
 
 Let's say you have two HTML elements on your page, like this:
 

@@ -1,8 +1,9 @@
 ---
 uuid: 5cf63610-7c13-438c-9374-7e7efe446b67
+name: First Flexbox Practice
 ---
 
-Before we start adding flexbox to the layout of our resume page, here are a few exercises to help you fully understand the concepts.
+Before we start adding Flexbox to the layout of our resume page, here are a few exercises to help you fully understand the concepts.
 
 We've written HTML for you and provided you with layout designs. Your job is to write CSS that matches the designs. You might find it easiest to copy and paste this HTML into CodePen (https://codepen.io/), and write your CSS there. Feel free to work with a partner through these exercises. You may find it helpful to talk through the code with a classmate, and complete these layouts together.
 

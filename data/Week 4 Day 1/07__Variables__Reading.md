@@ -19,15 +19,15 @@ Follow these steps when you want to declare a variable:
 3. Use the `=` sign
 4. Give the variable a value
 
-Then, we can use variables like this:
+Then, we can use variables in this way:
 
 ```javascript
 var message = "I'm learning JavaScript!"
 console.log(message)
-// would log "I'm learning JavaScript" to the console
+// would log "I'm learning JavaScript!" to the console
 ```
 
-### Use cases
+## Use cases
 
 Let's pretend that you're writing code that greets some friends.
 
@@ -48,10 +48,9 @@ console.log("Good " + timeOfDay + ", Horatiu!")
 
 This would produce the same output as the code in the first example above, but it allows us to change the value of our `timeOfDay` variable to be `"afternoon"` or `"evening"` in a single place.
 
-
-### Exercises
+## Exercises
 
 - Save your name to a variable called `firstName`
-- Add your `firstName` variable to the string "Hello, " and log the result to the console
-- Compare two integers, and save the resulting boolean to a variable
+- Concatenate your `firstName` variable to the string "Hello, " and log the result to the console
+- Compare two integers, and assign the resulting Boolean to a variable
 - What happens when you assign to the same variable twice? Use `console.log` to verify the value of your variable after each assignment

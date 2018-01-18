@@ -2,7 +2,6 @@
 uuid: 54e25530-6286-4741-93f3-025f7f431b77
 ---
 
-
 ## Why jQuery?
 
 jQuery is one of the most popular JavaScript libraries. Thanks to jQuery, making your website interactive is much simpler than it would be if you were using just plain JavaScript. It does this by providing you with a bunch of helper methods.
@@ -55,7 +54,7 @@ jQuery gives us a few helpful methods for adding and removing classes from our H
 
 #### addClass
 
-Will add a class to an HTML element.
+Will add a class to the selected HTML element(s).
 
 ```javascript
 $('p').addClass('highlight')
@@ -63,7 +62,7 @@ $('p').addClass('highlight')
 
 #### removeClass
 
-Will remove a class from an HTML element.
+Will remove a class from the selected HTML element(s).
 
 ```javascript
 $('p').removeClass('highlight')
@@ -71,7 +70,7 @@ $('p').removeClass('highlight')
 
 #### toggleClass
 
-This works kind of like a light switch. If the element has the class, it will remove it. If the element doesn't have the class, it will add it!
+This works kind of like a light switch. If the element(s) has the class, it will remove it. If the element(s) doesn't have the class, it will add it!
 
 ```javascript
 $('p').toggleClass('highlight')
@@ -79,7 +78,7 @@ $('p').toggleClass('highlight')
 
 #### css
 
-We can also add inline styles directly to an HTML element using jQuery. This line of code would result in all of the paragraph tags on the page having blue text.
+We can also add inline styles directly to an HTML element(s) using jQuery. This line of code would result in all of the paragraph tags on the page having blue text.
 
 ```javascript
 $('p').css('color', 'blue')
@@ -142,10 +141,9 @@ $('.box').fadeIn(1000).delay(2000).fadeOut(1000)
 
 ## What is the DOM?
 
-The HTML that you write is parsed by the browser and turned into a structure the computer can work with more easily – this is known as the Document Object Model, or DOM for short. The DOM represents the page so that programs can change the document structure, style, and content. The webpages we created in your HTML & CSS projects were documents which could be displayed in the browser or as HTML files.
+The HTML that you write is parsed by the browser and turned into a structure the computer can work with more easily – this is known as the Document Object Model, or DOM for short. The DOM represents the page so that programs can change the document structure, style, and content.
 
 Every element in a document — the document as a whole itself, the head, elements within the body of the document, text, etc — is part of the DOM for that document, so they can all be accessed and manipulated using JavaScript.
-
 
 ## DOM traversal
 
@@ -201,7 +199,7 @@ This would select the `<h6>`, `<p>`, and `<ul>`.
 $('ul').children().first()
 ```
 
-This would select the **first** list item in our unordered list.
+This would select the **first** list item in the unordered list.
 
 #### last
 
@@ -209,10 +207,10 @@ This would select the **first** list item in our unordered list.
 $('ul').children().last()
 ```
 
-This would select the **last** list item in our unordered list.
+This would select the **last** list item in the unordered list.
 
 ## Tips & Tricks
 
 #### Keep an eye on the console
 
-As you move through your jQuery project you will find it helpful to keep your console open. If you make a mistake, or jQuery throws an error, you will be able to see it in your browser's JavaScript console.
+As you work through your jQuery project you will find it helpful to keep your console open. If you make a mistake, or jQuery throws an error, you will be able to see it in your browser's JavaScript console.

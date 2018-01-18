@@ -1,10 +1,8 @@
 ---
 uuid: 0569f48e-7048-46c1-96b0-b397fa03346b
 ---
----
----
 
-Objects are a great way to organize sets of related information. Objects are collections of **key-value pairs**. For example, if we were building an app for a vet, we could store all of the information about one pet in an **object**. Here we've declared a variable (`pet`) and assigned it to an object:
+Objects are a great way to organize sets of related information. Objects are collections of **key-value pairs**. For example, if we were building an app for a vet, we could store all of the information about one pet in an **object**. Here we've declared a variable `pet` and assigned it to an object:
 
 ```javascript
 var pet = {
@@ -15,7 +13,7 @@ var pet = {
 }
 ```
 
-To initialize an object, we declared a variable, and then we use two curly brackets. The keys are on the left (`name`, `breed`, `age`, and `weight`), and the values are on the right. Instead of an `=` to assign their values, we use a colon.
+To initialize an object, we declared a variable, and then we use two curly brackets. The keys are on the left (`name`, `breed`, `age`, and `weight`), and the values are on the right. Instead of an `=` to assign these values, we use a colon.
 
 ![object example](https://d3vv6lp55qjaqc.cloudfront.net/items/0V3P243a2M4511123W44/Image%202017-09-04%20at%2012.50.30%20PM.png)
 
@@ -66,6 +64,6 @@ pet.age = 6
 ## Exercises
 
 - Create an object that keeps track of your personal information. Include your first name, last name, occupation and quirky fact
-- Practice using both methods of accessing values in your object
+- Practice using both ways of accessing values in your object
 - Change a value in your object after you've declared it
 - Add a value for your home town to your object, after you've declared it

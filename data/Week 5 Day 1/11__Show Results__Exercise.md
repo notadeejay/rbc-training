@@ -2,13 +2,11 @@
 uuid: 4a17bd68-3365-4d23-bc54-623d7a6a8211
 ---
 
-
 ## Tasks
 
 - Add a div to your HTML that will hold the results of your search
 - Add code to show your new results div when your form is submitted
 - Add animations to your elements that are being shown and hidden
-
 
 ## jQuery reference
 
@@ -28,11 +26,11 @@ Will make an element visible by restoring its `display` property to its original
 $('.box').show(500)
 ```
 
-#### jQuery Animations
+#### jQuery animations
 
-jQuery provides us with some methods that let us animate an element being shown and hidden on the page. Some commons ones are:
+jQuery provides us with some methods that let us animate an element being shown and hidden on the page. Some common ones are:
 
 - slideUp
 - slideDown
-- fadeOut
 - fadeIn
+- fadeOut

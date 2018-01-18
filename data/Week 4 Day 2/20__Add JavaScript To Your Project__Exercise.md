@@ -2,7 +2,7 @@
 uuid: 0eb399e6-6920-4d76-866f-8a24013d5780
 ---
 
-Before we start writing JavaScript in our new jQuery project, we need to discuss how to add JavaScript to your HTML.
+Before we start writing JavaScript in our new jQuery projects, we need to discuss how to add JavaScript to our HTML.
 
 ## Adding jQuery to your project
 
@@ -10,14 +10,13 @@ In the case of adding the jQuery library, there are two common options.
 
 ### 1. Download jQuery
 
-The entire jQuery library can be downloaded as a single JavaScript file. To include jQuery in your project this way, you first download jQuery, add the file to your project folder, and reference it in a script tag in your HTML document.
+The entire jQuery library can be downloaded as a single JavaScript file. To include jQuery in your project this way, you download jQuery, add the file to your project folder, and then reference it in a script tag in your HTML document.
 
 ```html
 <script type="text/javascript" src="./jquery.js"></script>
 ```
 
 We're going to add jQuery to the bottom of the body. In other, words, the `<script>` tag in the previous example should go just **above** the `</body>` tag.
-
 
 ### 2. Use a <abbr title="Content Delivery Network">CDN</abbr>
 
@@ -46,7 +45,7 @@ We're going to add our JavaScript to the bottom of the body, but after jQuery. I
 - Add code that `console.log`s a string (like "Hello, world!") in your `index.js` file
 - Open up your `index.html` page in the browser
 - Open up your Dev Tools console
-- Confirm the string you passed to the `console.log` is visible in your console – this means your JavaScript file is loading properly
+- Confirm that the string you passed to the `console.log` is visible in your console – this means your JavaScript file is loading properly!
 
 ## Tips & Tricks
 
@@ -60,9 +59,9 @@ You can open up Dev Tools by right-clicking anywhere on the page and selecting *
 
 The `<script>` tag can be used to include a JavaScript file in your HTML. It requires two important attributes.
 
+- `src`: Where the browser can find the file to be included
+- `type`: The type of script you are loading, which for the most part will be `text/javascript`
+
 ```html
 <script src="path/to/javascript/file.js" type="text/javascript"></script>
 ```
-
-- `src`: Where the browser can find the file to be included
-- `type`: The type of script you are loading, which for the most part will be `text/javascript`
