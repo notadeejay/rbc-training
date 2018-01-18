@@ -19,3 +19,4 @@ Here are a few resources to get you started:
 - [Advanced CSS Animations Tutorials](https://learn.shayhowe.com/advanced-html-css/transitions-animations/)
 - A list of [public APIs](https://github.com/toddmotto/public-apis) you can use for future projects 
 - From zero to front-end hero parts [one](https://medium.freecodecamp.org/from-zero-to-front-end-hero-part-1-7d4f7f0bff02) and [two](https://medium.freecodecamp.org/from-zero-to-front-end-hero-part-2-adfa4824da9b)
+>>>>>>> 86f8b74e8b74176d0591416e95c64012306edaea
