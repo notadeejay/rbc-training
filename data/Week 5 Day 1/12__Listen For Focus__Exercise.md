@@ -31,7 +31,7 @@ $('form input').on('blur', function() {
 
 #### change
 
-The change event is triggered when the user changes the value of the input element. In other words, when they start typing.
+The change event is triggered when the user changes the value of the input element. When this occurs depends on the type of element the user is interacting with, but generally speaking this event will be triggered *after* the user has made a change.
 
 ```javascript
 $('form input').on('change', function() {
@@ -43,7 +43,7 @@ $('form input').on('change', function() {
 
 #### :focus (pseudo selector)
 
-Will add styles to an HTML element when it's in a focus state.
+Will add styles to an HTML element when its in a focus state.
 
 ```css
 .example:focus {
@@ -53,7 +53,7 @@ Will add styles to an HTML element when it's in a focus state.
 
 #### border-radius
 
-Used to add rounded corners to an element.
+Will add rounded corners to an element.
 
 ```css
 div {
@@ -63,7 +63,7 @@ div {
 
 #### padding
 
-Adds space between the content and the border of an element.
+Will add space between the content and the border of an element.
 
 ```css
 div {

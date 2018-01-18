@@ -1,5 +1,6 @@
 ---
 uuid: 61c2d1ed-4fcd-4c14-9145-e2365124a62a
+name: Advanced jQuery
 ---
 
 We've learned how to add animations and interactivity to our web page using jQuery. We can also use jQuery to create and manipulate elements on our page. This is useful when our user makes a request for information, and we want to display it back to them.
@@ -8,7 +9,7 @@ We've learned how to add animations and interactivity to our web page using jQue
 
 #### append
 
-The jQuery `append` function lets you add a new element as the last **child** of your selected element(s).
+The jQuery `append` function lets you add a new element as the **last** child of your selected element(s).
 
 ```javascript
 $('article').append("<p>I'll be the last paragraph in the article</p>")
@@ -35,7 +36,7 @@ $('li').after("<li>A new sibling list item</li>")
 Creates a new element as a **sibling** of your selected element(s). This new element will appear **before** the selected element(s) on the page.
 
 ```javascript
-$('li.highlight').before("<li>A new sibling list item</li>")
+$('li').before("<li>A new sibling list item</li>")
 ```
 
 ## Removing elements
@@ -60,7 +61,7 @@ $('li').replaceWith('<p>Hello</p>')
 
 #### html
 
-The `html` function will do one of two things. If the function is called with no parameters, it will get the HTML contents of the **first** element that matches its selector. If its called with a parameter, it will set the content of all of the HTML elements that match its selector (and the new content will be the parameter's value).
+The `html` function will do one of two things. If the function is called with no parameters, it will get the HTML contents of the **first** element that matches its selector. If the function is called with a parameter, it will set the content of all of the HTML elements that match its selector (and the new content will be the parameter's value).
 
 In this first example, the `html` function will return the content of the first `<h2>` element on the page.
 
@@ -78,7 +79,7 @@ $('p').html("<strong>All</strong> of the paragraph tags have this content")
 
 The `text` function is similar to the `html` function, with a few key differences.
 
-Instead of getting the content of the **first** element that matches its selector, it will combine the text of ALL of the HTML elements that match its selector, including the children. So, if we have some HTML like this:
+Instead of getting the content of the **first** element that matches its selector, it will combine the text of ALL of the HTML elements that match its selector, including their children. So, if we have some HTML like this:
 
 ```html
 <article>
@@ -87,7 +88,7 @@ Instead of getting the content of the **first** element that matches its selecto
 </article>
 
 <article>
-  <h2> I just have a title </h2>
+  <h2>I just have a title</h2>
 </article>
 ```
 
@@ -123,7 +124,7 @@ Would result in this:
 
 ## Manipulating attributes
 
-We can also change any attributes an element may have set using the `.attr` function.
+We can also change any attributes an element may have set using the `attr` function.
 
 ```html
 <h2 title="I'm a title"></h2>
@@ -141,7 +142,7 @@ Or we can set a new value like this:
 $('h2').attr('title', 'Brand new title')
 ```
 
-We can also change more than one attribute at a time using an object:
+We can also change more than one attribute at a time by passing an object as a parameter to the `attr` function, for example:
 
 ```javascript
 $('img').attr({
@@ -154,7 +155,7 @@ $('img').attr({
 
 #### val
 
-As our users fill out the search form, we need a way to collect their search terms. We can do this using the `.val` jQuery function.
+As our users fill out the search form, we need a way to collect their search terms. We can do this using the `val` jQuery function.
 
 This would fetch the value of the input:
 

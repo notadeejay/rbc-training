@@ -2,11 +2,13 @@
 uuid: 2b661d66-0647-4e18-8949-621452607dc7
 ---
 
-### Keep Coding
+## Keep coding!
 
-Just like everything else, practice is key. Keep working on your jQuery, HTML and CSS skills. If you're looking for project ideas, build a website for your friends, neighbours, or your business. As well, you can go back and build the jQuery projects you didn't choose to do in this course. You will always have access to compass, and can come back and re-read any assignments as you continue to work on your projects.
+Just like with everything else, practice is the key. Keep working on your jQuery, HTML and CSS skills. If you're looking for project ideas, build a website for your friends, neighbours, or your business. As well, you can go back and build the jQuery projects you didn't choose to do in this course. You will always have access to Compass, so you can come back to re-read any assignments as you continue to work on your projects.
+
 
 Attending coffee and code meetups, or hack nights can be a great way to up your skills while making more friends.
+
 
 Here are a few resources to get you started:
 
@@ -17,3 +19,4 @@ Here are a few resources to get you started:
 - [Advanced CSS Animations Tutorials](https://learn.shayhowe.com/advanced-html-css/transitions-animations/)
 - A list of [public APIs](https://github.com/toddmotto/public-apis) you can use for future projects 
 - From zero to front-end hero parts [one](https://medium.freecodecamp.org/from-zero-to-front-end-hero-part-1-7d4f7f0bff02) and [two](https://medium.freecodecamp.org/from-zero-to-front-end-hero-part-2-adfa4824da9b)
+>>>>>>> 86f8b74e8b74176d0591416e95c64012306edaea

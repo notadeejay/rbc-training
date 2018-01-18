@@ -2,7 +2,12 @@
 uuid: 9d436a4c-9084-4ff1-8839-a5fb515b5055
 ---
 
+So far, our classes have followed the same format: An hour lecture, followed by some time for working on your project. Today is going to go a _little_ bit differently. Instead of the usual, you'll be introduced a new JavaScript concept, and then we'll write some code together as a group. We will go through each concept one by one, and you will have some time to follow along with the lecture and to work on mini challenges!
+
+Let's get started!
+
 ## Teacher Notes
+
 - Go slowly and make sure you mention common mistakes or syntax errors.
 - Demonstrate what an error message looks like
 - Ask Questions as you go to make sure they are on board with what you're saying.
@@ -12,7 +17,8 @@ The best way to deliver this lecture is to introduce a concept - let them try it
 
 ## Things to Cover
 
-Introduce them to the concepts of Programming.
+Introduce them to the following fundamental concepts of programming:
+
 - Comments
 - Integers
 - Strings
@@ -22,8 +28,10 @@ Introduce them to the concepts of Programming.
 - Functions
 
 ## Out of Scope
+
 - Arrays, Objects and Loops
 - These will be covered at a later date
 
 ## Slides
+
 https://docs.google.com/presentation/d/1cDIYDnwMRa3I47dzTAw9DklCSC0oQcvGr2mWlngU4cA/edit?usp=sharing

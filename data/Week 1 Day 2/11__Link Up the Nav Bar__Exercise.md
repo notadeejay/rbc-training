@@ -19,9 +19,7 @@ And add an `id` to a `<section>` of our page:
 </section>
 ```
 
-Then, when we click our anchor tag, the page will automatically scroll to find an HTML element with the `id` specified in the section tag's `href`.
-
-For example, when you have added in the appropriate `id`s and `href`s, this how your page should behave:
+Then, when we click our anchor tag, the page will automatically scroll to find an HTML element with the `id` specified in the section tag's `href`. For example, when you have added in the appropriate `id`s and `href`s, this is how your page should behave:
 
 ![](https://cl.ly/020F2V3c0U1W/Screen%20Recording%202017-12-19%20at%2001.39%20PM.gif)
 

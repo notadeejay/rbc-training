@@ -3,7 +3,6 @@ archived: true
 uuid: 5caca5a9-5c94-4bad-a459-d8648effcb60
 ---
 
-
 To deploy your webpage, you'll be using GetForge again.
 
 ## Tasks
@@ -12,8 +11,7 @@ We've broken down the tasks for you in several steps here. Follow them to get yo
 
 ### Sign up for GetForge
 
-- Navigate to <https://getforge.com/> and login to your account.
-
+- Navigate to <https://getforge.com/> and log in to your account.
 
 ### Create your site
 
@@ -40,7 +38,7 @@ Back on the GetForge website, click the **Upload ZIP** button.
 
 Then, navigate to the URL that you customized earlier. You should see your site at that address!
 
-#### Congrats! You've just launched a website!
+### Congrats! You've just launched a website!
 
 ![](https://media.giphy.com/media/g9582DNuQppxC/giphy.gif)
 

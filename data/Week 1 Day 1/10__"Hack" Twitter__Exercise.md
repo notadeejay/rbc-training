@@ -20,4 +20,3 @@ Today we're going to inspect some of our favourite websites, and change some con
 Here's an example of how to change the content of a tweet.
 
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/2r290G3d1q0c2v2q2n0U/Screen%20Recording%202017-11-05%20at%2011.40%20AM.gif)
-<!-- Add gif of "hacking" twitter when internet connection is better -->

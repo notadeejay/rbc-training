@@ -2,7 +2,7 @@
 uuid: 4e7212d8-a078-4873-83a6-8ae6cfc33ca3
 ---
 
-Booleans are either true or false.
+Booleans are values that are either true or false.
 
 ```javascript
 true
@@ -10,7 +10,7 @@ true
 false
 ```
 
-Note that the following is a string and NOT a Boolean:
+Note that the following is a string and not a Boolean:
 
 ```javascript
 'true'
@@ -45,7 +45,7 @@ Note that in the second example above, `'7' === 7` is false. This is because whi
 
 ### Greater than
 
-Evaluates to true if the first value is greater than the second.
+Evaluates to `true` if the first value is greater than the second.
 
 ```javascript
 console.log(10 > 2)
@@ -64,7 +64,7 @@ console.log(10 >= 10)
 
 ### Less than
 
-Evaluates to true if the first value is less than the second.
+Evaluates to `true` if the first value is less than the second.
 
 ```javascript
 console.log(2 < 12)
@@ -83,7 +83,7 @@ console.log(2 <= 2)
 
 ### Not equal
 
-Returns true if the two values **do not** equal each other.
+Evaluates to `true` if the two values **do not** equal each other.
 
 ```javascript
 console.log("Hello" !== "Good Bye")
@@ -91,12 +91,12 @@ console.log("Hello" !== "Good Bye")
 ```
 
 
-### Exercises
+## Exercises
 
 **Note:** For each of these tasks, use `console.log` to print the result of your comparison operations.
 
 - Create two strings and check if they are equal
-- Capitalize one of your strings, are they still equal?
+- Capitalize one of your strings. Are they still equal?
 - Check if two integers are equal
-- Wrap one integer in quotes, and compare them again, are they still equal?
+- Wrap one of the two integers in quotes, and compare them again. Are they still equal?
 - Create two strings and check if they are **not** equal to each other
