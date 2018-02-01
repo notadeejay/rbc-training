@@ -16,7 +16,7 @@ When we write CSS we have to follow a few key steps:
 
 Anatomy of a CSS block:
 
-![css block anatomy](https://d3vv6lp55qjaqc.cloudfront.net/items/28042d213b0v1A0h1H3P/Image%202017-09-06%20at%206.27.00%20PM.png?X-CloudApp-Visitor-Id=2818368&v=8bda0b15)
+![css block anatomy](https://cl.ly/3F2L103Q280D/Image%202018-01-07%20at%202.59.31%20PM.png)
 
 **Tip**: They might seem like _very_ small details, but as you start to write your CSS code,
 pay attention to make sure your semi-colons and colons are in the right spots.

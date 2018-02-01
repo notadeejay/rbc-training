@@ -33,7 +33,7 @@ p {
 Use these pixel sizes for the text on your page:
 `5, 7, 9, 12, 16, 21, 28, 37, 50, 67, 83`.
 
-This is known as a typographic scale, and can help make the text on your page look a bit more harmonious.
+This is known as a [typographic scale](http://spencermortensen.com/articles/typographic-scale/), and can help make the text on your page look a bit more harmonious. You can also use a tool like [this](http://type-scale.com/) to calculate it for you.
 
 #### color
 
