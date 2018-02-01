@@ -15,7 +15,7 @@ When we get a response from our API, we want to display that information to our 
 
 ### Horoscope app
 
-- Write a function that takes the response object as an argument, and appends an HTML element containing the value of the `sunsign` key to your page
+- Write a function that takes the response object as an argument, and appends an HTML element containing the value of the `sign` key to your page
 - Add code so this function is called when a user submits the search form
 
 **Tip**: When you add your new HTML element to your page, make sure it goes _inside_ your results div.
