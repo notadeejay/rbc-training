@@ -74,7 +74,7 @@ div {
 }
 ```
 
-Then, add a height to your containing element (in this case, we'll add a heigh to our div).
+Then, add a height to your containing element (in this case, we'll add a height to our div).
 
 ```css
 div {
