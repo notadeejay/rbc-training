@@ -13,6 +13,7 @@ Attending coffee and code meetups, or hack nights can be a great way to up your 
 Here are a few resources to get you started:
 
 - [JavaScript30](https://javascript30.com/)
+- [CSS Grid](https://cssgrid.io/)
 - [Free Code Camp](https://www.freecodecamp.org/) - and their [Toronto Meetup](https://www.facebook.com/groups/free.code.camp.to/about/)
 - [Code School's jQuery tutorial](https://www.codeschool.com/courses/try-jquery)
 - [HTMLDog Javascript Tutorial](http://htmldog.com/guides/javascript/) (Check out their Intermediate and Advanced options!)
