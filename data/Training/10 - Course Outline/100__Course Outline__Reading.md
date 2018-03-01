@@ -18,7 +18,7 @@ Learn the main languages of the web, HTML & CSS. Our instructors will teach you 
 **HTML & CSS**
   - These are the primary building blocks of webpages. You’ll learn how to  structure your pages with HTML and make them look the way you want with CSS.
   - Get introduced to the tools you will use throughout the course including:
-    - Brackets, a modern open source code editor
+    - Atom, a modern open source code editor
     - Compass, our custom built Learning Management System
 
 **Advanced CSS**
