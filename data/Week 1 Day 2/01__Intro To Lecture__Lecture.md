@@ -7,7 +7,7 @@ name: Intro to HTML
 
 ## Goal
 
-Today we'll be learning the basics of HTML, and how to use our code editor, Brackets.
+Today we'll be learning the basics of HTML, and how to use our code editor, Atom.
 
 
 ## Teacher Notes
