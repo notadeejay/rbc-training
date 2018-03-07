@@ -22,7 +22,7 @@ p {
 #### By class
 
 ```css
-highlight {
+.highlight {
   color: yellow;
 }
 ```
