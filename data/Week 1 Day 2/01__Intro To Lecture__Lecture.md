@@ -8,9 +8,9 @@ name: Intro to HTML
 ## Objectives
 
 By the end of this class, you should be able to:
-- translate a wirefame into a basic HTML document using a code editor 
-- use semantic tags and explain why they are preferable over a non-semantic tags
-- demonstrate consistent indentation and explain why this is important to developers
+- Translate a wirefame into a basic HTML document using a code editor 
+- Use semantic tags and explain why they are preferable over a non-semantic tags
+- Demonstrate consistent indentation and explain why this is important to developers
 
 ## Teacher Notes
 
