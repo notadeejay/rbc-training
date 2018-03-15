@@ -2,7 +2,13 @@
 uuid: 7f2a10ec-8fa6-4de5-9f34-803356c7974d
 ---
 
-Responsive Design & Animations Lecture
+## Objectives
+
+By the end of this class, you should be able to:
+- Implement media queries to style elements
+- Write a simple custom animation
+- Deploy your resume
+
 
 ## Teacher Notes
 - Refresh your understanding of animations, transitions and media queries

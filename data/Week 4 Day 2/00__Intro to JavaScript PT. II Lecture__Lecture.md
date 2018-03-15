@@ -3,6 +3,13 @@ uuid: f4885bec-0035-43e7-a2ae-32a3f0ee64ed
 name: Intro to JavaScript Part 2
 ---
 
+## Objectives
+
+By the end of this class, you should be able to:
+- Create arrays and objects in javascript
+- Get and set values from both types 
+- Write a for "loop"
+
 ## Teacher Notes
 
 - Make sure you start this day with a heavy review of the JavaScript concepts they learned last week.

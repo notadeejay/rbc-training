@@ -5,10 +5,12 @@ duration: 90
 name: Intro to HTML
 ---
 
-## Goal
+## Objectives
 
-Today we'll be learning the basics of HTML, and how to use our code editor, Atom.
-
+By the end of this class, you should be able to:
+- translate a wirefame into a basic HTML document using a code editor 
+- use semantic tags and explain why they are preferable over a non-semantic tags
+- demonstrate consistent indentation and explain why this is important to developers
 
 ## Teacher Notes
 

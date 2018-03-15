@@ -2,7 +2,12 @@
 uuid: d824a8af-f215-4113-93af-b56e32a66f27
 ---
 
-Intro to Flexbox
+## Objectives:
+By the end of this class, you should be able to
+- Explain the difference between several different *display*: values
+- Identify the components of the box model
+- Layout elements on an HTML page using box model properties and Flexbox
+
 
 ## Teacher Notes
 Today is when they learn box model and flex box. Make sure you have played around with Flexbox enough to
