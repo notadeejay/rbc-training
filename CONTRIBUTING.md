@@ -67,7 +67,7 @@ If there's an issue you'd like to fix and it's not assigned to anyone else:
 
 1. Assign the issue to yourself. If you can't assign issues to yourself, leave a comment on the issue so others know you're working on it, and an admin will formally assign the issue to you later.
 
-2. Keep track of the time you spend working on the issue, and bill for it in Clocktower (under **Curriculum Development** in the first drop-down from the left, and under **Front-End Fundamentals Curriculum** in the second drop-down from the left). Be sure to log the *actual* time you worked on the issue, not the estimate.
+2. Keep track of the time you spend working on the issue, and bill for it in Clocktower (under **Curriculum Development** in the first drop-down from the left, and under **Curriculum: Front-End Fundamentals** in the second drop-down from the left). Be sure to log the *actual* time you worked on the issue, not the estimate.
 
 3. If it's looking like the estimate is way too optimistic and you're going to need *lots* more time to fix the issue, please reach out to Amy Mansell with your new time estimate before billing any more time for the issue. (The best way to reach Amy is on Slack).
 

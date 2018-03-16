@@ -2,7 +2,12 @@
 uuid: 24c56e4e-0b0b-4353-91ff-0acb06a28144
 ---
 
-Creating, removing, and editing elements in jQuery.
+## Objectives
+
+By the end of this class, you should be able to:
+- Understand the Client Server Model
+- Send a GET request to an API using AJAX
+- Search response data using user input
 
 ## Teacher Notes
 

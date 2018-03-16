@@ -2,6 +2,17 @@
 uuid: 9d436a4c-9084-4ff1-8839-a5fb515b5055
 ---
 
+## Objectives
+
+By the end of this class, you should be able to:
+- Use console.log to print something to the screen
+- Add integers and strings and console.log the results
+- Declare a variable
+- Write if statements
+- Understand the basic anatomy of a function
+
+
+
 So far, our classes have followed the same format: An hour lecture, followed by some time for working on your project. Today is going to go a _little_ bit differently. Instead of the usual, you'll be introduced a new JavaScript concept, and then we'll write some code together as a group. We will go through each concept one by one, and you will have some time to follow along with the lecture and to work on mini challenges!
 
 Let's get started!

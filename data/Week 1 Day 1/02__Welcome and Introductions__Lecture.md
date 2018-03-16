@@ -4,7 +4,11 @@ start_time: 1800
 duration: 60
 ---
 
-Day 1 Lecture
+## Objectives
+At the end of this class, you should be able to:
+- Understand the role of a browser with every page (get, render and run).
+- Understand the difference between front end (client side), back end (server side & databases) and full stack development
+- Understand how to access Chrome DevTools and use them to make changes to websites in their browser
 
 ## Teacher Notes
 

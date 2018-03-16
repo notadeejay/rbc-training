@@ -1,6 +1,12 @@
 ---
 uuid: 91f707fc-9a95-4ed0-aa53-fb572b6db3f4
 ---
+## Objectives
+
+By the end of this class, you should be able to:
+- Access and loop over deeply nested data from within a JavaScript object
+- Create and manipulate elements on your page with jQuery methods
+- Create a grid-like display of data by combining these two actions
 
 ## Teacher Notes
 
