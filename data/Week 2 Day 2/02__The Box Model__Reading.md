@@ -217,3 +217,4 @@ This time, the browser will include the padding and border into the width calcul
 
 ## Resources
 - [The Box Model Explained by Living in a Boring Suburban Neighborhood](https://medium.freecodecamp.org/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood-9a9e692773c1)
+- [Introduction to the CSS basic Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
