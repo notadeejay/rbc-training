@@ -1,7 +1,6 @@
 ---
 stretch: true
 uuid: 3354b4cd-6b84-4edc-9f97-21a4cac97f68
-archived: true
 ---
 
 This stretch exercise will build off of your solution to the previous [Word Count](/507c3c6d-7d3a-4d8a-a246-dd84c7b46628) exercise. Write a function that takes in an array of words, and returns an object that specifies how many times *each* word appears in the array.
