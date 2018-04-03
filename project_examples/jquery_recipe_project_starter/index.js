@@ -1,32 +1,20 @@
 $(document).ready(function() {
+<<<<<<< HEAD
   // WRITE YOUR CODE HERE
 
   $('form').submit(function(e) {
     e.preventDefault();
-    $('#results').html('')
-    getDrinks($('#drink-name').val())
-    this.reset()
-  })
-  
-  $(document).on('click', '.title-and-image', function(e)  {
-    e.preventDefault();
-    $('#results').html('')
-    getRecipe($(this).text())
+    getRecipe($('#drink-name').val())
   })
 
+  // getRecipe('margarita');
   // HTTP Requests
-  function getDrinks(name) {
-    $.get('https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=' + name + '&key=1', function(data) {
-      showDrinks(data.drinks)
-      
+  function getRecipe(name) {
+    $.get('http://www.thecocktaildb.com/api/json/v1/1/filter.php?i=' + name + '&key=1', function(data) {
+      console.log(data);
+      // showDrinks(data.drinks)
     })
   }
-
-  function getRecipe(name) {
-    $.get('https://www.thecocktaildb.com/api/json/v1/1/search.php?s=' + name + '&key=1', function(data) {
-     showRecipe(data.drinks)
-  })
-}
 
 
   // Helpers
@@ -37,15 +25,10 @@ $(document).ready(function() {
     })
   }
 
-  function showRecipe(drink) {
-    drink.forEach(function(i) {
-      $('#results').append(createRecipeDiv(i));
-    })
-  }
-
   function createDrinkDiv(drink) {
     var container = $('<div class="results-drink"></div>')
     container.append(createTitleAndImageDiv(drink))
+    container.append(createInstructions(drink))
     return container
   }
 
@@ -56,13 +39,6 @@ $(document).ready(function() {
     div.append(h2)
     div.append(img)
     return div;
-  }
-
-  function createRecipeDiv(drink) {
-    var container = $('<div class="results-drink"></div>')
-    container.append(createTitleAndImageDiv(drink))
-    container.append(createInstructions(drink))
-    return container
   }
 
   function createInstructions(drink) {
@@ -87,4 +63,7 @@ $(document).ready(function() {
     }
     return list
   }
+=======
+  // WRITE YOUR CODE HERE.
+>>>>>>> f19f091d24819b7d9631c572bbb57c3848495adf
 });
