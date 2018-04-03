@@ -16,13 +16,13 @@ See a sample version of the app here: <http://jQuery-weather.surge.sh>
 
 This app will allow you to choose your star sign and get your daily horoscope.
 
-See a sample version of the app here: <http://horoscope.surge.sh>
+See a sample version of the app here: <http://astrology.surge.sh/>
 
 ## Drink recipes app
 
 An app that lets users search by drink name or ingredients for recipes and instructions.
 
-See a sample version of the app here: <http://drinks.surge.sh/>
+See a sample version of the app here: <http://drink-recipe-finder.surge.sh/>
 
 ## Starter code
 
