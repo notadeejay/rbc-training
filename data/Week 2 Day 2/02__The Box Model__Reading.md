@@ -213,8 +213,3 @@ div {
 This time, the browser will include the padding and border into the width calculation. So even though we've added padding and a border, the element will only take up 100 pixels.
 
 ![](https://cl.ly/08323r3q3B3Q/Screen%20Recording%202017-10-01%20at%2012.09%20PM.gif)
-
-
-## Resources
-- [The Box Model Explained by Living in a Boring Suburban Neighborhood](https://medium.freecodecamp.org/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood-9a9e692773c1)
-- [Introduction to the CSS basic Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
