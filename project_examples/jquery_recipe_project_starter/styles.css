@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arvo', serif;
+  background-color: #3DDC97;
 }
 
 header {
@@ -8,21 +8,44 @@ header {
   text-transform: uppercase;
 }
 
+header h1 {
+  font-size: 80px;
+  color: #046AEF;
+  font-family: 'Bungee Shade', cursive;
+}
 
  main #search, .results-drink {
   display: flex;
   justify-content: center;
   align-items: baseline;
+  flex: 1;
 }
 
-.results-drink:not(:last-child) {
-  border-bottom: 2px solid #aaa;
-  padding-bottom: 20px;
+
+main h2 {
+  font-size: 18px;
+  font-family: 'Arvo', serif;
+  text-transform: uppercase;
 }
+
+div#results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
 
 .title-and-image {
   flex: 1;
   text-align: center;
+  align-self: flex-end;
+}
+
+.title-and-image:hover {
+  transform: scale(1.1);
+
 }
 
 .title-and-image img {
@@ -30,6 +53,7 @@ header {
   height: 200px;
   width: 200px;
 }
+
 .instructions {
   flex: 2;
 }
@@ -50,8 +74,11 @@ main h4:hover {
 
 main input {
   outline: none;
-  padding: 10px;
-  width: 300px;
+  padding: 20px;
+  width: 500px;
+  height: 8px;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
 }
 
 main div {
@@ -60,16 +87,11 @@ main div {
 
 
 button {
-  border: 1px solid black;
-  padding: 10px;
-  background: white;
+  border: 2px solid black;
+  padding: 12px;
+  background: #FF495C;
+  font-size: 20px;
+  font-family: 'Bungee Shade', cursive;
   margin-left: 10px;
   text-transform: uppercase;
 }
-=======
-/*
-
-  ADD YOUR STYLES HERE
-
-*/
->>>>>>> f19f091d24819b7d9631c572bbb57c3848495adf
