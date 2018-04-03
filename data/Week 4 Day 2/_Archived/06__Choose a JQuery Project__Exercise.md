@@ -17,10 +17,10 @@ See a sample version of the app here: http://jquery-weather.surge.sh
 This allows you to create a page that lets users search for their daily horoscopes.
 
 
-Checkout a project example at: http://horoscope.surge.sh
+Checkout a project example at: http://astrology.surge.sh
 
 ### Drink Recipes
 
 Create an app that lets users search by drink name or ingredients for recipes and instructions.
 
-Checkout a project example at: http://drinks.surge.sh/
+Checkout a project example at: http://drink-recipe-finder.surge.sh/
