@@ -12,7 +12,7 @@ A clear and concise description of what the issue is about.
 
 ### Link to assignment
 
-- `[Week / Day](Compass Link)`
+- [Week / Day](Compass Link)
 
 ### Screenshots (If necessary)
 
