@@ -16,7 +16,7 @@ A clear and concise description of what the issue is about.
 
 ### Screenshots (If necessary)
 
-![Screenshots](https://d2ffutrenqvap3.cloudfront.net/items/1N2f1j0C2y3L0A3N1d2h/Screen%20Recording%202018-04-04%20at%2001.21%20PM.gif)
+![Screenshots](https://media.giphy.com/media/l4FGxt994Ycd54MUw/giphy.gif)
 
 ### Possible Solutions (For Larger Fixes)
 How do you recommend resolving this issue? Why do you reccomend this approach? What other approaches did you consider? Please describe in as much detail as possible.
