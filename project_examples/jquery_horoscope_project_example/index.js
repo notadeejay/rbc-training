@@ -32,15 +32,16 @@ $(document).ready(function() {
   // =======
 
   function getSunSigns() {
-    $.get("http://sandipbgt.com/theastrologer/api/sunsigns", function(data) {
-      showSunSigns(JSON.parse(data));
+    console.log('get sun signs')
+    $.get("http://horoscope-lhl.herokuapp.com/star_signs", function(data) {
+    console.log(data)
+    showSunSigns(data.signs);
     })
   }
 
   function getHoroscope(sign, time) {
     clearResults()
-    $.get("http://sandipbgt.com/theastrologer/api/horoscope/"+ sign + "/" + time, function(data) {
-      var data = JSON.parse(data);
+    $.get("http://horoscope-lhl.herokuapp.com/horoscopes/"+ sign, function(data) {
       showHoroscope(data);
     })
   }
@@ -58,11 +59,8 @@ $(document).ready(function() {
 
   function showHoroscope(data) {
     var $results = $('#results');
-    $('.sunsign').text(data.sunsign)
-    $('.horoscope').text(data.horoscope.replace('(c) Kelli Fox, The Astrologer, http://new.theastrologer.com', ''))
-    $('.meta').append(createMeta('Intensity', data.meta.intensity))
-    $('.meta').append(createMeta('Keywords', data.meta.keywords))
-    $('.meta').append(createMeta('Mood', data.meta.mood))
+    $('.sunsign').text(data.sign)
+    $('.horoscope').text(data.horoscope)
     $results.fadeIn(2000)
   }
 

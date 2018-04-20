@@ -1,5 +1,6 @@
 ---
 uuid: b5e880a8-848d-4465-85ea-5073f1869f91
+stretch: true
 ---
 
 In addition to having CSS **transitions**, CSS also has **animations**. If we're getting technical (and we are) a CSS transition *is* an animation, but we can also have animations that don't rely on a hover or a transition.

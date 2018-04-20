@@ -37,27 +37,34 @@ a {
 
 ## Adjacent sibling selector
 
-Remember that when we **nest** elements, like the `<h1>` and `<p>` tags in the `<div>` in the example below, we refer to the `<div>` as the **parent** and the nested elements as **children**.
+
+Remember that when we **nest** elements, like the `<p>` tags in the `<div>` in the example below, we refer to the `<div>` as the **parent** and the nested elements as **children**. 
 
 ```html
 <div>
-  <h1>Hello World</h1>
   <p>I'm a paragraph tag</p>
-  <p>Another paragraph tag</p>
+  <p>I get selected</p>
 </div>
+
+<div>
+  <p>I'm a paragraph</p>
+  <h2>I'm an h2</h2>
+  <p>I do not get selected</p>
+</div>
+
 ```
 
-This means that we can also refer to the `<h1>` and `<p>` tags as **siblings**.
+This means that we can also refer to the `<p>` tags as **siblings**. Sibling elements must have the same parent element, and "adjacent" means "immediately following".
 
-If we only want to style paragraph elements that come immediately after an `<h1>` element, we can use the adjacent sibling selector.
+If we only want to style paragraph elements that come immediately after another `<p>` element, we can use the adjacent sibling selector.
 
 ```css
-h1 + p {
+p + p {
   color: green;
 }
 ```
 
-![](https://cl.ly/0U251Y0c0Y0R/Image%202017-10-05%20at%207.54.18%20PM.png)
+![](https://cl.ly/2D1c2Q412D3s/Image%202018-04-04%20at%204.10.19%20PM.png)
 
 
 ## General sibling selector
@@ -65,24 +72,25 @@ h1 + p {
 This will allow you to select all of the siblings that follow an element. For example, if we had this HTML:
 
 ```html
-<article>
+<div>
   <h2>Blog Post Title</h2>
   <p>Opening paragraph</p>
-  <blockquote>To be or not to be.</blockquote>
+  <span>To be or not to be.</span>
   <p>I'm a paragraph tag nested inside of a div tag.</p>
   <p>I'm a second paragraph</p>
-</article>
+</div>
 ```
 
-And we want to select all the paragraph tags that come *after* the `<blockquote>` tag, we could use:
+And we want to select all the `<p>` tags that come *after* the `<span>` tag, we could use:
 
 ```css
-blockquote ~ p {
+span ~ p {
   color: purple;
 }
 ```
 
-![](https://cl.ly/383H1E1V0a12/Image%202017-10-05%20at%207.55.19%20PM.png)
+
+![](https://cl.ly/qfGQ/Image%202018-04-04%20at%203.59.22%20PM.png)
 
 
 ## Direct descendant selector

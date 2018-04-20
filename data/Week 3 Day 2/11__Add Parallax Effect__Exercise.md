@@ -74,6 +74,21 @@ div {
 }
 ```
 
+Then, add a height to your containing element (in this case, we'll add a height to our div).
+
+```css
+div {
+  background: url('https://images.unsplash.com/photo-1471644518115-1f02e9819854?w=1500');
+  background-position: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+```
+
+Then, style and position the text in your div.
+
+Checkout this codepen (https://codepen.io/MaggieMoss/pen/KZZPKW?editors=1100#0) for inspiration.
+
 ## Tasks
 
 - Experiment with adding a parallax effect to your webpage

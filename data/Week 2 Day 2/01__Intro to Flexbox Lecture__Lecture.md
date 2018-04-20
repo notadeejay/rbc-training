@@ -3,7 +3,7 @@ uuid: d824a8af-f215-4113-93af-b56e32a66f27
 ---
 
 ## Objectives:
-By the end of this class, you should be able to:
+By the end of this class, you should be able to
 - Explain the difference between several different *display*: values
 - Identify the components of the box model
 - Layout elements on an HTML page using box model properties and Flexbox

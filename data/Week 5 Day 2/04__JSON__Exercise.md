@@ -13,15 +13,9 @@ Go through these two sample responses, and take note of the information provided
 
 ```javascript
 {
-    "horoscope": "Your natural sense of caution kicks in today. You feel the urge to stick close to home, or at least familiar faces. Connecting with your people makes you feel safe and emotionally centered. On that note, it's a great day to delve into old photos or other memories from the past. Remind yourself where you came from. Gain insight from exploring the people and places that made you who you are.(c) Kelli Fox, The Astrologer, http://new.theastrologer.com",
-    "credit": "(c) Kelli Fox, The Astrologer, http://new.theastrologer.com",
-    "sunsign": "Scorpio",
-    "date": "2017-10-12",
-    "meta": {
-        "keywords": "softhearted, warmhearted",
-        "intensity": "63%",
-        "mood": "loyal"
-    }
+  "horoscope":"Time to reconnect with your roots? From now until February 17, curious Mercury is spinning through Aquarius, activating your fourth house of home and family. Pore over old photos, take an ancestry DNA test or add comfy new touches to your decor. Make it a priority to nurture your most cherished ties with regular (or reinvigorated) communication. Don't worry about how much time has passed—just pick up wherever you are and you'll fill each other in on the stuff that matters. Women in particular can play an important role. Be receptive to advice from the savvy sisterhood.",
+  "date":"Thursday, February 1, 2018",
+  "sign":"scorpio"
 }
 ```
 

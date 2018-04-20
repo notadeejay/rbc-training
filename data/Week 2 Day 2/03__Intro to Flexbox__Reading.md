@@ -299,6 +299,5 @@ Here the `.b` element takes up three times as much space as the others.
 
 ## Resources
 
-- [CSS Flexbox Explained by Road Tripping Across the Country](https://medium.freecodecamp.org/css-flexbox-explained-by-road-tripping-across-the-country-1217b69c390e)
 - A more in-depth explanation of Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - If you prefer a more interactive approach, you can play around with Flexbox properties here: <http://learn-flexbox.surge.sh/> – be sure to check out the corresponding code snippets at the bottom of the page.
