@@ -27,16 +27,10 @@ https://api.openweathermap.org/data/2.5/weather?units=metric&q=London
 https://api.openweathermap.org/data/2.5/weather?units=metric&q=London&appid=1234
 ```
 
-### Horoscope app
-
-```javascript
-http://horoscope-lhl.herokuapp.com/horoscopes/scorpio
-```
-
 ### Drinks app
 
 ```javascript
-http://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
+https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
 ```
 
 ## Tasks
