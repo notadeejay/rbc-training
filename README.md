@@ -2,8 +2,10 @@
 
 The Front End Fundamentals course teaches students how to build and style websites and landing pages using HTML, CSS & JavaScript. Throughout the 6 week course students build two of their own website from scratch, learn the core principles of responsive design, and leverage JavaScript to make their sites dynamic and interactive. They will also have the opportunity to dive into more advanced topics like jQuery, AJAX and API requests to enable their websites to dynamically display information from other web services like Twitter, Google Maps, and more. 
 
+
 The curriculum is divided into distinct sections by [Week & Day](https://github.com/lighthouse-labs/web-pt-frontend-curriculum/blob/master/data/Training/10%20-%20Course%20Outline/101__%20Learning%20Outomes__Reading.md), each covering a different set of topics in-depth. Each lesson builds on the last to allow students to walk away from the course with multiple projects. These projects give students the opportunity to have hands on practise with what they are learning, as a means reinforcing and solidifying the theoretical knowledge learned in the lectures.
 
+Looking for Slides? You can find them [here](https://github.com/lighthouse-labs/web-pt-frontend-curriculum/blob/master/SLIDES.md) 
 ## Contributing 
 
 Like all curriculum at Lighthouse Labs, this course depends on contributions from instructors and mentors to improve, grow and thrive. We welcome contributions from all levels of instructors, mentors and alumni to help maintain this awesome curriculum and community.
