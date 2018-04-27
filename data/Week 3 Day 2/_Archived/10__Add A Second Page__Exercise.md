@@ -1,6 +1,6 @@
 ---
 uuid: ae7ccad4-68e2-4c6a-93b8-fbaeb1d7565f
-stretch: true
+archived: true
 ---
 
 Let's add a second page to your site!

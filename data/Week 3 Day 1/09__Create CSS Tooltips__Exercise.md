@@ -30,7 +30,7 @@ h2:hover + p {
 
 ## Tasks
 
-- In a new pen on CodePen, add CSS to the following HTML to create tooltips for the start, pause, and play icons.
+- In a new pen on [CodePen](https://codepen.io/), add CSS to the following HTML to create tooltips for the start, pause, and play icons.
 
 ```html
 <main>

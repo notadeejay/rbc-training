@@ -1,5 +1,6 @@
 ---
 uuid: 63d5e567-5c6c-4b9b-99ce-d07872a30d8a
+archived: true
 ---
 
 Before you deploy a project to the internet you should always make sure everything is working as expected. QA stands for Quality Assurance, and it's so important in the software world that there are people whose job is entirely to test software.
