@@ -11,20 +11,6 @@ When we get a response from our API, we want to display that information to our 
 - Write a function that takes the response object as an argument, and appends an HTML element containing the value of the `name` key to your page.
 - Add code so this function is called when a user submits the search form
 
-**Tip**: When you add your new HTML element to your page, make sure it goes _inside_ your results div.
-
-### Horoscope app
-
-- Write a function that takes the response object as an argument, and appends an HTML element containing the value of the `sign` key to your page
-- Add code so this function is called when a user submits the search form
-
-**Tip**: When you add your new HTML element to your page, make sure it goes _inside_ your results div.
-
-### Drinks app
-
-- Write a function that takes the response object as an argument, and loops over the drinks in the `drinks` array.
-- For each element in your drinks array, append an HTML element that contains the drink name (you will find this in the key `strDrink`)
-
 **Tip**: When you add your new HTML elements to your page, make sure they go _inside_ your results div.
 
 ## jQuery and JavaScript reference
@@ -80,3 +66,69 @@ for (var i = 0; i < students.length; i++) {
   console.log(students[i])
 }
 ```
+
+### Feeling Stuck?
+
+<details>
+  <summary><strong>Click here to one way you could solve this problem</strong></summary>
+  It's important to note that when it comes to coding there are many ways to reach the same result, this is just one of them! 
+
+  ```javascript
+        var weather = {
+        base: "stations",
+        clouds: {
+          all: 1
+        },
+        coord: {
+          lat: 43.65,
+          lon: -79.38
+        },
+        dt: 1507510380,
+        id: 6167863,
+        main: {
+          humidity: 77,
+          pressure: 1014,
+          temp: 17.99,
+          temp_max: 20,
+          temp_min: 16
+        },
+        name: 'Downtown Toronto',
+        sys: {
+          type: 1,
+          id: 2117,
+          message: 0.0041,
+          country: 'CA',
+          sunrise: 1507548290,
+          sunset: 1507589027,
+          type: 1
+        },
+        visibility: 16093,
+        weather: [
+          {
+            description: 'clear sky',
+            icon: '01n',
+            id: 800,
+            main: "Clear"
+          }
+        ],
+        wind: {
+          deg: 170,
+          speed: 1.5
+        }
+      }
+
+
+      $('form').on('submit', function(event) {
+        event.preventDefault()
+        $(this).fadeOut(500)
+        resultsLoop(weather)
+      })
+
+      function resultsLoop (obj) { 
+        var resultsContainer = $('<div class="title"></div>')
+        var cityName = obj.name
+        resultsContainer.append('<h2> ' + cityName + '</h2>')
+        $('#results').append(resultsContainer)
+      }  
+  ```
+</details>
