@@ -10,7 +10,7 @@ Your first project will be building a resume page. We've come up with a great de
 
 [Download the design here.](https://cl.ly/2u3D2E2f1m08)
 
-Over the next few classes, we'll slowly add to your project. Then in week 3, we'll "deploy" your projects.
+Over the next few classes, we'll slowly add to your project and deploy it!
 
 "Deploy" is a fancy way of saying we'll put your website on the internet, so the whole world can see your awesome projects.
 

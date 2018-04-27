@@ -111,7 +111,7 @@ Look at your code so far. Is it easy to see which elements are parents and which
   Verify that your header structure looks similar to the following:
 
   ```html
-  <header class="emphasized-section">
+  <header>
     <nav>
       <p>Gage Malone</p>
       <div>
@@ -121,7 +121,7 @@ Look at your code so far. Is it easy to see which elements are parents and which
         <a href="#contact">contact</a>
       </div>
     </nav>
-    <div class="name-container">
+    <div>
       <div>
         <h1>Gage Malone</h1>
         <h4>Designer &amp; Developer</h4>

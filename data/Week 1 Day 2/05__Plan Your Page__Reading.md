@@ -8,7 +8,7 @@ A resume page, or any other webpage with a similar purpose, first needs the cont
 
 To sum that up, we're going to break the process of building the resume page into the following seven steps, which we'll be working on over the next five classes:
 
-1. Add HTML structure (Today)
+1. Add HTML structure (Today!)
 2. Add custom colours and fonts using CSS 
 3. Fix the layout using Flexbox 
 4. Polish up the styling 
