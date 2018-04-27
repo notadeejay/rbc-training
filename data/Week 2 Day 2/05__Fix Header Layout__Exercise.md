@@ -42,6 +42,7 @@ nav {
 ```
 
 What happened? This should have automatically positioned your name and all of your `<a>` tags in line horizontally, like so:
+
 ![screenshot](https://cl.ly/3k0D0129160r/Image%202018-04-27%20at%2011.43.48%20AM.png)
 
 This still doesn't look _quite_ like the design we've provided, so let's keep going! How do we make it so our name shows up on the left side of the nav and the links on the right?
