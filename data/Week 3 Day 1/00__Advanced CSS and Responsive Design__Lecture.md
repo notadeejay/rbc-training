@@ -8,6 +8,8 @@ uuid: 32fd27e5-9b8b-4459-aa3d-55f0001bdea6
 By the end of this class, you should be able to:
 - Use pseudo selectors to style the progress bars on yout resume
 - Use basic CSS transitions to change an element from one value of a property to another
+- Implement media queries to style elements
+- Deploy your resume
 
 
 
@@ -17,15 +19,17 @@ By the end of this class, you should be able to:
 in your prep do a quick search for fun transitions in code pen and demonstrate how to replicate them.
 
 ## Things to Cover
+- Flexbox review
 - Advanced Selectors
 - Pseudo Selectors
 - CSS Transitions
 - Styling HTML meters example
+- Media Queries
+- Paralax
+- Demonstrate Deployment
 
 ## Out of Scope
-- Media Queries
-- CSS Animations
-- Parallax
+
 
 ## Slides
-- https://docs.google.com/presentation/d/1-Wrav_y1sNDByjhWEtgy3KyQXZ2LuTGX06hUWT5yJLg/edit?usp=sharing
+- https://docs.google.com/presentation/d/1hfsdIlCpASBt0r5Yc1vkDYo7SP4xb3DpZ0M-KVeQ70g/edit?usp=sharing 

@@ -2,7 +2,7 @@
 uuid: 0eb399e6-6920-4d76-866f-8a24013d5780
 ---
 
-Before we start writing JavaScript in our new jQuery projects, we need to discuss how to add JavaScript to our HTML.
+Before we start writing JavaScript in our new jQuery project, we need to discuss how to add JavaScript to our HTML.
 
 ## Adding jQuery to your project
 

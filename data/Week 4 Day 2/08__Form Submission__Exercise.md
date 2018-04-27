@@ -20,3 +20,14 @@ $('form').on('submit', function(event) {
 
 - Add a jQuery event listener that will fire when the form on your page has been submitted
 - Use the `preventDefault` function to stop your browser from refreshing the page when a user submits information using the form
+
+## Tips & Tricks
+
+Want an easy way to see if your event listener is working? Add the following to your function, save and try submitting the form again.
+
+```javascript
+$('form').on('submit', function(event) {
+  event.preventDefault()
+  alert("It works!")
+})
+```

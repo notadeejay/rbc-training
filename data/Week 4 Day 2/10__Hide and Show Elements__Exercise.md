@@ -7,9 +7,33 @@ One of the things you can do with jQuery is hide and show elements on your page.
 ## Tasks
 
 - Add code to hide your search input and button after the form has been submitted
-- Add a placeholder attribute to your text input by default
-- Add a jQuery animation to the elements as they are hidden and shown on your page
-- Add some custom CSS and personalize your project
+
+Now that you have a function that lets you submit your form, let's use it to hide the form once we click submit. Luckily there is a jQuery method that makes this simple. 
+
+#### fadeOut
+
+Will cause an element to slowly fade away. The number you see determines how quickly or slowly the element will fade out.
+
+```javascript
+$('.box').fadeOut(2000)
+```
+Use `$(this)` to target your form and have it fade out when a user clicks submit
+
+
+### Feeling Stuck?
+
+<details>
+  <summary><strong>Click here to one way you could solve this problem</strong></summary>
+  It's important to note that when it comes to coding there are many ways to reach the same result, this is just one of them! 
+
+  ```javascript
+    $('form').on('submit', function(event) {
+      event.preventDefault()
+      $(this).fadeOut(2000) 
+    })
+  ```
+</details>
+
 
 ## jQuery reference
 

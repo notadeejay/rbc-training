@@ -9,6 +9,7 @@ By the end of this class, you should be able to:
 - Collect user input
 - Use some of JavaScript’s built in functions like new Date() string.replace, JSON.parse
 - Iterate/loop over objects
+
 ## Teacher Notes
 
 - Include a refresher on JavaScript (Review almost all of it.)
