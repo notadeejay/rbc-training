@@ -9,12 +9,11 @@ When we looked through our design for elements on our page that shared common st
 - Add a class to your `<header>` tag and the Skills `<section>` tag
 - Style your class to have a blue background colour and white text
 - Add CSS to style the anchor tags in your Nav bar to be white and **not** underlined.
+- Adjust the margin and padding you've added to elements in the **Header**, if needed
 
 After adding these styles, your Header should look something like this:
 
 ![](https://cl.ly/2P2l27213r1W/Image%202017-09-25%20at%209.33.42%20PM.png)
-
-## Tips & Tricks
 
 #### Using classes for styling
 

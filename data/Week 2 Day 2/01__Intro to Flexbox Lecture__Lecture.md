@@ -10,12 +10,10 @@ By the end of this class, you should be able to
 
 
 ## Teacher Notes
-Today is when they learn box model and flex box. Make sure you have played around with Flexbox enough to
+Today is when they learn flex box. Make sure you have played around with Flexbox enough to
 trouble shoot it with them.
 
 ## Things to Cover
-- Inline, block and inline-block elements
-- The Box Model (margin, padding, border and content)
 - Flexbox Basics
 
 ## Slides

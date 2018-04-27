@@ -1,6 +1,6 @@
 ---
 uuid: 09bcd823-35f5-4283-a4f6-164bfd6a73b7
-questions:
+archived: true
   -
     question: |
       Given the HTML and CSS below, what colour will the paragraph text be?

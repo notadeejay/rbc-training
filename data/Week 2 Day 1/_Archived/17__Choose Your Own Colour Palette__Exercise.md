@@ -1,6 +1,6 @@
 ---
 uuid: c99c191b-34dc-4bd7-a0f6-7812d7420545
-stretch: true
+archived: true
 ---
 
 You're welcome to use the styles we chose for your in the design, but feel free to chose your own colours, fonts, and styles as you go along. It's *your* project, after all.
