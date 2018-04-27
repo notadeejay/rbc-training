@@ -54,7 +54,7 @@ $('.box').on('mouseleave', function() {
 
 #### Keep your code DRY (Don't Repeat Yourself)
 
-I might sound like a broken record with this, but it's important that web developers don't write more code than necessary. If you start to feel like you're writing the same code over and over again, it's probably a good sign you can make some changes and reuse a function or two.
+We might sound like a broken record with this, but it's important that web developers don't write more code than necessary. If you start to feel like you're writing the same code over and over again, it's probably a good sign you can make some changes and reuse a function or two.
 
 Let's say you have two HTML elements on your page, like this:
 
