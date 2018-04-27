@@ -12,7 +12,7 @@ When we use `href` or `src` attributes (for instance on anchor or image tags) we
 
 ### Absolute paths
 
-Let's pretend for a second that you've asked me how to get to Lighthouse Labs. If I told you the street address, city name, and province, chances are you could find your way there no matter where you started.
+Let's pretend for a second that you've asked me how to get to your office. If I told you the street address, city name, and province, chances are you could find your way there no matter where you started.
 
 This is how absolute paths work. For example, we could add this image tag to any website in the world, and the browser would be able to find it (assuming the URL is correct, of course).
 
