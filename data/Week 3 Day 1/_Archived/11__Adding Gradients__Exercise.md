@@ -1,6 +1,6 @@
 ---
 uuid: 9e00cd08-56fe-4f07-a793-dc1473d76f9d
-stretch: true
+archived: true
 ---
 
 The `background` property in CSS has several different properties that we can assign it to. We've previously used it to set the colour of our elements. We can get even more specific with those colours when we use **gradients**. Gradients allow us to have a background that transitions between two or more colours, and are a great way to add texture and depth to a webpage.

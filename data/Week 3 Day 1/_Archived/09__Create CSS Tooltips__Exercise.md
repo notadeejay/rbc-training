@@ -1,6 +1,6 @@
 ---
 uuid: 9911c596-defd-4366-bf15-1929b926cb43
-stretch: true
+archived: true
 ---
 
 Using pseudo selectors we can make our webpages a little bit more interactive. For example, we can do so by creating tooltips. Tooltips are those little boxes that appear next to your mouse, often when you're hovering over something, and provide some extra information.
