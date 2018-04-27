@@ -1,6 +1,6 @@
 ---
-stretch: true
 uuid: 112fc7ce-9e89-4618-84b4-94d3fa27f327
+archived: true
 ---
 
 We've learned about CSS animations and transitions, which we triggered with a hover. We can also trigger transitions and animations with jQuery. One way to do this is by adding and removing classes from our HTML elements.

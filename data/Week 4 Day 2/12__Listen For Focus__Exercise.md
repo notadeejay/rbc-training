@@ -1,11 +1,15 @@
 ---
 uuid: bd64e7c8-10c5-44b5-82bc-64b83268a95d
+archived: true
 ---
 
 ## Tasks
 
 - Add code so that when a user clicks on an input element, the border of this input element changes colour
 - Use CSS to style the text input and submit button of your form
+
+
+
 
 ## jQuery reference
 
@@ -71,20 +75,3 @@ div {
 }
 ```
 
-#### outline
-
-The outline property is a line that is drawn **around** elements (outside of the border). It's **not** added to an element's dimensions.
-
-```css
-div {
-  outline: [width] [style] [color];
-}
-```
-
-Just like with to the `border` CSS property, you can specify the `width`, `style` and `color` of the outline.
-
-```css
-.text {
-  outline: 1px dotted red;
-}
-```
