@@ -5,6 +5,11 @@ name: First Flexbox Practice
 
 Before we start adding Flexbox to the layout of our resume page, here are a few exercises to help you fully understand the concepts.
 
+## Flexbox Froggy
+First checkout [Flexbox Froggy](https://flexboxfroggy.com/). A great resource to help you practice the concepts we just covered. Once you feel comfortable with this, you can move on to the exercises below or feel free to start applying flexbox directly to your project.
+
+
+## Practice
 We've written HTML for you and provided you with layout designs. Your job is to write CSS that matches the designs. You might find it easiest to copy and paste this HTML into CodePen (https://codepen.io/), and write your CSS there. Feel free to work with a partner through these exercises. You may find it helpful to talk through the code with a classmate, and complete these layouts together.
 
 ### Layout One

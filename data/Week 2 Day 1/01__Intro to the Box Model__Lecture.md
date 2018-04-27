@@ -7,3 +7,13 @@ By the end of this class, you should be able to
 - Explain the difference between several different *display*: values
 - Identify the components of the box model
 - Layout elements on an HTML page using box model properties
+
+
+## Teacher Notes
+## Things to Cover
+- Inline, block and inline-block elements
+- The Box Model (margin, padding, border and content)
+
+## Slides
+
+>TO DO: Split Flexbox slides

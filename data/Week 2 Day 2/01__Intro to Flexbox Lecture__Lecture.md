@@ -17,4 +17,5 @@ trouble shoot it with them.
 - Flexbox Basics
 
 ## Slides
-- https://docs.google.com/presentation/d/1WQbzu9kwWYEercmkjoW7AhRHcXF90bBG9u4B3JTd7Dg/edit?usp=sharing
+
+> TO DO: Removed Box Model from the slides

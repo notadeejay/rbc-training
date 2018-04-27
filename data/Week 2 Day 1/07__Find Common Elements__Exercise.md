@@ -2,7 +2,7 @@
 uuid: a4ecc06d-f77d-4e20-8efc-07857d578062
 ---
 
-In today's exercises, we're going to start adding some styles to our webpage. We'll focus today on learning how to use tags, classes and IDs to select elements on our page. Most of the styles we apply today are going to involve fonts and colours. We will be adjusting the layout in our next class, so don't worry if your page doesn't match the design by the end of the night.
+In today's exercises, we're going to start adding some styles to our webpage. We'll focus today on learning how to use tags, classes and IDs to select elements on our page. Most of the styles we apply today are going to involve fonts, colours and spacing. We will be adjusting the layout more in our next class, so don't worry if your page doesn't match the design by the end of the night.
 
 We've learned that classes can be used to allow elements to share styles. Each element on our page can have as many classes as it needs, and we can reuse our classes on as many elements as we'd like.
 
