@@ -26,3 +26,36 @@ When you're done, you should have something like this:
 - Add an element to contain **all** of the content in your **Experience** section
 - Add a section title
 - Add some information about your past employment, or projects you've worked on, and for each one, include a job title, date range, company name, and a brief description
+
+### Feeling Stuck? 
+
+<details>
+  <summary><strong>Click here to see solution</strong></summary>
+  Verify that your About Section structure looks similar to the following:
+
+  ```html
+    <section>
+      <h2>Experience</h2>
+      <div>
+          <div>
+              <h5>2014-2016</h5>
+              <h6>Marketing Intern</h6>
+          </div>
+          <div>
+              <h4>Company Co.</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu justo ac ex consequat.Testing something here. More sentences, lalalalalalalalalalalal</p>
+          </div>
+      </div>
+      <div>
+          <div>
+              <h5>2014-2016</h5>
+              <h6>Marketing Intern</h6>
+          </div>
+          <div>
+              <h4>Company Co.</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu justo ac ex consequat eleifend.</p>
+          </div>
+      </div>
+    </section>
+  ```
+</details>
