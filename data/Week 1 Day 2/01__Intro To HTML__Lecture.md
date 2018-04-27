@@ -41,4 +41,5 @@ reassure them that they will get better at spotting these errors the more practi
 - CSS, leave it for the next day
 
 ## Slides
-- https://docs.google.com/presentation/d/15bJ6QC1LBCh0tpuptIta6IhMlFPZT1YSkNLF1v_zeC0/edit?usp=sharing
+
+>TO DO: Add link to updated slides

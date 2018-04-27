@@ -9,12 +9,11 @@ A resume page, or any other webpage with a similar purpose, first needs the cont
 To sum that up, we're going to break the process of building the resume page into the following seven steps, which we'll be working on over the next five classes:
 
 1. Add HTML structure (Today)
-2. Add custom colours and fonts using CSS (Week 2 Day 1)
-3. Fix the layout using Flexbox (Week 2 Day 2)
-4. Polish up the styling (Week 3 Day 1)
-5. Make the site responsive (Week 3 Day 2)
-6. Test (Week 3 Day 2)
-7. Deploy (Week 3 Day 2)
+2. Add custom colours and fonts using CSS 
+3. Fix the layout using Flexbox 
+4. Polish up the styling 
+5. Make the site responsive
+6. Test & Deploy
 
 Don't worry if you don't know what all the steps mean right now, because you'll learn exactly what they refer to as we go along! Don't worry also if there are going to be days when your resume page doesn't look "pixel perfect" – that's totally fine, it will all come together by the end!
 

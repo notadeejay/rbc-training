@@ -103,3 +103,31 @@ It's easy to make a typo and add two opening tags instead of a closing tag. Go t
 ### Indentation
 
 Look at your code so far. Is it easy to see which elements are parents and which are children? Ask a class mate or a mentor to review your code.
+
+### Feeling Stuck? 
+
+<details>
+  <summary><strong>Click the arrow to see how we did it</strong></summary>
+
+
+    ```html
+        <header class="emphasized-section">
+              <nav>
+                  <p>Gage Malone</p>
+                  <div>
+                    <a href="#about">about</a>
+                    <a href="#skills">skills</a>
+                    <a href="#experience">experience</a>
+                    <a href="#contact">contact</a>
+                  </div>
+              </nav>
+              <div class="name-container">
+                  <div>
+                      <h1>Gage Malone</h1>
+                      <h4>Designer &amp; Developer</h4>
+                  </div>
+                  <img src="http://www.fillmurray.com/g/200/300">
+              </div>
+          </header>
+    ```
+</details>
