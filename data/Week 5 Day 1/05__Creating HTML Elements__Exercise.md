@@ -70,8 +70,8 @@ for (var i = 0; i < students.length; i++) {
 ### Feeling Stuck?
 
 <details>
-  <summary><strong>Click here to one way you could solve this problem</strong></summary>
-  It's important to note that when it comes to coding there are many ways to reach the same result, this is just one of them! 
+  <summary><strong>Click here to one way you could start solving this problem</strong></summary>
+  It's important to note that when it comes to coding there are many ways to reach the same result, this is just one of them! Use the code below to add more elements to your results `<div>` 
 
   ```javascript
         var weather = {
@@ -125,9 +125,9 @@ for (var i = 0; i < students.length; i++) {
       })
 
       function resultsLoop (obj) { 
-        var resultsContainer = $('<div class="title"></div>')
+        var resultsContainer = $('<div class="results-container"></div>')
         var cityName = obj.name
-        resultsContainer.append('<h2> ' + cityName + '</h2>')
+        resultsContainer.append('<h2 class="city-name> ' + cityName + '</h2>')
         $('#results').append(resultsContainer)
       }  
   ```

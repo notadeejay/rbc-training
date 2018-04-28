@@ -8,20 +8,43 @@ Next class we'll be taking the user input and using it to send a request to a se
 
 - Add code so that when the user performs a search, the content of the search input is logged to the console
 
-## jQuery and JavaScript reference
+First things first - where should this code go? We want to capture the input when the user _submits_ their form. Good thing we already have an event handler for that! Yours may look similar to this (but if it doesn't, that's okay too! As long as it works!)
 
-#### val
+```javascript
+  $('form').on('submit', function(event) {
+        event.preventDefault()
+        $(this).fadeOut(500)
+        resultsLoop(weather)
 
-Will return the value of an element:
+        //new code here
+
+      })
+```
+
+Start by targeting the input element. Hint: it's similar to how you targeted the `<form>` in the code above. 
+
+Got it? 
+### .val()
+
+Next we'll use jQuery's `.val()` method to return the value of the element, like below
 
 ```javascript
 $('p').val()
 ```
 
-#### console.log
+Adjust your code to capture the value of the input element.
+### console.log
 
-Will print a value to the console:
+Now that you've done all of that, how do you tell if it's working? Remember our friend `console.log()`? We can use it to log the value to our console. Put your value method inside a `console.log` like the example below.
 
 ```javascript
-console.log("Hello World")
+console.log($('p').val())
+```
+### Storing our value
+The user input seems pretty important, and we might want to use it later, so it's probably a good idea to store it somewhere. Edit your code to store the user input in a variable called `var userInput`
+
+**Hint:** if you want to make sure you stored the value properly add the following console.log after your variable:
+
+```javascript
+    console.log(userInput)
 ```

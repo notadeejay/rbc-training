@@ -8,6 +8,7 @@ Now that we've gotten started using our example JSON responses, it's time to dec
 
 - Decide on which pieces of information you would like to display to your users
 - Add more code to the function you created in the previous exercise ([Creating HTML Elements](/7c996092-4ec0-4d50-8ad0-44d771237683)) that displays all of the information you want to display to your users
+- Check out our example to see what information we chose: <http://jquery-weather.surge.sh/>
 
 ## Tips & Tricks
 
