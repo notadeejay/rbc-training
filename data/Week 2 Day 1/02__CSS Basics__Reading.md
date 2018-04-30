@@ -1,7 +1,9 @@
 ---
 uuid: 8a4f881e-c4cf-4c1c-83a8-2f764aecf73b
 ---
+
 CSS stands for **Cascading Style Sheets**, and it's what lets us fully customize the look and feel of our webpage. Previously, we compared building a webpage to building a house.
+
 We said that HTML is like the framework and general structure of our house. It gives our content some context, and provides a way to group related elements together.
 
 You can think of CSS like the paint, furniture and decorations of your house. CSS allows you to completely customize the layout, the font, and the colours on your page.

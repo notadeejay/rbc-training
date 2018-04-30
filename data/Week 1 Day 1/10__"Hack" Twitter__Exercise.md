@@ -8,12 +8,9 @@ Today we're going to inspect some of our favourite websites, and change some con
 
 ## Tasks
 
-- Navigate to your favourite website in Google Chrome. If you don'e have one, try Twitter or the New York Times' website
+- Navigate to your favourite website in Google Chrome. If you don't have one, try Twitter or the New York Times' website
 - Open up the Chrome Development Tools
 - Use the Chrome Development Tools to change a tweet or a headline to be about you
-- Take a screen shot of your edits, and share it in the class Slack channel
-- Check out your classmates edits!
-
 
 ## Tips & Tricks
 

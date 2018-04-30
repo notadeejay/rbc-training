@@ -30,5 +30,3 @@ Then, when we click our anchor tag, the page will automatically scroll to find a
 
 When you have added these IDs and updated the `href` values, make sure you test out the links in your header, and ensure they're working just as you would expect them to.
 
-
-Once you're done, pair up with a class mate and review each other's code. Make sure you check for proper indentation and properly closed tags :)

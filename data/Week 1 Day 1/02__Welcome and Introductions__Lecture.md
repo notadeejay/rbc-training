@@ -17,19 +17,14 @@ At the end of this class, you should be able to:
 ## Things to Cover
 - The structure / format of the course
 - Expectations
-- Ice Breakers
+- How the Web Works 101
 - How to open Chrome dev tools
-- How to use Slack
-- Where the coffee / bathrooms etc are in the space
 - Wireframes
 - General concepts of what each language does, e.g. HTML gives you structure
 
-
-## Out of Scope
-- We'll leave the introduction to HTML for the next class, this is mainly a high level introduction into what they can expect over the next couple of weeks.
-
 ## Slides
-https://docs.google.com/presentation/d/1Le1bHoPm8UXfs1HzV7BtPOoNWo8ZwIbpkKhXjJXB_0U/edit?usp=sharing
+
+> TO DO: Make new slides for this lecture covering Web Dev 101 in depth
 
 ## Links to Project Examples
 
