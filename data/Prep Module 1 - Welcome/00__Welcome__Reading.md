@@ -34,6 +34,3 @@ At the bottom of every activity you'll find a feedback form where you can write 
 
 Don't worry about getting all your thoughts down at once – you can submit feedback as many times as you like!
 
-### Proposed Feedback Workflow
-
-Here is one suggested workflow for providing feedback: as you progress through an activity you can jot down some feedback and preliminary thoughts without providing a rating. Once you've completed the activity, you can use the final feedback form as an opportunity to give it a rating and to add any additional thoughts.

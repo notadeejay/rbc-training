@@ -34,8 +34,6 @@ Once you have done this, your page should look something like:
 
 Congrats! You're on your way to a beautifully styled web page!
 
-## Tips & Tricks
-
 #### Creating a new CSS file
 
 Right-click on your `index.html` file within Brackets,

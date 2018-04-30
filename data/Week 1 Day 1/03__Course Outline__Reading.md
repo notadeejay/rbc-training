@@ -2,7 +2,7 @@
 uuid: f53d8002-1b22-11e8-accf-0ed5f89f718b
 ---
 
-Welcome to Front End Fundamentals at Lighthouse Labs! Below you'll find a quick outline of what we'll be covering in the weeks to come. Feel free to visit this often to see what's coming up week after week
+Welcome to Lighthouse Labs Corporate Training! Below you'll find a quick outline of what we'll be covering in the weeks to come. Feel free to visit this often to see what's coming up week after week
 
 ### Week One
 
@@ -15,24 +15,20 @@ By the second week of the course, you'll be ready to style your HTML web page wi
 
 ### Week Three
 
-In the third week of the course, we'll build on your foundational knowledge of CSS and introduce you to pseudo selectors, CSS transitions and animations. It's also important that your website look great on all screen sizes, so the latter half of this week will focus on teaching you how to make your page responsive before deploying. This week marks the completition of your first web page 🎉
-
-### Week Four
-
 Get ready to meet your new best friend - JavaScript. This week you will be introduced to the fundamentals of programming including data types, functions, and loops.
 
 ![oh my](https://media.giphy.com/media/JMg2c2yoYQZ5S/giphy.gif)
 
 Once you have a good grasp on the basics, you'll have to opportunity to test your skills by solving some programming challenges with your classmates. This week marks the beginning of your second project!
 
-### Week Five
+### Week Four
 
 This week continues full steam ahead as we tackle jQuery, one of the most popular JavaScript libraries. You'll learn how to use its helper methods to make your website interactive, and to add and remove elements dynamically from the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
 
 
-### Week Six
+### Week Five
 
-Week Six marks the final week of the Front End Fundamentals course. This week you'll tie everything you've learned together as you learn how to use [AJAX requests](http://api.jquery.com/jquery.ajax/) to request data from the web, and send [GET requests](https://api.jquery.com/jquery.get/) with jQuery. You'll also get experience making sense of API documentation and deploying your first dynamic web page - live, on the web, where you can show people what you’ve built and have them marvel at your new skills.
+Week Five marks the final week of the our time together. This week you'll tie everything you've learned together as you learn how to use [AJAX requests](http://api.jquery.com/jquery.ajax/) to request data from the web, and send [GET requests](https://api.jquery.com/jquery.get/) with jQuery. You'll also get experience making sense of API documentation and deploying your first dynamic web page - live, on the web, where you can show people what you’ve built and have them marvel at your new skills.
 
 
 

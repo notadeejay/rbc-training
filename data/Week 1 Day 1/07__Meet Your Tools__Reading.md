@@ -17,7 +17,3 @@ Most browsers offer us tools to help us build web pages. In this course, we'll b
 ## Compass
 
 Compass is the home of Lighthouse Labs' curriculum. You'll login each class to get access to the day's readings, exercises, and other resources.
-
-## Slack
-
-Slack is where you'll chat with classmates and instructors, and eventually, where you'll share links to your finished projects!

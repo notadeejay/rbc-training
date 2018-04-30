@@ -26,14 +26,11 @@ Then, for the live coding portion add styles to the HTML page you've just create
 - Indentation
 
 ## Out of Scope
-- The box model
-- Adjusting Layout
-(They will be learning these next class)
-
+- Flexbox
 
 ## Slides
 
-- https://docs.google.com/presentation/d/17ouk5W4-oh_IjHK9vIZpUZ3FZNZzIsByK46iL3v7wzA/edit?usp=sharing
+- https://docs.google.com/presentation/d/1ckYMARlF4oxpGkOaFu9XZah9JqcyTPTFOe4FgAQ8BEo/edit?usp=sharing
 
 
 ## Exercises

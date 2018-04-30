@@ -89,3 +89,24 @@ A div is a generic container element. You can use it to group elements together,
 If you've suddenly found yourself with a serious case of writer's block, and simply cannot think of anything to write about yourself, try using **Lorem Ipsum** text. Lorem Ipsum is Latin text that is commonly used as a placeholder.
 
 Visit [Meet the Ipsums](http://meettheipsums.com/), and pick a themed placeholder text, if you happen to be stuck.
+
+### Feeling Stuck? 
+
+<details>
+  <summary><strong>Click here to see solution</strong></summary>
+  Verify that your About Section structure looks similar to the following:
+
+  ```html
+  <section>
+    <h2>About</h2>
+      <h4>I'm a subtitle</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu justo ac ex consequat eleifend in quis risus. Maecenas imperdiet diam at tincidunt tincidunt.
+    </p>
+
+    <p>
+      Quisque pellentesque arcu varius lacus tempor, eget semper turpis eleifend. Vivamus nisl ante, ultricies et maximus at, aliquet sit amet ante.
+    </p>
+  </section>
+  ```
+</details>
