@@ -11,4 +11,9 @@ To use the Weather API we've picked out for you, you'll have to sign up for an a
 - Create an account at <https://home.openweathermap.org>
 - Under the **My Home** section, click the **API Keys** tab
 - Copy your API key
-- Declare a variable at the top of your `index.js` file and assign it to your API key
+- Declare a variable at the top of your `index.js` file and assign it to your API key:
+
+```javascript
+ API_KEY = '2d42be2b30487debfb3941dd728142db'
+ //replace the number above with your API key
+ ```

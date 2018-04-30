@@ -8,7 +8,7 @@ AJAX stands for **Asynchronous JavaScript and XML**. It lets us send HTTP reques
 
 Traditionally, when you wanted to update any part of the page (for example to see more products or to read the next blog post) you had to reload the *whole* page. The larger a page was, the longer that took to load. That's what we call a poor user experience. Nowadays, however, we (often) use AJAX to request a smaller piece of information (like a part of a page, such as a few more products or the next blog post), and then we use JavaScript to add that information to the appropriate spot on the page.
 
-jQuery has several built in functions that help us send AJAX requests. Since our apps mainly allow users to **read** information, we're going to use AJAX to send GET requests.
+jQuery has several built in functions that help us send AJAX requests. Since our apps mainly allow users to **read** information, we're going to use AJAX to send `GET` requests.
 
 ## Sending AJAX GET requests using jQuery
 

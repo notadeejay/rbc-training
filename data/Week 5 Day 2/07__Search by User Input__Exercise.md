@@ -24,6 +24,12 @@ We can concatenate strings together using the `+` operator:
 "http://example.com?search_term=" + "margarita"
 ```
 
+You'll want to use query params to send your user input to the API. For the Weather API it will look something like this.
+
+```javascript
+'https://api.openweathermap.org/data/2.5/weather?units=metric&q=' + userInput + '&appid=' + APP_ID
+```
+
 #### val
 
 The `.val()` jQuery method is used to get or set the value of a form input element.

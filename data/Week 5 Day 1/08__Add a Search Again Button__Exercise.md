@@ -42,8 +42,7 @@ Now that our results are gone - we need to show the `<form>` so the user can sea
     $('form').fadeOut(500)
 ```
 
-What function do you think does the opposite? If you think you've got it, add that into your function that is handling the click.
-
+What function do you think does the opposite of `.fadeOut()`? If you think you've got it, add that into your function that is handling the click.
 
 ### Feeling Stuck?
 

@@ -15,7 +15,7 @@ $.get('http://www.example.com', function(data) {
 
 It's important to note here that the request does not happen instantly. It is **asynchronous**.
 
-### Weather app
+### Your Weather API
 
 ```javascript
 https://api.openweathermap.org/data/2.5/weather?units=metric&q=London
@@ -27,16 +27,12 @@ https://api.openweathermap.org/data/2.5/weather?units=metric&q=London
 https://api.openweathermap.org/data/2.5/weather?units=metric&q=London&appid=1234
 ```
 
-### Drinks app
-
-```javascript
-https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
-```
-
 ## Tasks
 
+- Remove the object we were using as dummy data in the previous exercises 
 - Create a function that sends a GET request to your API and `console.log`s the response.
 - Add code so that the GET request is only sent when the user submits the search form
+
 
 ## Tips & Tricks
 
@@ -47,3 +43,4 @@ Query params are pieces of information we can send through the URL to an API. To
 ```javascript
 https://example.com?query_key=query_value&another_key=1234
 ```
+

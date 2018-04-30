@@ -27,19 +27,19 @@ Based on which type of action the user is making, our client sends a different t
 
 #### GET
 
-To read the posts on a blog (for example), your browser will send a GET request.
+To read the posts on a blog (for example), your browser will send a `GET` request.
 
 #### POST
 
-To create a new blog post, your browser will send a POST request.
+To create a new blog post, your browser will send a `POST` request.
 
 #### PUT
 
-To edit a blog post, your browser will send a PUT request.
+To edit a blog post, your browser will send a `PUT` request.
 
 #### DELETE
 
-To delete a blog post, your browser will send a DELETE request.
+To delete a blog post, your browser will send a `DELETE` request.
 
 ## Response Codes
 
@@ -64,6 +64,6 @@ If the server "errors out" while trying to respond to your request, it sends bac
 
 It turns out there are several HTTP status codes, and each one has a specific reason why it might be sent back. If you're curious about the different status codes that a server can respond with check out this webpage: <https://http.cat/>
 
-When you load a webpage into your browser, you send a GET request. Traditionally, users would send POST, PUT or DELETE requests when they submitted a form, and the entire page would refresh as a response.
+When you load a webpage into your browser, you send a GET request. Traditionally, users would send`POST`, `PUT` or `DELETE` requests when they submitted a form, and the entire page would refresh as a response.
 
 These days it's more common for the user to submit a form or send a request, and have the response contain a smaller piece of information. Using JavaScript, the response is displayed to the user. This usually results in faster web apps and a better user experience, since every time the user takes an action, they don't have to wait for the entire page to reload.
