@@ -98,27 +98,7 @@ A `<div>` is a generic container element. You can use it to group elements toget
 ### Feeling Stuck? 
 
 <details>
-  <summary><strong>Click here to see solution</strong></summary>
+  <summary><strong>Click here to see one way you could solve this activity</strong></summary>
   Verify that your About Section structure looks similar to the following:
-
-  ```html
-  <section>
-      <h2>Skills</h2>
-      <div>
-          <h5>Google Analytics</h5>
-          <meter max=10 value=6></meter>
-          <span>60%</span>
-      </div>
-      <div>
-          <h5>Illustrator</h5>
-          <meter max=10 value=9></meter>
-          <span>90%</span>
-      </div>
-      <div>
-          <h5>Content Writing</h5>
-          <meter low="0" high="1" max="10" value="8"></meter>
-          <span>80%</span>
-      </div>
-  </section>
-  ```
+ <img src="https://cl.ly/1k21151m0X16/Image%202018-05-07%20at%2011.01.21%20AM.png">
 </details>

@@ -97,16 +97,3 @@ Visit [Meet the Ipsums](http://meettheipsums.com/), and pick a themed placeholde
   Verify that your header structure looks similar to the following:
   <img src="https://cl.ly/1C400Y21303O/Image%202018-05-07%20at%2010.59.39%20AM.png">
 </details>
-
-
-  <section>
-    <h2>About</h2>
-      <h4>I'm a subtitle</h4>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu justo ac ex consequat eleifend in quis risus. Maecenas imperdiet diam at tincidunt tincidunt.
-    </p>
-
-    <p>
-      Quisque pellentesque arcu varius lacus tempor, eget semper turpis eleifend. Vivamus nisl ante, ultricies et maximus at, aliquet sit amet ante.
-    </p>
-  </section>
