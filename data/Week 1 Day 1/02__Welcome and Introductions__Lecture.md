@@ -4,7 +4,7 @@ start_time: 1800
 duration: 60
 ---
 
-## Objectives
+## Objectives 
 At the end of this class, you should be able to:
 - Understand the role of a browser with every page (get, render and run).
 - Understand the difference between front end (client side), back end (server side & databases) and full stack development
