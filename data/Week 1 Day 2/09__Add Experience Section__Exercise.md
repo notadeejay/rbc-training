@@ -32,30 +32,5 @@ When you're done, you should have something like this:
 <details>
   <summary><strong>Click here to see solution</strong></summary>
   Verify that your About Section structure looks similar to the following:
-
-  ```html
-    <section>
-      <h2>Experience</h2>
-      <div>
-          <div>
-              <h5>2014-2016</h5>
-              <h6>Marketing Intern</h6>
-          </div>
-          <div>
-              <h4>Company Co.</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu justo ac ex consequat.Testing something here. More sentences, lalalalalalalalalalalal</p>
-          </div>
-      </div>
-      <div>
-          <div>
-              <h5>2014-2016</h5>
-              <h6>Marketing Intern</h6>
-          </div>
-          <div>
-              <h4>Company Co.</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu justo ac ex consequat eleifend.</p>
-          </div>
-      </div>
-    </section>
-  ```
+  <img src="https://cl.ly/332y1o0j1G0b/Image%202018-05-07%20at%2011.03.19%20AM.png">
 </details>
