@@ -32,4 +32,4 @@ in your prep do a quick search for fun transitions in code pen and demonstrate h
 
 
 ## Slides
-- https://docs.google.com/presentation/d/1hfsdIlCpASBt0r5Yc1vkDYo7SP4xb3DpZ0M-KVeQ70g/edit?usp=sharing 
+- https://docs.google.com/presentation/d/1OPAD3qGhq4j_0DqcKrM38U59T84SW429mEKCPUu9AYk/edit?usp=sharing

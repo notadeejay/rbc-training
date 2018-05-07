@@ -10,4 +10,4 @@ Last, but certainly not least, we're going to adjust the layout of your **Footer
 - Adjust the margin and padding in the **Footer** to reflect the design
 
 ### Hint
-- This should be very similar to how you laid out your `nav` - so feel free to refer to the earlier assignment 
+- This should be very similar to how you laid out your `nav` - so feel free to refer to the [earlier assignment](/2bcda904-adcf-4fbf-ab2a-888edf5ca961) 
