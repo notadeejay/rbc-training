@@ -61,27 +61,3 @@ This works kind of like a light switch. If the selected element(s) has the class
 $('p').toggleClass('highlight')
 ```
 
-## CSS reference
-
-#### display
-
-The display property can be set to:
-
-- `block`
-- `inline`
-- `inline-block`
-- `flex`
-- `none`
-
-#### transition
-
-The CSS transition property allows you to customize how a value handles a changing value on a specific CSS property.
-
-```css
-p {
-  color: blue;
-  transition: color 2s linear 3s;
-}
-```
-
-## HTML reference
