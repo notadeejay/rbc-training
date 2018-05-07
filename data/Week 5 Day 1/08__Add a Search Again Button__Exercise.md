@@ -48,12 +48,6 @@ What function do you think does the opposite of `.fadeOut()`? If you think you'v
 
 <details>
   <summary><strong>Click here to one way you could solve this problem</strong></summary>
-  It's important to note that when it comes to coding there are many ways to reach the same result, this is just one of them! Use the code below to add more elements to your results `<div>` 
-
-  ```javascript
-  $('.search-again').on('click', function (){
-      $('.container').remove();
-      $('form').delay(1000).fadeIn(500)
-  });  
-  ```
+  <p>It's important to note that when it comes to coding there are many ways to reach the same result, this is just one of them!</p>
+  <img src="https://cl.ly/3t2a0j450J1w/Image%202018-05-07%20at%2011.39.35%20AM.png">
 </details>

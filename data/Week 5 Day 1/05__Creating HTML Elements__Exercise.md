@@ -72,63 +72,6 @@ for (var i = 0; i < students.length; i++) {
 <details>
   <summary><strong>Click here to one way you could start solving this problem</strong></summary>
   It's important to note that when it comes to coding there are many ways to reach the same result, this is just one of them! Use the code below to add more elements to your results `<div>` 
-
-  ```javascript
-        var weather = {
-        base: "stations",
-        clouds: {
-          all: 1
-        },
-        coord: {
-          lat: 43.65,
-          lon: -79.38
-        },
-        dt: 1507510380,
-        id: 6167863,
-        main: {
-          humidity: 77,
-          pressure: 1014,
-          temp: 17.99,
-          temp_max: 20,
-          temp_min: 16
-        },
-        name: 'Downtown Toronto',
-        sys: {
-          type: 1,
-          id: 2117,
-          message: 0.0041,
-          country: 'CA',
-          sunrise: 1507548290,
-          sunset: 1507589027,
-          type: 1
-        },
-        visibility: 16093,
-        weather: [
-          {
-            description: 'clear sky',
-            icon: '01n',
-            id: 800,
-            main: "Clear"
-          }
-        ],
-        wind: {
-          deg: 170,
-          speed: 1.5
-        }
-      }
-
-
-      $('form').on('submit', function(event) {
-        event.preventDefault()
-        $(this).fadeOut(500)
-        resultsLoop(weather)
-      })
-
-      function resultsLoop (obj) { 
-        var resultsContainer = $('<div class="results-container"></div>')
-        var cityName = obj.name
-        resultsContainer.append('<h2 class="city-name> ' + cityName + '</h2>')
-        $('#results').append(resultsContainer)
-      }  
-  ```
+  <img src="https://cl.ly/3b3u350S3D31/Image%202018-05-07%20at%2011.37.05%20AM.png">
+  <img src="https://cl.ly/3M0p3q1E3C27/Image%202018-05-07%20at%2011.37.19%20AM.png">
 </details>
