@@ -14,6 +14,6 @@ Today we're going to inspect some of our favourite websites, and change some con
 
 ## Tips & Tricks
 
-Here's an example of how to change the content of a tweet.
+Here's an example of how to change the content of a website you might be familiar with.
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/2r290G3d1q0c2v2q2n0U/Screen%20Recording%202017-11-05%20at%2011.40%20AM.gif)
+![](https://cl.ly/2V2P3C0W0C1q/Screen%20Recording%202018-05-07%20at%2012.39%20PM.gif)
