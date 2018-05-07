@@ -89,30 +89,5 @@ Useful options available for the `target` attribute are `self`, `_blank`, `mailt
 <details>
   <summary><strong>Click here to see solution</strong></summary>
   Verify that your About Section structure looks similar to the following:
-
-  ```html
-    <footer>
-        <div>
-            <h2>Gage Malone</h2>
-            <h4>Designer &amp; Developer</h4>
-        </div>
-        <ul>
-            <li>
-                <a href="mailto:info@gagemalone.com">Email: info@gagemalone.com</a>
-            </li>
-            <li>
-                <a href="tel:1231231234">Telephone: 123 123 1234</a>
-            </li>
-            <li>
-                <a href="">LinkedIn</a>
-            </li>
-            <li>
-                <a href="">Twitter</a>
-            </li>
-            <li>
-                <a href="">Instagram</a>
-            </li>
-        </ul>
-    </footer>
-  ```
+   <img src="https://cl.ly/3p3B3n253Y0C/Image%202018-05-07%20at%2011.23.13%20AM.png">
 </details>
