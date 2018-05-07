@@ -14,8 +14,9 @@ Today is when they learn flex box. Make sure you have played around with Flexbox
 trouble shoot it with them.
 
 ## Things to Cover
+- Review the Box Model
 - Flexbox Basics
 
 ## Slides
 
-> TO DO: Removed Box Model from the slides
+- https://docs.google.com/presentation/d/1aQU5ZdM9WTDZ8jE71n_MH_iUyJMyOUFF1G3Sfa6Xz_M/edit?usp=sharing 

@@ -42,4 +42,4 @@ reassure them that they will get better at spotting these errors the more practi
 
 ## Slides
 
->TO DO: Add link to updated slides
+https://docs.google.com/presentation/d/17YohCGVMjQ5AVWwgu3ehwKThYYqofww3GPiObWgS-qA/edit?usp=sharing

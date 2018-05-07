@@ -16,4 +16,4 @@ By the end of this class, you should be able to
 
 ## Slides
 
->TO DO: Split Flexbox slides
+- https://docs.google.com/presentation/d/1ckYMARlF4oxpGkOaFu9XZah9JqcyTPTFOe4FgAQ8BEo/edit?usp=sharing

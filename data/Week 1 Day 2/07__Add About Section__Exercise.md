@@ -19,7 +19,7 @@ When you're done, the **About** section should look something like this:
 
 ## Tasks
 
-- Add a container element for your **About** section
+- Add a container element for your About `<section>`
 - Add a title to the section
 - Add a subtitle
 - Add a few paragraphs all about you
