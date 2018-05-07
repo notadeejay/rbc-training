@@ -93,10 +93,12 @@ Visit [Meet the Ipsums](http://meettheipsums.com/), and pick a themed placeholde
 ### Feeling Stuck? 
 
 <details>
-  <summary><strong>Click here to see solution</strong></summary>
-  Verify that your About Section structure looks similar to the following:
+  <summary><strong>Click here to see one way you could solve this activity</strong></summary>
+  Verify that your header structure looks similar to the following:
+  <img src="https://cl.ly/1C400Y21303O/Image%202018-05-07%20at%2010.59.39%20AM.png">
+</details>
 
-  ```html
+
   <section>
     <h2>About</h2>
       <h4>I'm a subtitle</h4>
@@ -108,5 +110,3 @@ Visit [Meet the Ipsums](http://meettheipsums.com/), and pick a themed placeholde
       Quisque pellentesque arcu varius lacus tempor, eget semper turpis eleifend. Vivamus nisl ante, ultricies et maximus at, aliquet sit amet ante.
     </p>
   </section>
-  ```
-</details>
