@@ -45,4 +45,4 @@ Introduce them to the following fundamental concepts of programming:
 
 ## Slides
 
-https://docs.google.com/presentation/d/1cDIYDnwMRa3I47dzTAw9DklCSC0oQcvGr2mWlngU4cA/edit?usp=sharing
+- https://docs.google.com/presentation/d/18dvZzy69JEu6kml8uv_yBy9yV9dxmHBqV4_XVAEMwqQ/edit?usp=sharing
