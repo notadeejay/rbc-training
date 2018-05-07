@@ -44,7 +44,7 @@ In JavaScript, anything after two slashes (`//`) is a comment. This means that t
 
 #### Bugs
 
-If you hang around Lighthouse Labs long enough, chances are you'll hear someone say something like:
+If you hang around developers long enough, chances are you'll hear someone say something like:
 
 > I found another bug in my program.
 
