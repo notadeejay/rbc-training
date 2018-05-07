@@ -11,6 +11,8 @@ By the end of this class, you should be able to:
 ## Teacher Notes
 
 - Review event listeners and today is probably a good day to remind them about indentation.
+- There are no slides for this lecture, the best practice is to take the examples from today's activities and walk students through them
+- Use the sample response for the Weather app provided [here](/b8a54108-626d-4bc9-be27-671f736731f5) to use as an example for students
 
 ## Things to Cover
 
