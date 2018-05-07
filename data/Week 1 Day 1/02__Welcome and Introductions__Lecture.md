@@ -24,7 +24,7 @@ At the end of this class, you should be able to:
 
 ## Slides
 
-> TO DO: Make new slides for this lecture covering Web Dev 101 in depth
+https://docs.google.com/presentation/d/1xK5F45PLmNQNwSMa4DLxJunUvQKxYNP4njBI3JKKJQY/edit?usp=sharing
 
 ## Links to Project Examples
 
