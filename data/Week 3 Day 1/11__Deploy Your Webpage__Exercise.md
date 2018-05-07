@@ -10,6 +10,8 @@ When you're happy with how your site looks and functions on various screen sizes
 
 We've broken down the tasks for you in several steps here. Follow them to get your site deployed!
 
+Still not quite ready to deploy? If you need some help finishing your website, you can find the code for our example design [here](https://d.pr/FREE/Hntad5)
+
 ### Sign up for GetForge
 
 - Navigate to <https://getforge.com/> and sign up for an account
