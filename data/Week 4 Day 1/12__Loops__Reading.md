@@ -80,3 +80,7 @@ counter += 1
 - Loop over each movie and print its title to the console
 - Add some code to your loop that will print each movie title in all caps
 - Write a loop that will count from 20 down to 1
+
+## Practice
+
+Want some extra practice with loops? Check out [these](http://www.learn-js.org/en/Loops) tutorials

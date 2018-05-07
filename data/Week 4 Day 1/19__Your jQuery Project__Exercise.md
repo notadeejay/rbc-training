@@ -2,13 +2,13 @@
 uuid: 36fff971-13c7-42ee-962e-3b0f380510a3
 ---
 
-Okay, it's time to put all of those JavaScript skills to use – over the next couple of weeks you will be building your own web app! We'll be giving you some tasks and guidelines, but you are free to be as creative as you want with your app's design and functionality.
+Okay, it's time to put all of those JavaScript skills to use – over the next few classes you will be building your own web app! We'll be giving you some tasks and guidelines, but you are free to be as creative as you want with your app's design and functionality.
 
 
 
 ## Build Your own Weather App
 
-For the next few weeks we'll be building a weather app that allows you to search the weather by city, and get a daily or five day forecast.
+For the next few classes we'll be building a weather app that allows you to search the weather by city, and get a daily or five day forecast.
 
 See a sample version of the app here: <http://jQuery-weather.surge.sh>
 
