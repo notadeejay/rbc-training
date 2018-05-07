@@ -105,20 +105,7 @@ Play around with the properties above until your nav bar looks something like th
 ## Feeling Stuck?
 
 <details>
-  <summary><strong>Click here to see solution</strong></summary>
+  <summary><strong>Click here to see one way you could solve this activity</strong></summary>
   Verify that your CSS looks similar to the following:
-
-  ```css 
-        nav {
-          display: flex;
-          justify-content: space-between;
-          align-items: baseline;
-        } 
-
-        .name-container {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-        }
-  ```
+  <img src="https://cl.ly/0k1h1a0L0G05/Image%202018-05-07%20at%2011.30.47%20AM.png">
 </details>
