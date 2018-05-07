@@ -3,8 +3,6 @@ uuid: 5cf63610-7c13-438c-9374-7e7efe446b67
 name: First Flexbox Practice
 ---
 
-Before we start adding Flexbox to the layout of our resume page, here are a few exercises to help you fully understand the concepts.
-
 ## Flexbox Froggy
 First checkout [Flexbox Froggy](https://flexboxfroggy.com/). A great resource to help you practice the concepts we just covered. Once you feel comfortable with this, you can move on to the exercises below or feel free to start applying flexbox directly to your project.
 
