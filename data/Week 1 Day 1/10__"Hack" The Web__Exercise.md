@@ -9,7 +9,7 @@ Today we're going to inspect some of our favourite websites, and change some con
 ## Tasks
 
 - Navigate to your favourite website in Google Chrome. If you don't have one, try Twitter or the New York Times' website
-- Open up the Chrome Development Tools
+- Open up the Chrome Development Tools by right clicking and selecting **Inspect**
 - Use the Chrome Development Tools to change a tweet or a headline to be about you
 
 ## Tips & Tricks
