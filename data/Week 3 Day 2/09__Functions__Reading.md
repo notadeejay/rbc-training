@@ -125,3 +125,6 @@ areStringsEqual('sunshine', 'sunshine')
 // should return false
 areStringsEqual('sunshine', 'pizza')
 ```
+
+## Extra Resources
+[JavaScript Functions Explained by Making a Recipe](http://www.codeanalogies.com/javascript-functions-explained)
