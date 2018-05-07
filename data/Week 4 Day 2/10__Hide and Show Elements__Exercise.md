@@ -42,13 +42,7 @@ Input elements can have several attributes:
 
 <details>
   <summary><strong>Click here to one way you could solve this problem</strong></summary>
-  It's important to note that when it comes to coding there are many ways to reach the same result, this is just one of them! 
-
-  ```javascript
-    $('form').on('submit', function(event) {
-      event.preventDefault()
-      $(this).fadeOut(2000) 
-    })
-  ```
+  <p>It's important to note that when it comes to coding there are many ways to reach the same result, this is just one of them!</p>
+  <img src="https://cl.ly/2P1t2E1Z1W2u/Image%202018-05-07%20at%2011.32.40%20AM.png">
 </details>
 

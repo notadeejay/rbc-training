@@ -56,14 +56,5 @@ jQuery provides us with some methods that let us animate an element being shown 
 <details>
   <summary><strong>Click here to one way you could solve this problem</strong></summary>
   It's important to note that when it comes to coding there are many ways to reach the same result, this is just one of them! 
-
-  ```javascript
-    $('#results').hide()
-
-    $('form').on('submit', function(event) {
-      event.preventDefault()
-      $(this).fadeOut(2000) 
-      $('#results').show(500)
-    })
-  ```
+  <img src="https://cl.ly/3C1m1S0M0D2u/Image%202018-05-07%20at%2011.35.13%20AM.png">
 </details>
